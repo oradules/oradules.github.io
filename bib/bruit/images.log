@@ -1,0 +1,787 @@
+This is TeX, Version 3.14159 (Web2C 7.3.1) (format=latex 2002.8.7)  16 DEC 2003 22:48
+**./images.tex
+(./images.tex
+LaTeX2e <2000/06/01>
+Babel <v3.7h> and hyphenation patterns for american, french, german, ngerman, i
+talian, nohyphenation, loaded.
+
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2000/05/19 v1.4b Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size10.clo
+File: size10.clo 2000/05/19 v1.4b Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/usr/share/texmf/tex/latex/base/ifthen.sty
+Package: ifthen 1999/09/10 v1.1b Standard LaTeX ifthen package (DPC)
+) (/usr/share/texmf/tex/latex/html/html.sty
+Package: html 1999/07/19 v1.38 hypertext commands for latex2html (nd, hws, rrm)
+
+\c@lpart=\count87
+\c@lchapter=\count88
+\c@chapter=\count89
+\c@lsection=\count90
+\c@lsubsection=\count91
+\c@lsubsubsection=\count92
+\c@lparagraph=\count93
+\c@lsubparagraph=\count94
+\c@lsubsubparagraph=\count95
+\ptrfile=\write3
+) (/usr/share/texmf/tex/latex/base/makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+) (/usr/share/texmf/tex/plain/dvips/epsf.tex
+This is `epsf.tex' v2.7k <10 July 1997>
+\epsffilein=\read1
+\epsfframemargin=\dimen103
+\epsfframethickness=\dimen104
+\epsfrsize=\dimen105
+\epsftmp=\dimen106
+\epsftsize=\dimen107
+\epsfxsize=\dimen108
+\epsfysize=\dimen109
+\pspoints=\dimen110
+\epsfnoopenhelp=\toks14
+) (/usr/share/texmf/tex/latex/graphics/color.sty
+Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
+(/usr/share/texmf/tex/latex/config/color.cfg)
+Package color Info: Driver file: dvips.def on input line 125.
+(/usr/share/texmf/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+) (/usr/share/texmf/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+)) (/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+(/usr/share/texmf/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen111
+)) (/usr/share/texmf/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen112
+) (/usr/share/texmf/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count96
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count97
+\leftroot@=\count98
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count99
+\DOTSCASE@=\count100
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen113
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count101
+\c@MaxMatrixCols=\count102
+\dotsspace@=\muskip10
+\c@parentequation=\count103
+\dspbrk@lvl=\count104
+\tag@help=\toks16
+\row@=\count105
+\column@=\count106
+\maxfields@=\count107
+\andhelp@=\toks17
+\eqnshift@=\dimen114
+\alignsep@=\dimen115
+\tagshift@=\dimen116
+\tagwidth@=\dimen117
+\totwidth@=\dimen118
+\lineht@=\dimen119
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+) (/usr/share/texmf/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 1996/11/03 v2.2b
+(/usr/share/texmf/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 1997/09/17 v2.2e
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 133.
+)) (/usr/share/texmf/tex/latex/base/inputenc.sty
+Package: inputenc 2000/07/01 v0.996 Input encoding file 
+(/usr/share/texmf/tex/latex/base/latin1.def
+File: latin1.def 2000/07/01 v0.996 Input encoding file 
+))
+\sizebox=\box28
+\lthtmlwrite=\write4
+(images.aux)
+\openout1 = `images.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+
+latex2htmlLength hsize=349.0pt
+
+latex2htmlLength vsize=633.0pt
+
+latex2htmlLength hoffset=0.0pt
+
+latex2htmlLength voffset=0.0pt
+
+latex2htmlLength topmargin=0.0pt
+
+latex2htmlLength topskip=0.00003pt
+
+latex2htmlLength headheight=0.0pt
+
+latex2htmlLength headsep=0.0pt
+
+latex2htmlLength parskip=0.0pt plus 1.0pt
+
+latex2htmlLength oddsidemargin=62.0pt
+
+latex2htmlLength evensidemargin=62.0pt
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 155.
+(/usr/share/texmf/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 1995/01/05 v2.2e AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 155.
+(/usr/share/texmf/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 1995/01/05 v2.2e AMS font definitions
+)
+l2hSize :tex2html_wrap_indisplay1995:7.33331pt::7.33331pt::54.71095pt.
+[1
+
+
+
+]
+
+! LaTeX Error: Undefined color `NavyBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 \bgroup\color{NavyBlue}
+                             $\displaystyle \left \{
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+l2hSize :tex2html_wrap_indisplay1999:15.0001pt::15.0001pt::252.06001pt.
+[2
+
+
+]
+
+! LaTeX Error: Undefined color `NavyBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.172 \bgroup\color{NavyBlue}
+                             $\displaystyle t'=K_1t, \Pi_1=\frac{K_1}{K_{-1}...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+l2hSize :tex2html_wrap_indisplay2001:14.20952pt::14.20952pt::322.10942pt.
+[3
+
+
+]
+
+! LaTeX Error: Undefined color `NavyBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.179 \bgroup\color{NavyBlue}
+                             $\displaystyle \left \{
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+l2hSize :tex2html_wrap_indisplay2003:16.08452pt::16.08452pt::194.86658pt.
+[4
+
+
+]
+l2hSize :tex2html_wrap_indisplay2010:8.51782pt::8.51782pt::55.03363pt.
+[5
+
+
+]
+l2hSize :tex2html_wrap_indisplay2012:13.70952pt::13.70952pt::134.94734pt.
+[6
+
+
+]
+
+! LaTeX Error: Undefined color `NavyBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.202 \bgroup\color{NavyBlue}
+                             $ \Pi_3-1/\Pi_1+r' > 0$\egroup%
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+l2hSize :tex2html_wrap_inline2017:8.01782pt::8.01782pt::84.84479pt.
+[7
+
+
+]
+
+! LaTeX Error: Undefined color `NavyBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.208 \begin{displaymath}\bgroup\color{NavyBlue}
+                                                
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+l2hSize :displaymath2019:31.00023pt::0.0pt::349.0pt.
+[8
+
+
+]
+
+! LaTeX Error: Undefined color `NavyBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.221 \bgroup\color{NavyBlue}
+                             $ x_v=X_v/v, y_v=Y_v/v$\egroup%
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+l2hSize :tex2html_wrap_inline2023:8.0pt::8.0pt::95.73607pt.
+[9
+
+
+]
+
+! LaTeX Error: Undefined color `NavyBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 \bgroup\color{NavyBlue}
+                             $ B+C\to D$\egroup%
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+l2hSize :tex2html_wrap_inline2029:7.33331pt::7.33331pt::52.78384pt.
+[10
+
+
+]
+
+! LaTeX Error: Undefined color `NavyBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233 \bgroup\color{NavyBlue}
+                             $ B$\egroup%
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+l2hSize :tex2html_wrap_inline2031:6.83331pt::0.0pt::8.58684pt.
+[11
+
+
+]
+
+! LaTeX Error: Undefined color `NavyBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.239 \bgroup\color{NavyBlue}
+                             $ C$\egroup%
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+l2hSize :tex2html_wrap_inline2033:6.83331pt::0.0pt::8.36252pt.
+[12
+
+
+]
+
+! LaTeX Error: Undefined color `NavyBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.245 \bgroup\color{NavyBlue}
+                             $ B\to C$\egroup%
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+l2hSize :tex2html_wrap_inline2037:6.83331pt::0.0pt::32.00476pt.
+[13
+
+
+]
+
+! LaTeX Error: Undefined color `NavyBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.251 \bgroup\color{NavyBlue}
+                             $ \vect X_v=(X_v,Y_v)$\egroup%
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.251 \bgroup\color{NavyBlue}$ \vect
+                                     X_v=(X_v,Y_v)$\egroup%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+l2hSize :tex2html_wrap_inline2041:8.0pt::8.0pt::62.68405pt.
+[14
+
+
+]
+
+! LaTeX Error: Undefined color `NavyBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.257 \bgroup\color{NavyBlue}
+                             $\displaystyle \theta_1=(-1,-1), \theta_2=(0,1)...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+l2hSize :tex2html_wrap_indisplay2043:8.0pt::8.0pt::216.11082pt.
+[15
+
+
+]
+
+! LaTeX Error: Undefined color `NavyBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.264 \bgroup\color{NavyBlue}
+                             $ \vect X=(X,Y)=(vx,vy)$\egroup%
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.264 \bgroup\color{NavyBlue}$ \vect
+                                     X=(X,Y)=(vx,vy)$\egroup%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+l2hSize :tex2html_wrap_inline2045:8.0pt::8.0pt::98.61087pt.
+[16
+
+
+]
+
+! LaTeX Error: Undefined color `NavyBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.270 \bgroup\color{NavyBlue}
+                             $ \vect x=(x,y)$\egroup%
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.270 \bgroup\color{NavyBlue}$ \vect
+                                     x=(x,y)$\egroup%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+l2hSize :tex2html_wrap_inline2047:8.0pt::8.0pt::42.7476pt.
+[17
+
+
+]
+
+! LaTeX Error: Undefined color `NavyBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.276 \bgroup\color{NavyBlue}
+                             $\displaystyle \left \{
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.278 q_{\vect
+               X,\vect X +\theta_1}  = K_1XY/v= K_1vxy  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.278 q_{\vect X,\vect
+                       X +\theta_1}  = K_1XY/v= K_1vxy  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.279 q_{\vect
+               X,\vect X -\theta_1}  = K_{-1}v(d_0-y) \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.279 q_{\vect X,\vect
+                       X -\theta_1}  = K_{-1}v(d_0-y) \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.280 q_{\vect
+               X ,\vect X +\theta_2} = K_{2}vs(d_0-y) \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.280 q_{\vect X ,\vect
+                        X +\theta_2} = K_{2}vs(d_0-y) \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.281 q_{\vect
+               X ,\vect X +\theta_3}  = K_{3}vpy     \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.281 q_{\vect X ,\vect
+                        X +\theta_3}  = K_{3}vpy     \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.282 q_{\vect
+               X ,\vect X +\theta_4}  = K_4vx
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.282 q_{\vect X ,\vect
+                        X +\theta_4}  = K_4vx
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+l2hSize :tex2html_wrap_indisplay2049:33.0003pt::33.0003pt::150.55228pt.
+[18
+
+
+]
+
+! LaTeX Error: Undefined color `NavyBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.290 \bgroup\color{NavyBlue}
+                             $\displaystyle \lim_{v\rightarrow \infty}(\frac...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+l2hSize :tex2html_wrap_indisplay2051:14.76508pt::14.76508pt::132.012pt.
+[19
+
+
+]
+
+! LaTeX Error: Undefined color `NavyBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.296 \bgroup\color{NavyBlue}
+                             $\displaystyle \lim_{v\rightarrow \infty}P\{\su...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.296 ... t} \arrowvert \frac{X_v(s)}{v}-X(s,\vect
+                                                   x_0)\arrowvert +\arrowver...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.296 ...ert +\arrowvert\frac{Y_v(s)}{v}-Y(s,\vect
+                                                   x_0)\arrowvert >\delta\} = 0
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+l2hSize :tex2html_wrap_indisplay2055:14.76508pt::14.76508pt::265.80324pt.
+[20
+
+
+]
+
+! LaTeX Error: Undefined color `MidnightBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.304 \bgroup\color{MidnightBlue}
+                                 $ X=I\kappa B, Y_1=NF\kappa B_c, Y_2=NF\kap...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+l2hSize :tex2html_wrap_inline2096:7.33331pt::7.33331pt::168.16951pt.
+[21
+
+
+]
+
+! LaTeX Error: Undefined color `MidnightBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.310 \bgroup\color{MidnightBlue}
+                                 $ NF\kappa B$\egroup%
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+l2hSize :tex2html_wrap_inline2098:6.83331pt::0.0pt::31.29285pt.
+[22
+
+
+]
+
+! LaTeX Error: Undefined color `MidnightBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.316 \bgroup\color{MidnightBlue}
+                                 $ S=IKK$\egroup%
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+l2hSize :tex2html_wrap_inline2100:6.83331pt::0.0pt::44.13876pt.
+[23
+
+
+]
+l2hSize :figure236:361.2783pt::0.0pt::349.0pt.
+[24
+
+
+]
+l2hSize :figure243:409.2783pt::0.0pt::349.0pt.
+[25
+
+
+]
+l2hSize :figure342:301.94499pt::0.0pt::349.0pt.
+[26
+
+
+]
+l2hSize :figure372:313.2783pt::0.0pt::349.0pt.
+[27
+
+
+]
+
+! LaTeX Error: Undefined color `NavyBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.383 \bgroup\color{NavyBlue}
+                             $ (y=1)$\egroup%
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+l2hSize :tex2html_wrap_inline2476:8.0pt::8.0pt::31.87267pt.
+[28
+
+
+]
+
+! LaTeX Error: Undefined color `NavyBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.389 \bgroup\color{NavyBlue}
+                             $ (y=0)$\egroup%
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+l2hSize :tex2html_wrap_inline2478:8.0pt::8.0pt::31.87267pt.
+[29
+
+
+]
+
+! LaTeX Error: Undefined color `NavyBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.395 \bgroup\color{NavyBlue}
+                             $ X,D_1$\egroup%
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+l2hSize :tex2html_wrap_inline2480:7.33331pt::7.33331pt::26.2236pt.
+[30
+
+
+]
+
+! LaTeX Error: Undefined color `NavyBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.401 \bgroup\color{NavyBlue}
+                             $ X_{\nu}=0$\egroup%
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+l2hSize :tex2html_wrap_inline2482:7.33331pt::7.33331pt::32.09372pt.
+[31
+
+
+]
+l2hSize :figure396:289.2783pt::0.0pt::349.0pt.
+[32
+
+
+]
+Overfull \hbox (186.11906pt too wide) in paragraph at lines 418--418
+ [] 
+ []
+
+l2hSize :figure522:326.2783pt::0.0pt::349.0pt.
+[33
+
+
+]
+l2hSize :figure530:349.2783pt::0.0pt::349.0pt.
+[34
+
+
+] (images.aux) ) 
+Here is how much of TeX's memory you used:
+ 1877 strings out of 20887
+ 21306 string characters out of 197364
+ 66777 words of memory out of 350001
+ 4822 multiletter control sequences out of 10000+15000
+ 9993 words of font info for 40 fonts, out of 400000 for 1000
+ 14 hyphenation exceptions out of 10000
+ 27i,9n,24p,231b,324s stack positions out of 3000i,100n,1500p,50000b,4000s
+
+Output written on images.dvi (34 pages, 15888 bytes).

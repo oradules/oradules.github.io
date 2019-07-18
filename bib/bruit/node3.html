@@ -1,0 +1,141 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with jLaTeX2HTML 2002 (1.62) JA patch-1.4
+patched version by:  Kenshi Muto, Debian Project.
+LaTeX2HTML 2002 (1.62),
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Bruit expérimental </TITLE>
+<META NAME="description" CONTENT="Bruit expérimental ">
+<META NAME="keywords" CONTENT="bruit">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="jLaTeX2HTML v2002 JA patch-1.4">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="bruit.css">
+
+<LINK REL="next" HREF="node4.html">
+<LINK REL="previous" HREF="node2.html">
+<LINK REL="up" HREF="node2.html">
+<LINK REL="next" HREF="node4.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html53"
+  HREF="node4.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next" SRC="next.png"></A> 
+<A NAME="tex2html51"
+  HREF="node2.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up" SRC="up.png"></A> 
+<A NAME="tex2html45"
+  HREF="node2.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous" SRC="prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html54"
+  HREF="node4.html">Processus de Markov</A>
+<B> Up:</B> <A NAME="tex2html52"
+  HREF="node2.html">Modélisation du bruit</A>
+<B> Previous:</B> <A NAME="tex2html46"
+  HREF="node2.html">Modélisation du bruit</A>
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H1><A NAME="SECTION00210000000000000000">
+
+<FONT COLOR="#daa520"><I><FONT SIZE="+2">Bruit exp&#233;rimental </FONT></I></FONT></A>
+</H1><FONT COLOR="#000080"></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2"><FONT SIZE="+1">d'apr&#232;s Elowitz, Levine, Siggia, Swain,  <I>Stochastic gene
+expression in a single cell</I>, Science, 297, 2002 (1183)</FONT> 
+<BR></FONT></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">Le bruit exp&#233;rimental a deux sources et natures :
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">Bruit extrins&#232;que : provient du fait que deux cellules ne sont pas completement
+identiques.
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">Bruit intrins&#232;que : provient du fonctionement stochastique d'une cellule.
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">On peut distinguer entre les deux si on fait des observations sur des
+cellules individuelles au cours du temps : pour une cellule on observe le bruit
+intrins&#232;que.
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">On ne peut pas distinguer entre les deux si les donn&#233;es sont en vrac, provenant
+d'un ensemble statistique de cellules et/ou &#224; des moments diff&#233;rents.
+Alors le bruit observ&#233; est la r&#233;sultante
+des deux.
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">Pour s&#233;parer les deux types de bruit dans E.coli les auteurs ont
+fait des statistiques simultan&#233;es des deux g&#232;nes fluorescentes
+cyan (cfp) et jaune (yfp) controll&#233;es par le m&#234;me promoteur. Sans
+bruit intrins&#232;que les niveaux cfp=yfp. Avec bruit intrins&#232;que on
+remarque un nuage de points dans le graphe de yfp en fonction de
+cfp. Le bruit intrins&#232;que est donc le bruit dans un mod&#232;le
+lin&#233;aire r&#233;liant cfp et yfp. Sa variance est ce qu'en regression 
+s'appelle ``variance residuelle''. Le bruit extrins&#233;que est orthogonal 
+(non-correl&#233;) au bruit intrins&#233;que. Sa variance est la
+``variance expliqu&#233;e''.  
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">Le niveau de IPTG (
+<FONT COLOR="#000080"><IMG
+ WIDTH="14" HEIGHT="29" ALIGN="MIDDLE" BORDER="0"
+ SRC="img2.png"
+ ALT="\bgroup\color{NavyBlue}$ \beta$\egroup"></FONT>-D-thiogalactopyranoside) agit sur les deux bruits, mais
+de fa&#231;ons diff&#233;rentes :
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">IPTG inhibe le represseur LacI et augmente le taux de transcription.
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">Le bruit intrins&#232;que diminue monotoniquement avec IPTG, ce qui est normal.
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">Le bruit extrins&#232;que poss&#232;de un maximum &#224; des niveaux interm&#233;diares de IPTG.
+Les auteurs expliquent ceci par un effet de saturation. A des faibles 
+niveaux de IPTG, il y a un fort niveau de LacI: l'inhibition de la 
+transcription sature et est peu sensible &#224; la variabilit&#233; cellulaire.
+A des forts niveaus de IPTG, le niveau de LacI est tr&#232;s faible et
+la transcription est &#224; la saturation (de nouveau peu sensible &#224; la
+variabilit&#233; cellulaire). 
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"></FONT><HR>
+<!--Navigation Panel-->
+<A NAME="tex2html53"
+  HREF="node4.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next" SRC="next.png"></A> 
+<A NAME="tex2html51"
+  HREF="node2.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up" SRC="up.png"></A> 
+<A NAME="tex2html45"
+  HREF="node2.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous" SRC="prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html54"
+  HREF="node4.html">Processus de Markov</A>
+<B> Up:</B> <A NAME="tex2html52"
+  HREF="node2.html">Modélisation du bruit</A>
+<B> Previous:</B> <A NAME="tex2html46"
+  HREF="node2.html">Modélisation du bruit</A>
+<!--End of Navigation Panel-->
+<ADDRESS>
+Ovidiu Radulescu
+2004-01-21
+</ADDRESS>
+</BODY>
+</HTML>

@@ -1,0 +1,147 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with jLaTeX2HTML 2002 (1.62) JA patch-1.4
+patched version by:  Kenshi Muto, Debian Project.
+LaTeX2HTML 2002 (1.62),
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Processus de Markov </TITLE>
+<META NAME="description" CONTENT="Processus de Markov ">
+<META NAME="keywords" CONTENT="bruit">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="jLaTeX2HTML v2002 JA patch-1.4">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="bruit.css">
+
+<LINK REL="previous" HREF="node3.html">
+<LINK REL="up" HREF="node2.html">
+<LINK REL="next" HREF="node5.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html61"
+  HREF="node5.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next" SRC="next.png"></A> 
+<A NAME="tex2html59"
+  HREF="node2.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up" SRC="up.png"></A> 
+<A NAME="tex2html55"
+  HREF="node3.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous" SRC="prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html62"
+  HREF="node5.html">Exemples</A>
+<B> Up:</B> <A NAME="tex2html60"
+  HREF="node2.html">Modélisation du bruit</A>
+<B> Previous:</B> <A NAME="tex2html56"
+  HREF="node3.html">Bruit expérimental</A>
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H1><A NAME="SECTION00220000000000000000">
+
+<FONT COLOR="#daa520"><I><FONT SIZE="+2">Processus de Markov </FONT></I></FONT></A>
+</H1><FONT COLOR="#000080"></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">Pour mod&#233;liser le bruit "intrins&#232;que" on peut utiliser les
+processus de Markov.
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">Processus de Markov : &#233;volution temporelle stochastique sans m&#233;moire.
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">L'&#233;tat du syst&#232;me &#224; l'instant 
+<FONT COLOR="#000080"><IMG
+ WIDTH="10" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img3.png"
+ ALT="\bgroup\color{NavyBlue}$ t$\egroup"></FONT> est decrite par 
+<FONT COLOR="#000080"><IMG
+ WIDTH="37" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="img4.png"
+ ALT="\bgroup\color{NavyBlue}$ X(t)$\egroup"></FONT> : vecteur
+contenant les nombre de mol&#233;cules de chaque constituant.
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">Le syst&#232;me reste dans cette &#233;tat une dur&#233;e 
+<FONT COLOR="#000080"><IMG
+ WIDTH="14" HEIGHT="16" ALIGN="BOTTOM" BORDER="0"
+ SRC="img5.png"
+ ALT="\bgroup\color{NavyBlue}$ t'$\egroup"></FONT> al&#233;atoire (variable
+exponentielle 
+<FONT COLOR="#000080"><!-- MATH
+ $exp(\lambda(X(t))$
+ -->
+<IMG
+ WIDTH="89" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="img6.png"
+ ALT="\bgroup\color{NavyBlue}$ exp(\lambda(X(t))$\egroup"></FONT>), ensuite &#224; 
+<FONT COLOR="#000080"><IMG
+ WIDTH="39" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="img7.png"
+ ALT="\bgroup\color{NavyBlue}$ t+t'$\egroup"></FONT> saute dans un &#233;tat 
+<FONT COLOR="#000080"><IMG
+ WIDTH="23" HEIGHT="15" ALIGN="BOTTOM" BORDER="0"
+ SRC="img8.png"
+ ALT="\bgroup\color{NavyBlue}$ X'$\egroup"></FONT>.
+La dur&#233;e moyenne d'attente 
+<FONT COLOR="#000080"><IMG
+ WIDTH="29" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="img9.png"
+ ALT="\bgroup\color{NavyBlue}$ 1/\lambda$\egroup"></FONT> et les probabilit&#233;s de transition
+sont des fonctions de la derni&#232;re &#233;tat 
+<FONT COLOR="#000080"><IMG
+ WIDTH="37" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="img4.png"
+ ALT="\bgroup\color{NavyBlue}$ X(t)$\egroup"></FONT>.
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">Algorithmes de simulation num&#233;rique (Gillespie):
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">M&#233;thode directe : simuler une variable exponentielle, ensuite choisir le saut
+&#224; l'aide d'une variable discr&#232;te. D&#233;faut : on doit effectuer un grand nombre
+de sauts, temps de calcul enorme.
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">M&#233;thode ``tau-leap'' : au lieu de g&#233;n&#233;rer le moment du prochain saut, on choisit
+un intervalle et on g&#233;n&#232;re le nombre de sauts de diff&#233;rents types (un nombre fini)
+dans l'intervalle. Ces nombres sont des variables de Poisson si les probabilit&#233;s
+de sauts ne varient pas beaucoup sur l'intervalle choisi. D&#233;faut : m&#233;thode
+approch&#233;e.
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"></FONT><HR>
+<!--Navigation Panel-->
+<A NAME="tex2html61"
+  HREF="node5.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next" SRC="next.png"></A> 
+<A NAME="tex2html59"
+  HREF="node2.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up" SRC="up.png"></A> 
+<A NAME="tex2html55"
+  HREF="node3.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous" SRC="prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html62"
+  HREF="node5.html">Exemples</A>
+<B> Up:</B> <A NAME="tex2html60"
+  HREF="node2.html">Modélisation du bruit</A>
+<B> Previous:</B> <A NAME="tex2html56"
+  HREF="node3.html">Bruit expérimental</A>
+<!--End of Navigation Panel-->
+<ADDRESS>
+Ovidiu Radulescu
+2004-01-21
+</ADDRESS>
+</BODY>
+</HTML>

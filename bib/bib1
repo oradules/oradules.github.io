@@ -1,0 +1,204 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.6 [en] (WinNT; I) [Netscape]">
+   <meta name="Author" content="Ovidiu Radulescu">
+   <title>biblio</title>
+</head>
+<body bgcolor="#FFEBCD">
+&nbsp;
+<center>
+<h1>
+<font color="#FF0000">Bibliographie (en construction)</font></h1></center>
+
+
+
+
+<h2>
+<u></u></h2>
+</left>
+
+<p>
+R&eacute;seaux m&eacute;taboliques 
+
+(<a href="grognard1.pdf"> F.Grognard </a>)
+(<a href="facidsregulation.pdf"> regulation acides gras, revue  </a>)
+(<a href="revue.pdf"> regulation acides gras, revue francais  </a>)
+(<a href="control.pdf"> contraintes, controle  </a>)
+(<a href="trscriptregu.pdf"> regulation genetique, cholesterole  </a>)
+(<a href="obesity.pdf"> obesit&eacute;  </a>)
+(<a href="ferreobesity1.pdf"> Ferr&eacute; obesit&eacute;  </a>)
+(<a href="fluxes.pdf">  flux  </a>)
+(<a href="salvador1.pdf"> synergisme 1  </a>)
+(<a href="salvador.pdf">  synergisme 2 </a>)
+(<a href="stoechio.pdf"> stoechimetrie   </a>)
+(<a href="thermo.pdf"> thermodynamique  </a>)
+(<a href="metaboli.ps"> metabolisme des lipides, travail en cours   </a>)
+
+<p>
+Oscillateurs m&eacute;taboliques
+
+(<a href="guidi.pdf"> Guidi et Goldbeter cycle bienzymatique  </a>)
+ 
+<p>
+Circuits m&eacute;taboliques
+
+(<a href="simpson.pdf"> Simpson independent pathways  </a>)
+
+(<a href="varner.pdf"> Varner Ramkrishna, modules, Guidelines for model formulation  </a>)
+
+(<a href="metabolism_theory.pdf"> Varner Ramkrishna, modules, Theoretyical preliminaries  </a>)
+
+
+ 
+<p>
+Bistabilit&eacute;
+
+(<a href="thron.pdf"> Thron, Biochemical switches  </a>)
+
+<p>
+NFkB
+
+(<a href="hoffmann.ps"> Hoffmann et al.  </a>)
+(<a href="hoffmannsupp.pdf"> Hoffmann et al. (materiel supp) </a>)
+(<a href="lee.ps"> Lee  </a>)
+
+
+<p>
+Motifs et modules fonctionnels en r&eacute;seaux de g&egrave;nes
+
+(<a href="Auto_Network.pdf"> recherche automatique </a>)
+
+(<a href="Auto_Prot_Inter.pdf"> recherche automatique </a>)
+
+(<a href="modular.pdf"> article de synth&egrave;se </a>)
+
+(<a href="alm.pdf"> article de synth&egrave;se </a>)
+
+<p>
+Bruit dans les r&eacute;seaux de g&egrave;nes
+
+(<a href="paldi.pdf"> Paldi, visions & reflections </a>)
+
+(<a href="biggar.pdf"> Biggar, reponse graduee </a>)
+
+(<a href="sasai.pdf"> bascules, many-body </a>)
+
+(<a href="Enginering_stability.pdf"> feed-back diminue bruit </a>)
+
+(<a href="Fluctuation.pdf"> focalisation stochastique </a>)
+
+(<a href="Intrinsic_Noise_Loop.pdf"> bruit, experimental </a>)
+ 
+(<a href="Noise_Single_Gene.pdf"> bruit, experimental </a>)
+
+(<a href="Modelisation.pdf"> algorithme de Gillespie, implementation </a>)
+
+(<a href="gillespie.pdf"> algorithme de Gillespie, theorie  </a>)
+
+(<a href="arkin.pdf"> algorithme de Gillespie, application E.coli  </a>)
+
+(<a href="Noise_Switch.pdf"> Hasty, bascule, E.coli   </a>)
+
+(<a href="hasty.pdf"> Hasty, reseaux synthetiques   </a>)
+
+(<a href="switches.pdf"> Bialek, bascule   </a>)
+
+(<a href="comput.ps"> Hasty in numero   </a>)
+
+(<a href="gene.ps"> Hasty in numero   </a>)
+
+(<a href="noisegene.ps"> Hasty, bruit, metaphysique   </a>)
+
+(<a href="arkin.pdf"> Arkin, bruit   </a>)
+
+(<a href="paulsson.pdf"> Paulsson, bruit </a>)
+
+(<a href="toggle.ps"> Nature paper on E.coli   </a>)
+
+(<a href="bistab.pdf"> E.coli bistabilite   </a>)
+
+(<a href="rapport.ps"> rapport de stage 2003</a>)
+
+<p>
+Bruit experimental, puces ADN, clustering
+
+(<a href="biopuces.pdf"> bruit puces ADN   </a>)
+
+(<a href="SVD_genes.pdf"> puces ADN, clustering   </a>)
+
+(<a href="resoanalysis.pdf"> probabilistic graphical methods </a>)
+
+(<a href="networkanalysis.pdf"> ACP et reseaux  </a>)
+
+<p>
+Perturbations singulieres aleatoires
+
+(<a href="berglund.pdf"> Berglund   </a>)
+
+(<a href="schuss.pdf"> Schuss, exit distribution, Kramers problem   </a>)
+
+(<a href="fast_slow_noise.pdf"> fast-slow gradient systems, Menzinger  </a>)
+
+(<a href="noise_escape.pdf"> transient flux in Kramers problem, Soskin  </a>)
+
+<p>
+Bruit et phenomenes critiques
+
+(<a href="crash.pdf"> catastrophes   </a>),(<a href="rama.pdf"> crash boursier   </a>)
+
+<p>
+Correlation sequence ADN
+
+(<a href="thermes1.pdf"> longue portee   </a>)
+
+(<a href="thermes2.pdf"> longue portee   </a>)
+
+(<a href="thermes3.pdf"> longue portee   </a>)
+
+<p>
+Mecanique nucleaire et cellulaire
+
+(<a href="1157.pdf"> tensegrite   </a>)
+
+(<a href="1397.pdf"> tensegrite   </a>)
+
+(<a href="beard.pdf"> chromosomes, histones   </a>)
+
+(<a href="sachs.pdf"> random-walk/giant-loop model   </a>)
+
+(<a href="munkel.pdf"> multiloop subcompartment model   </a>)
+
+(<a href="marko2.pdf"> ADN, elasticite   </a>)
+
+ <a href="http://www.euchromatin.org/Cremer01.htm"><b> 
+Gregor Kreth, simulations </b></a></font>
+
+<p>
+Pattern formation
+
+(<a href="dasow.pdf"> et robustesse Dassow   </a>)
+
+(<a href="vakulenko.pdf"> et complexit&eacute;   </a>)
+
+(<a href="chaos-2001.pdf"> et r&eacute;action-diffusion, cas de Drosophila   </a>)
+
+(<a href="iron.pdf">  r&eacute;action-diffusion, non-local   </a>)
+
+<p>
+Links
+
+(<a href="http://epicurus.che.udel.edu/"> Universit&eacute; de Delaware   </a>)
+
+
+<p>
+Interaction ARN/proteines
+
+(<a href="rna1.pdf"> Draper,  rna-protein recognition  </a>)
+
+(<a href="rna1.pdf"> Tina Henkin,  transcription termination  </a>)
+
+
+</body>
+</html>

@@ -1,0 +1,211 @@
+.headtxtbox
+{
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 10px;
+    WIDTH: 65px
+}
+.content
+{
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 10px
+}
+.content A
+{
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 10px;
+    TEXT-DECORATION: underline
+}
+.content1
+{
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 12px;
+    FONT-WEIGHT: bold
+}
+.contentb
+{
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 10px;
+    LETTER-SPACING: -1px
+}
+.contentc
+{
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 11px;
+    FONT-WEIGHT: bold;
+    LETTER-SPACING: -1px
+}
+.contentdoublespace
+{
+    LINE-HEIGHT: 1.4
+}
+.affiliations
+{
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 10px
+}
+.affiliations SUP
+{
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 11px
+}
+.authors
+{
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 15px;
+    FONT-WEIGHT: bold
+}
+.error
+{
+    COLOR: #ff0000;
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 10px;
+    FONT-WEIGHT: bold;
+    VERTICAL-ALIGN: top
+}
+.errorhead
+{
+    COLOR: #ff0000;
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 12px;
+    FONT-WEIGHT: bold;
+    VERTICAL-ALIGN: top
+}
+.dochead
+{
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 19px;
+    FONT-WEIGHT: bold
+}
+.formlabels
+{
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 10px;
+    FONT-WEIGHT: bold;
+    VERTICAL-ALIGN: middle
+}
+.formlabelsa
+{
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 10px;
+    VERTICAL-ALIGN: middle
+}
+.textboxa
+{
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 10px;
+    WIDTH: 75px
+}
+.textboxb
+{
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 10px;
+    WIDTH: 135px
+}
+.textboxc
+{
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 10px;
+    WIDTH: 185px
+}
+.results
+{
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 12px;
+    FONT-WEIGHT: bold
+}
+.results A
+{
+    COLOR: #cc0000;
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 10px;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+.yearlinks
+{
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 10px
+}
+.yearlinks TD
+{
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 10px
+}
+.yearlinks A
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 11px;
+    TEXT-DECORATION: underline
+}
+.yearlinkscell A
+{
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 10px
+}
+.yearlinkscell
+{
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 10px
+}
+.yearlinkscellnew
+{
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 12px;
+    FONT-WEIGHT: bold
+}
+.yearlinkscellnew A
+{
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 12px;
+    FONT-WEIGHT: bold
+}
+.red
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: none;
+	color:#CC0000;
+	font-weight:bold
+}
+.blackl
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: underline;
+	color:#000000;
+	font-weight:none
+}
+.redl
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: underline;
+	color:#CC0000;
+	font-weight:bold
+}
+.usageheader
+{
+    COLOR: black;
+    FONT-FAMILY: Times;
+    FONT-SIZE: 18px;
+    FONT-WEIGHT: bold
+}
+.usagesection
+{
+    COLOR: black;
+    FONT-FAMILY: Times;
+    FONT-SIZE: 14px;
+    FONT-WEIGHT: bold
+}
+.usagedata
+{
+    COLOR: black;
+    FONT-FAMILY: Times;
+    FONT-SIZE: 12px;
+}

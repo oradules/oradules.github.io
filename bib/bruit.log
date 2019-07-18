@@ -1,0 +1,1240 @@
+This is TeX, Version 3.14159 (Web2C 7.3.1) (format=latex 2002.8.7)  21 JAN 2004 15:34
+**bruit.tex
+(bruit.tex
+LaTeX2e <2000/06/01>
+Babel <v3.7h> and hyphenation patterns for american, french, german, ngerman, i
+talian, nohyphenation, loaded.
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2000/05/19 v1.4b Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size10.clo
+File: size10.clo 2000/05/19 v1.4b Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf/tex/latex/html/html.sty
+Package: html 1999/07/19 v1.38 hypertext commands for latex2html (nd, hws, rrm)
+
+\c@lpart=\count87
+\c@lchapter=\count88
+\c@chapter=\count89
+\c@lsection=\count90
+\c@lsubsection=\count91
+\c@lsubsubsection=\count92
+\c@lparagraph=\count93
+\c@lsubparagraph=\count94
+\c@lsubsubparagraph=\count95
+\ptrfile=\write3
+)
+(/usr/share/texmf/tex/latex/base/makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+(/usr/share/texmf/tex/plain/dvips/epsf.tex
+This is `epsf.tex' v2.7k <10 July 1997>
+\epsffilein=\read1
+\epsfframemargin=\dimen103
+\epsfframethickness=\dimen104
+\epsfrsize=\dimen105
+\epsftmp=\dimen106
+\epsftsize=\dimen107
+\epsfxsize=\dimen108
+\epsfysize=\dimen109
+\pspoints=\dimen110
+\epsfnoopenhelp=\toks14
+) (/usr/share/texmf/tex/latex/graphics/color.sty
+Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
+
+(/usr/share/texmf/tex/latex/config/color.cfg)
+Package color Info: Driver file: dvips.def on input line 125.
+
+(/usr/share/texmf/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+)
+(/usr/share/texmf/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen111
+))
+(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen112
+)
+(/usr/share/texmf/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count96
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count97
+\leftroot@=\count98
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count99
+\DOTSCASE@=\count100
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen113
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count101
+\c@MaxMatrixCols=\count102
+\dotsspace@=\muskip10
+\c@parentequation=\count103
+\dspbrk@lvl=\count104
+\tag@help=\toks16
+\row@=\count105
+\column@=\count106
+\maxfields@=\count107
+\andhelp@=\toks17
+\eqnshift@=\dimen114
+\alignsep@=\dimen115
+\tagshift@=\dimen116
+\tagwidth@=\dimen117
+\totwidth@=\dimen118
+\lineht@=\dimen119
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 1996/11/03 v2.2b
+
+(/usr/share/texmf/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 1997/09/17 v2.2e
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 133.
+)) (bruit.aux)
+\openout1 = `bruit.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 
+     
+? 
+
+! LaTeX Error: Undefined color `MidnightBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 \maketitle
+               
+? 
+LaTeX Font Info:    Try loading font information for U+msa on input line 67.
+(/usr/share/texmf/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 1995/01/05 v2.2e AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 67.
+
+(/usr/share/texmf/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 1995/01/05 v2.2e AMS font definitions
+)
+
+! LaTeX Error: Undefined color `NavyBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 \maketitle
+               
+? 
+[1
+
+]
+! Undefined control sequence.
+l.78 \chapter
+             {\magenta \textsf{\huge Introduction }}
+? 
+
+! LaTeX Error: Undefined color `goldenrod'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 \chapter{\magenta
+                       \textsf{\huge Introduction }}
+? 
+
+! LaTeX Error: Undefined color `NavyBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.80 \nblue
+            \Large
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--95
+
+ []
+
+
+! LaTeX Error: Undefined color `MidnightBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.103 \begin{itemize} \mblue
+                             \large
+? 
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 105.
+
+(/usr/share/texmf/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 105.
+
+Overfull \hbox (23.09647pt too wide) in paragraph at lines 105--107
+[]\OT1/cmr/m/n/12 les pro-ces-sus biochim-iques im-pliquent un pe-tit nom-bre d
+e mol^^Secules. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--120
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+
+ []
+
+! Undefined control sequence.
+l.134 \chapter
+              {\magenta \textsf{\huge Mod{\'e}lisation du bruit }}
+? 
+
+! LaTeX Error: Undefined color `goldenrod'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.134 \chapter{\magenta
+                        \textsf{\huge Mod{\'e}lisation du bruit }}
+? 
+
+! LaTeX Error: Undefined color `goldenrod'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.136 ... \textsf{\Large Bruit exp{\'e}rimental }}
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--141
+
+ []
+
+[3]
+Overfull \hbox (8.11916pt too wide) in paragraph at lines 179--186
+[]\OT1/cmr/m/n/14.4 Le bruit ex-trins^^Reque poss^^Rede un max-i-mum ^^Ra des n
+iveaux
+ []
+
+
+! LaTeX Error: Undefined color `goldenrod'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.188 ...nta \textsf{\Large Processus de Markov }}
+                                                  
+? 
+[4]
+! Undefined control sequence.
+l.218 \chapter
+              {\magenta \textsf{\Large Exemples }}
+? 
+
+! LaTeX Error: Undefined color `goldenrod'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.218 \chapter{\magenta
+                        \textsf{\Large Exemples }}
+? 
+
+! LaTeX Error: Undefined color `goldenrod'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.221 ...ule de signalisation de  $NF \kappa B$ }}
+                                                  
+? 
+
+! LaTeX Error: Undefined color `goldenrod'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.224 mod{\'e}le}}
+                  
+? 
+
+Overfull \hbox (10.00078pt too wide) in paragraph at lines 227--230
+\OT1/cmr/m/n/14.4 avec $\OML/cmm/m/it/14.4 I^^TB$\OT1/cmr/m/n/14.4 , prot^^Sein
+e in-hibi-trice qui emp^eche $\OML/cmm/m/it/14.4 NF^^TB$ \OT1/cmr/m/n/14.4 d'en
+trer
+ []
+
+[5]
+Overfull \hbox (36.8304pt too wide) in paragraph at lines 252--254
+[]\OT1/cmr/m/n/14.4 On pro-pose deux mod^^Seles: le pre-mier est non-compartime
+nt^^Se
+ []
+
+
+! LaTeX Error: Undefined color `goldenrod'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.256 ...\Large Mod{\'e}le non compartiment{\'e}}}
+                                                  
+? 
+
+! LaTeX Error: Undefined color `MidnightBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.258 \begin{itemize} \large \mblue
+                                   
+? 
+
+Overfull \hbox (38.8327pt too wide) detected at line 281
+[]
+ []
+
+[6]
+Overfull \hbox (16.10901pt too wide) in paragraph at lines 296--297
+[]\OT1/cmr/m/n/14.4 D'apr^^Res les r^^Seactions pr^^Sec^^Sedentes, le syst^^Rem
+e d^^Seterministe
+ []
+
+
+Overfull \hbox (90.58232pt too wide) detected at line 309
+\OML/cmm/m/it/14.4 t[] \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 K[]t; \OT1/cmr/m/
+n/14.4 ^^E[] = []\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 ^^E[] = []\OML/cmm/m/it
+/14.4 ; \OT1/cmr/m/n/14.4 ^^E[] = []\OML/cmm/m/it/14.4 ; d[] \OT1/cmr/m/n/14.4 
+= []\OML/cmm/m/it/14.4 ; r[] \OT1/cmr/m/n/14.4 = []\OML/cmm/m/it/14.4 ;
+ []
+
+[7]
+
+LaTeX Warning: Reference `fig:5.1' on page 8 undefined on input line 343.
+
+
+Overfull \hbox (23.0468pt too wide) in paragraph at lines 347--350
+[]$\OML/cmm/m/it/14.4 v$ \OT1/cmr/m/n/14.4 le vol-ume dans lequel sont les mol^
+^Secules, $\OML/cmm/m/it/14.4 x[] \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 X[]=v;
+ y[] \OT1/cmr/m/n/14.4 =
+ []
+
+! Undefined control sequence.
+<recently read> \vect 
+                      
+l.353 $\vect
+             X_v=(X_v,Y_v)$ est alors un processus de Markov, dont les sauts...
+
+? 
+! Undefined control sequence.
+<recently read> \vect 
+                      
+l.357 et si l'on note $\vect
+                             X=(X,Y)=(vx,vy)$ et $\vect x=(x,y)$,
+? 
+! Undefined control sequence.
+<recently read> \vect 
+                      
+l.357 ...on note $\vect X=(X,Y)=(vx,vy)$ et $\vect
+                                                   x=(x,y)$,
+? 
+! Undefined control sequence.
+l.362 q_{\vect
+               X,\vect X +\theta_1}  = K_1XY/v= K_1vxy  \\
+? 
+! Undefined control sequence.
+l.362 q_{\vect X,\vect
+                       X +\theta_1}  = K_1XY/v= K_1vxy  \\
+? 
+! Undefined control sequence.
+l.363 q_{\vect
+               X,\vect X -\theta_1}  = K_{-1}v(d_0-y) \\
+? 
+! Undefined control sequence.
+l.363 q_{\vect X,\vect
+                       X -\theta_1}  = K_{-1}v(d_0-y) \\
+? 
+! Undefined control sequence.
+l.364 q_{\vect
+               X ,\vect X +\theta_2} = K_{2}vs(d_0-y) \\
+? 
+! Undefined control sequence.
+l.364 q_{\vect X ,\vect
+                        X +\theta_2} = K_{2}vs(d_0-y) \\
+? 
+! Undefined control sequence.
+l.365 q_{\vect
+               X ,\vect X +\theta_3}  = K_{3}vpy     \\
+? 
+! Undefined control sequence.
+l.365 q_{\vect X ,\vect
+                        X +\theta_3}  = K_{3}vpy     \\
+? 
+! Undefined control sequence.
+l.366 q_{\vect
+               X ,\vect X +\theta_4}  = K_4vx
+? 
+! Undefined control sequence.
+l.366 q_{\vect X ,\vect
+                        X +\theta_4}  = K_4vx
+? 
+[8]
+! Undefined control sequence.
+l.377 ... t} \arrowvert \frac{X_v(s)}{v}-X(s,\vect
+                                                   x_0)\arrowvert +\arrowver...
+
+? 
+! Undefined control sequence.
+l.377 ...ert +\arrowvert\frac{Y_v(s)}{v}-Y(s,\vect
+                                                   x_0)\arrowvert >\delta\} = 0
+
+? 
+
+Overfull \hbox (3.14825pt too wide) detected at line 378
+[] \OML/cmm/m/it/14.4 P\OMS/cmsy/m/n/14.4 f[] j[] ^^@ \OML/cmm/m/it/14.4 X\OT1/
+cmr/m/n/14.4 (\OML/cmm/m/it/14.4 s; x[]\OT1/cmr/m/n/14.4 )\OMS/cmsy/m/n/14.4 j 
+\OT1/cmr/m/n/14.4 + \OMS/cmsy/m/n/14.4 j[] ^^@ \OML/cmm/m/it/14.4 Y\OT1/cmr/m/n
+/14.4 (\OML/cmm/m/it/14.4 s; x[]\OT1/cmr/m/n/14.4 )\OMS/cmsy/m/n/14.4 j \OML/cm
+m/m/it/14.4 > ^^N\OMS/cmsy/m/n/14.4 g \OT1/cmr/m/n/14.4 = 0
+ []
+
+
+! LaTeX Error: Undefined color `goldenrod'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.380 ...tsf{\Large Mod{\`e}le compartiment{\'e}}}
+                                                  
+? 
+
+! LaTeX Error: Undefined color `MidnightBlue'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.383 \begin{itemize} \mblue
+                             \large
+? 
+
+Overfull \hbox (121.34099pt too wide) detected at line 406
+[]
+ []
+
+
+Overfull \hbox (117.1361pt too wide) detected at line 419
+[]
+ []
+
+[9]
+Overfull \hbox (165.61017pt too wide) detected at line 424
+\OML/cmm/m/it/14.4 t[] \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 k[]t; ^^_[] \OT1/
+cmr/m/n/14.4 = []\OML/cmm/m/it/14.4 ; ^^_[] \OT1/cmr/m/n/14.4 = []\OML/cmm/m/it
+/14.4 ; ^^_[] \OT1/cmr/m/n/14.4 = []\OML/cmm/m/it/14.4 ; ^^_[] \OT1/cmr/m/n/14.
+4 = []\OML/cmm/m/it/14.4 ; c[] \OT1/cmr/m/n/14.4 = []\OML/cmm/m/it/14.4 ; s[] \
+OT1/cmr/m/n/14.4 = []\OML/cmm/m/it/14.4 ; ^^Q[] \OT1/cmr/m/n/14.4 = []\OML/cmm/
+m/it/14.4 ;
+ []
+
+
+Overfull \hbox (125.49112pt too wide) in alignment at lines 448--452
+ [][][] []
+ []
+
+[10]
+
+LaTeX Warning: Reference `fig:5.1' on page 11 undefined on input line 469.
+
+
+Overfull \hbox (9.43831pt too wide) in paragraph at lines 467--470
+\OT1/cmr/m/n/14.4 n^^Segatives et de par-ties imag-i-naires non nulles. L'attra
+cteur
+ []
+
+
+LaTeX Warning: Reference `eq:S1' on page 11 undefined on input line 474.
+
+
+LaTeX Warning: Reference `eq:S2' on page 11 undefined on input line 474.
+
+
+Overfull \hbox (64.39206pt too wide) in paragraph at lines 488--489
+\OML/cmm/m/it/14.4 v$ \OT1/cmr/m/n/14.4 le vol-ume de l'espace con-tenant les r
+^^Seactifs, et $\OML/cmm/m/it/14.4 X[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t\O
+T1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ;  []Y[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14
+.4 t\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ;  []Y[]\OT1/cmr/m/n/14.4 (\OML/cmm/m
+/it/14.4 t\OT1/cmr/m/n/14.4 )$
+ []
+
+
+Overfull \hbox (3.35303pt too wide) in paragraph at lines 488--489
+\OT1/cmr/m/n/14.4 les nom-bres de mol^^Secules de $\OML/cmm/m/it/14.4 I^^TB; NF
+^^TB[]; NF^^TB[]$\OT1/cmr/m/n/14.4 . Alors
+ []
+
+
+Overfull \hbox (3.76424pt too wide) in paragraph at lines 490--493
+[]\OT1/cmr/m/n/14.4 Nous obtenons en-core une suite de pro-ces-sus de Markov
+ []
+
+
+Overfull \hbox (103.99936pt too wide) detected at line 494
+\OML/cmm/m/it/14.4 ^^R[] \OT1/cmr/m/n/14.4 = (\OMS/cmsy/m/n/14.4 ^^@\OT1/cmr/m/
+n/14.4 1\OML/cmm/m/it/14.4 ; \OMS/cmsy/m/n/14.4 ^^@\OT1/cmr/m/n/14.4 1\OML/cmm/
+m/it/14.4 ; \OT1/cmr/m/n/14.4 0)\OML/cmm/m/it/14.4 ; ^^R[] \OT1/cmr/m/n/14.4 = 
+(0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.
+4 0)\OML/cmm/m/it/14.4 ; ^^R[] \OT1/cmr/m/n/14.4 = (1\OML/cmm/m/it/14.4 ; \OT1/
+cmr/m/n/14.4 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 0)\OML/cmm/m/it/14.4 ; ^^R
+[] \OT1/cmr/m/n/14.4 = (\OMS/cmsy/m/n/14.4 ^^@\OT1/cmr/m/n/14.4 1\OML/cmm/m/it/
+14.4 ; \OT1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 0)\OML/cmm/m/i
+t/14.4 ; ^^R[] \OT1/cmr/m/n/14.4 = (0\OML/cmm/m/it/14.4 ; \OMS/cmsy/m/n/14.4 ^^
+@\OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 1)
+ []
+
+! Undefined control sequence.
+<recently read> \vect 
+                      
+l.495  et $\vect
+                 X=(X,Y_1,Y_2), X,Y_1,Y_2 \in \mathbb{N}$ un vecteur d'{\'e}...
+
+? 
+! Undefined control sequence.
+l.496  Markov $(\vect
+                      X_v)_{v\in\mathbb{N}} $.
+? 
+[11]
+! Undefined control sequence.
+l.502 q_{\vect
+               X,\vect X +\theta_1}  = k_1\frac{XY_1}{v} = k_1vxy_{1} \\
+? 
+! Undefined control sequence.
+l.502 q_{\vect X,\vect
+                       X +\theta_1}  = k_1\frac{XY_1}{v} = k_1vxy_{1} \\
+? 
+! Undefined control sequence.
+l.503 q_{\vect
+               X,\vect X -\theta_1}  = k_{-1}(C_0-Y_1-Y_2) = k_{-1}v(c_0-y_{...
+
+? 
+! Undefined control sequence.
+l.503 q_{\vect X,\vect
+                       X -\theta_1}  = k_{-1}(C_0-Y_1-Y_2) = k_{-1}v(c_0-y_{...
+
+? 
+! Undefined control sequence.
+l.504 q_{\vect
+               X ,\vect X +\theta_2} = k_{2}vs(c_0-y_{1}-y_{2}) \\
+? 
+! Undefined control sequence.
+l.504 q_{\vect X ,\vect
+                        X +\theta_2} = k_{2}vs(c_0-y_{1}-y_{2}) \\
+? 
+! Undefined control sequence.
+l.505 q_{\vect
+               X ,\vect X +\theta_3}  =  k_{3}vpy_{2} \\
+? 
+! Undefined control sequence.
+l.505 q_{\vect X ,\vect
+                        X +\theta_3}  =  k_{3}vpy_{2} \\
+? 
+! Undefined control sequence.
+l.506 q_{\vect
+               X ,\vect X +\theta_4}  = k_4vx   \\
+? 
+! Undefined control sequence.
+l.506 q_{\vect X ,\vect
+                        X +\theta_4}  = k_4vx   \\
+? 
+! Undefined control sequence.
+l.507 q_{\vect
+               X ,\vect X +\theta_5} = k_5vy_{1}\\
+? 
+! Undefined control sequence.
+l.507 q_{\vect X ,\vect
+                        X +\theta_5} = k_5vy_{1}\\
+? 
+! Undefined control sequence.
+l.508 q_{\vect
+               X ,\vect X -\theta_5} = k_{-5}vy_{2}
+? 
+! Undefined control sequence.
+l.508 q_{\vect X ,\vect
+                        X -\theta_5} = k_{-5}vy_{2}
+? 
+! Undefined control sequence.
+l.514 ..._{1v}(0)}{v},\frac{Y_{2v}(0)}{v}) = \vect
+                                                   X_0\]
+? 
+! Undefined control sequence.
+l.518 ... t} \arrowvert \frac{X_v(s)}{v}-X(s,\vect
+                                                   X_0)\arrowvert +\arrowver...
+
+? 
+! Undefined control sequence.
+l.518 ...\arrowvert\frac{Y_{1v}(s)}{v}-Y_1(s,\vect
+                                                   X_0)\arrowvert + \arrowve...
+
+? 
+! Undefined control sequence.
+l.518 ...arrowvert \frac{Y_{2v}(s)}{v}-Y_2(s,\vect
+                                                   X_0)\arrowvert >\delta\} = 0
+
+? 
+
+Overfull \hbox (141.76308pt too wide) detected at line 519
+[] \OML/cmm/m/it/14.4 P\OMS/cmsy/m/n/14.4 f[] j[] ^^@ \OML/cmm/m/it/14.4 X\OT1/
+cmr/m/n/14.4 (\OML/cmm/m/it/14.4 s; X[]\OT1/cmr/m/n/14.4 )\OMS/cmsy/m/n/14.4 j 
+\OT1/cmr/m/n/14.4 + \OMS/cmsy/m/n/14.4 j[] ^^@ \OML/cmm/m/it/14.4 Y[]\OT1/cmr/m
+/n/14.4 (\OML/cmm/m/it/14.4 s; X[]\OT1/cmr/m/n/14.4 )\OMS/cmsy/m/n/14.4 j \OT1/
+cmr/m/n/14.4 + \OMS/cmsy/m/n/14.4 j[] ^^@ \OML/cmm/m/it/14.4 Y[]\OT1/cmr/m/n/14
+.4 (\OML/cmm/m/it/14.4 s; X[]\OT1/cmr/m/n/14.4 )\OMS/cmsy/m/n/14.4 j \OML/cmm/m
+/it/14.4 > ^^N\OMS/cmsy/m/n/14.4 g \OT1/cmr/m/n/14.4 = 0
+ []
+
+! Could not open file progenes/nfkb1.eps, ignoring it.
+\epsfgetbb ...Could not open file #1, ignoring it}
+                                                  \else {\chardef \other =12...
+l.530 ...fysize=3.5in \epsfbox{progenes/nfkb1.eps}
+                                                  
+? 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+! Could not open file progenes/nfkb2.eps, ignoring it.
+\epsfgetbb ...Could not open file #1, ignoring it}
+                                                  \else {\chardef \other =12...
+l.548 ...fysize=3.5in \epsfbox{progenes/nfkb2.eps}
+                                                  
+? 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+! LaTeX Error: Undefined color `goldenrod'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.569 ...Large R{\'e}sultats de mod{\'e}lisation}}
+                                                  
+? 
+
+LaTeX Warning: Reference `fig:5.2' on page 12 undefined on input line 574.
+
+
+Overfull \hbox (7.0587pt too wide) in paragraph at lines 577--581
+[]\OT1/cmr/m/n/14.4 la comp^^Setition en-tre ac-cu-mu-la-tion et trans-port. Ap
+r^^Res
+ []
+
+[12]
+
+LaTeX Warning: Reference `fig:5.1' on page 13 undefined on input line 603.
+
+
+Overfull \hbox (13.4792pt too wide) in paragraph at lines 587--608
+\OT1/cmr/m/n/14.4 peut ^etre ren-forc^^See pour $\OML/cmm/m/it/14.4 NF^^TB[]$\O
+T1/cmr/m/n/14.4 , via l'effet non lin^^Seaire
+ []
+
+
+Overfull \hbox (6.1759pt too wide) in paragraph at lines 587--608
+\OT1/cmr/m/n/14.4 retrou-ver les os-cil-la-tions obtenues exp^^Serimentalement.
+ 
+ []
+
+[13]
+
+! LaTeX Error: Undefined color `goldenrod'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.614 fonctionnement des cellules}}
+                                   
+? 
+
+Overfull \hbox (35.67746pt too wide) in paragraph at lines 614--614
+[]\OT1/cmss/bx/n/14.4 Ph^^Senom^^Sene de bista-bilit^^Se et sor-tie d'un ^^Seta
+t m^^Setastable
+ []
+
+
+Overfull \hbox (5.40672pt too wide) in paragraph at lines 617--628
+\OT1/cmr/m/n/14.4 se fait dans des r^^Segions pro-motri-ces. Chaque g^^Rene con
+tr^ole
+ []
+
+[14]
+Overfull \hbox (19.08562pt too wide) in paragraph at lines 629--633
+[]\OT1/cmr/m/n/14.4 Pour mod^^Seliser la bista-bilit^^Se de tels r^^Seseaux, de
+ux mod^^Reles
+ []
+
+
+Overfull \hbox (3.42233pt too wide) in paragraph at lines 629--633
+\OT1/cmr/m/n/14.4 est ^^Ra une com-posante, et le deuxi^^Reme ^^Ra deux com-pos
+antes. 
+ []
+
+
+! LaTeX Error: Undefined color `goldenrod'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.647 Mod{\`e}le {\`a} un type de prot{\'e}ine}}
+                                                
+? 
+[15]
+Overfull \hbox (73.04814pt too wide) detected at line 676
+[]
+ []
+
+
+Overfull \hbox (49.62424pt too wide) detected at line 692
+\OML/cmm/m/it/14.4 ^^K \OT1/cmr/m/n/14.4 = []\OML/cmm/m/it/14.4 ; ^^_[] \OT1/cm
+r/m/n/14.4 = []\OML/cmm/m/it/14.4 ; ^^_[] \OT1/cmr/m/n/14.4 = []\OML/cmm/m/it/1
+4.4 ; ^^_[] \OT1/cmr/m/n/14.4 = []\OML/cmm/m/it/14.4 ; ^^L \OT1/cmr/m/n/14.4 = 
+\OML/cmm/m/it/14.4 ^^_[]^^_[]; ^^[ \OT1/cmr/m/n/14.4 = []
+ []
+
+[16]
+
+LaTeX Warning: Reference `eq:1' on page 17 undefined on input line 714.
+
+! Could not open file progenes/toggle1.eps, ignoring it.
+\epsfgetbb ...Could not open file #1, ignoring it}
+                                                  \else {\chardef \other =12...
+l.744 ...size=3.5in \epsfbox{progenes/toggle1.eps}
+                                                  
+? 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17]
+Overfull \hbox (194.64018pt too wide) detected at line 769
+\OML/cmm/m/it/14.4 ^^R[] \OT1/cmr/m/n/14.4 = (\OMS/cmsy/m/n/14.4 ^^@\OML/cmm/m/
+it/14.4 ^^W; \OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 0\OML/cm
+m/m/it/14.4 ; \OT1/cmr/m/n/14.4 0)\OML/cmm/m/it/14.4 ; ^^R[] \OT1/cmr/m/n/14.4 
+= (0\OML/cmm/m/it/14.4 ; \OMS/cmsy/m/n/14.4 ^^@\OT1/cmr/m/n/14.4 1\OML/cmm/m/it
+/14.4 ; \OMS/cmsy/m/n/14.4 ^^@\OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.4 ; \OT1/cmr/
+m/n/14.4 1)\OML/cmm/m/it/14.4 ; ^^R[] \OT1/cmr/m/n/14.4 = (0\OML/cmm/m/it/14.4 
+; \OMS/cmsy/m/n/14.4 ^^@\OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14
+.4 0\OML/cmm/m/it/14.4 ; \OMS/cmsy/m/n/14.4 ^^@\OT1/cmr/m/n/14.4 1)\OML/cmm/m/i
+t/14.4 ; ^^R[] \OT1/cmr/m/n/14.4 = (\OML/cmm/m/it/14.4 n; \OT1/cmr/m/n/14.4 0\O
+ML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 0)
+\OML/cmm/m/it/14.4 ; ^^R[] \OT1/cmr/m/n/14.4 = (\OMS/cmsy/m/n/14.4 ^^@\OT1/cmr/
+m/n/14.4 1\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 ; \OT1/cmr
+/m/n/14.4 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 0)
+ []
+
+! Undefined control sequence.
+<recently read> \vect 
+                      
+l.770 et $\vect
+                X \in \mathbb{N}^4, ~~\vect x=v^{-1}\vect X=(x,y,d,d_1)$.
+? 
+! Undefined control sequence.
+l.770 et $\vect X \in \mathbb{N}^4, ~~\vect
+                                            x=v^{-1}\vect X=(x,y,d,d_1)$.
+? 
+! Undefined control sequence.
+l.770 ...X \in \mathbb{N}^4, ~~\vect x=v^{-1}\vect
+                                                   X=(x,y,d,d_1)$.
+? 
+! Undefined control sequence.
+l.775 q_{\vect
+               X,\vect X +\theta_1}  =  k_1vx^{\nu} \\
+? 
+! Undefined control sequence.
+l.775 q_{\vect X,\vect
+                       X +\theta_1}  =  k_1vx^{\nu} \\
+? 
+! Undefined control sequence.
+l.776 q_{\vect
+               X,\vect X -\theta_1}  = k_{-1}vy \\
+? 
+! Undefined control sequence.
+l.776 q_{\vect X,\vect
+                       X -\theta_1}  = k_{-1}vy \\
+? 
+! Undefined control sequence.
+l.777 q_{\vect
+               X ,\vect X +\theta_2} = k_2vdy \\
+? 
+! Undefined control sequence.
+l.777 q_{\vect X ,\vect
+                        X +\theta_2} = k_2vdy \\
+? 
+! Undefined control sequence.
+l.778 q_{\vect
+               X ,\vect X -\theta_2} = k_{-2}vd_1  \\
+? 
+! Undefined control sequence.
+l.778 q_{\vect X ,\vect
+                        X -\theta_2} = k_{-2}vd_1  \\
+? 
+! Undefined control sequence.
+l.779 q_{\vect
+               X ,\vect X +\theta_3}  = k_{3}vd_1y \\
+? 
+! Undefined control sequence.
+l.779 q_{\vect X ,\vect
+                        X +\theta_3}  = k_{3}vd_1y \\
+? 
+! Undefined control sequence.
+l.780 q_{\vect
+               X ,\vect X -\theta_3}  = k_{-3}v(c-d-d_1) \\
+? 
+! Undefined control sequence.
+l.780 q_{\vect X ,\vect
+                        X -\theta_3}  = k_{-3}v(c-d-d_1) \\
+? 
+! Undefined control sequence.
+l.781 q_{\vect
+               X ,\vect X +\theta_4}  = k_4vd_1p \\
+? 
+! Undefined control sequence.
+l.781 q_{\vect X ,\vect
+                        X +\theta_4}  = k_4vd_1p \\
+? 
+! Undefined control sequence.
+l.782 q_{\vect
+               X ,\vect X +\theta_5} = k_5vx
+? 
+! Undefined control sequence.
+l.782 q_{\vect X ,\vect
+                        X +\theta_5} = k_5vx
+? 
+! Could not open file progenes/toggle2.eps, ignoring it.
+\epsfgetbb ...Could not open file #1, ignoring it}
+                                                  \else {\chardef \other =12...
+l.790 ...size=3.5in \epsfbox{progenes/toggle2.eps}
+                                                  
+? 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+! Could not open file progenes/toggle3.eps, ignoring it.
+\epsfgetbb ...Could not open file #1, ignoring it}
+                                                  \else {\chardef \other =12...
+l.821 ...size=3.5in \epsfbox{progenes/toggle3.eps}
+                                                  
+? 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+! Too many }'s.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.832 \end{figure}
+                  
+? 
+! Extra \endgroup.
+\color@endgroup ->\endgraf \endgroup 
+                                     
+l.832 \end{figure}
+                  
+? 
+! Too many }'s.
+\color@endbox ->\color@endgroup \egroup 
+                                        
+l.832 \end{figure}
+                  
+? 
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.832 \end{figure}
+                  
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.832 \end{figure}
+                  
+? 
+! Could not open file progenes/temps.eps, ignoring it.
+\epsfgetbb ...Could not open file #1, ignoring it}
+                                                  \else {\chardef \other =12...
+l.838 ...fysize=3.5in \epsfbox{progenes/temps.eps}
+                                                  
+? 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+! LaTeX Error: Undefined color `goldenrod'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.847 ...\'e}le avec deux types de prot{\'e}ines}}
+                                                  
+? 
+
+Overfull \hbox (8.84837pt too wide) in paragraph at lines 849--851
+\OT1/cmr/m/n/14.4 Mod^^Rele avec deux r^^Sepresseurs et deux pro-mo-teurs. Chaq
+ue
+ []
+
+[18]
+Overfull \hbox (60.87743pt too wide) detected at line 882
+[]\OML/cmm/m/it/14.4 R[] \OT1/cmr/m/n/14.4 = []
+ []
+
+
+Overfull \hbox (199.94397pt too wide) in paragraph at lines 908--908
+[] 
+ []
+
+! Undefined control sequence.
+<recently read> \vect 
+                      
+l.910 Soient  $\vect
+                     X \in \mathbb{N}^6, ~~\vect x=\vect X/v=(x_1,x_2,p_1,p_...
+
+? 
+! Undefined control sequence.
+l.910 Soient  $\vect X \in \mathbb{N}^6, ~~\vect
+                                                 x=\vect X/v=(x_1,x_2,p_1,p_...
+
+? 
+! Undefined control sequence.
+l.910 ...\vect X \in \mathbb{N}^6, ~~\vect x=\vect
+                                                   X/v=(x_1,x_2,p_1,p_2,y_1,...
+
+? 
+! Undefined control sequence.
+l.916 q_{\vect
+               X,\vect X +\theta_1}  =  k_1vx_1 \\
+? 
+! Undefined control sequence.
+l.916 q_{\vect X,\vect
+                       X +\theta_1}  =  k_1vx_1 \\
+? 
+! Undefined control sequence.
+l.917 q_{\vect
+               X,\vect X +\theta_2}  = k_{2}vx_2 \\
+? 
+! Undefined control sequence.
+l.917 q_{\vect X,\vect
+                       X +\theta_2}  = k_{2}vx_2 \\
+? 
+! Undefined control sequence.
+l.918 q_{\vect
+               X ,\vect X +\theta_3} = k_3vx_1^{\nu_1} \\
+? 
+! Undefined control sequence.
+l.918 q_{\vect X ,\vect
+                        X +\theta_3} = k_3vx_1^{\nu_1} \\
+? 
+! Undefined control sequence.
+l.919 q_{\vect
+               X ,\vect X -\theta_3} = k_{-3}vy_1  \\
+? 
+! Undefined control sequence.
+l.919 q_{\vect X ,\vect
+                        X -\theta_3} = k_{-3}vy_1  \\
+? 
+! Undefined control sequence.
+l.920 q_{\vect
+               X ,\vect X +\theta_4}  = k_{4}vx_2^{\nu_2} \\
+? 
+! Undefined control sequence.
+l.920 q_{\vect X ,\vect
+                        X +\theta_4}  = k_{4}vx_2^{\nu_2} \\
+? 
+! Undefined control sequence.
+l.921 q_{\vect
+               X ,\vect X -\theta_4}  = k_{-4}vy_2 \\
+? 
+! Undefined control sequence.
+l.921 q_{\vect X ,\vect
+                        X -\theta_4}  = k_{-4}vy_2 \\
+? 
+! Undefined control sequence.
+l.922 q_{\vect
+               X ,\vect X +\theta_5}  = k_5vy_1p_1 \\
+? 
+! Undefined control sequence.
+l.922 q_{\vect X ,\vect
+                        X +\theta_5}  = k_5vy_1p_1 \\
+? 
+! Undefined control sequence.
+l.923 q_{\vect
+               X ,\vect X -\theta_5} = k_{-5}v(c_1-p_1) \\
+? 
+! Undefined control sequence.
+l.923 q_{\vect X ,\vect
+                        X -\theta_5} = k_{-5}v(c_1-p_1) \\
+? 
+! Undefined control sequence.
+l.924 q_{\vect
+               X ,\vect X +\theta_6}  = k_6vy_2p_2 \\
+? 
+! Undefined control sequence.
+l.924 q_{\vect X ,\vect
+                        X +\theta_6}  = k_6vy_2p_2 \\
+? 
+! Undefined control sequence.
+l.925 q_{\vect
+               X ,\vect X -\theta_6} = k_{-6}v(c_2-p_2) \\
+? 
+! Undefined control sequence.
+l.925 q_{\vect X ,\vect
+                        X -\theta_6} = k_{-6}v(c_2-p_2) \\
+? 
+! Undefined control sequence.
+l.926 q_{\vect
+               X ,\vect X +\theta_7}  = k_7vp_2p \\
+? 
+! Undefined control sequence.
+l.926 q_{\vect X ,\vect
+                        X +\theta_7}  = k_7vp_2p \\
+? 
+! Undefined control sequence.
+l.927 q_{\vect
+               X ,\vect X +\theta_8} = k_{8}vp_1p
+? 
+! Undefined control sequence.
+l.927 q_{\vect X ,\vect
+                        X +\theta_8} = k_{8}vp_1p
+? 
+[19] [20]
+! Could not open file progenes/toggle2Da.eps, ignoring it.
+\epsfgetbb ...Could not open file #1, ignoring it}
+                                                  \else {\chardef \other =12...
+l.996 ...ze=3.5in \epsfbox{progenes/toggle2Da.eps}
+                                                  
+? 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+! Could not open file progenes/toggle2Db.eps, ignoring it.
+\epsfgetbb ...Could not open file #1, ignoring it}
+                                                  \else {\chardef \other =12...
+l.1013 ...e=3.5in \epsfbox{progenes/toggle2Db.eps}
+                                                  
+? 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+! Undefined control sequence.
+l.1029 \chapter
+               {\magenta \textsf{\Huge Quelques ph{\'e}nom{\`e}nes typiques }}
+? 
+
+! LaTeX Error: Undefined color `goldenrod'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1029 \chapter{\magenta
+                         \textsf{\Huge Quelques ph{\'e}nom{\`e}nes typiques }}
+? 
+
+! LaTeX Error: Undefined color `goldenrod'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1032 ...ge Bruit et r{\'e}action n{\'e}gative }}
+                                                  
+? 
+[21]
+
+! LaTeX Error: Undefined color `goldenrod'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1062 ...on bruit - transcription, translation }}
+                                                  
+? 
+
+Overfull \hbox (3.23921pt too wide) in paragraph at lines 1070--1071
+[]\OT1/cmr/m/n/14.4 Translation modul^^See ^^Ra l'aide de mu-ta-tions dans le G
+FP. 
+ []
+
+
+Overfull \hbox (10.58408pt too wide) in paragraph at lines 1079--1080
+[]\OT1/cmr/m/n/14.4 Une cha^^^Pne sim-ple de r^^Seactions peut ex-pli-quer ce r
+^^Sesultat
+ []
+
+[22]
+
+! LaTeX Error: Undefined color `goldenrod'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1093 ...tsf{\Large  Focalisation stochastique }}
+                                                  
+? 
+
+Overfull \hbox (15.09384pt too wide) in paragraph at lines 1122--1125
+\OT1/cmr/m/n/14.4 du sig-nal deux fois pro-duit une aug-men-ta-tion de la moyen
+ne
+ []
+
+! Undefined control sequence.
+l.1127 \chapter
+               {\magenta \textsf{\Huge Conclusions }}
+? 
+
+! LaTeX Error: Undefined color `goldenrod'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1127 \chapter{\magenta
+                         \textsf{\Huge Conclusions }}
+? 
+[23]
+Overfull \hbox (35.61372pt too wide) in paragraph at lines 1129--1131
+[]\OT1/cmr/m/n/14.4 Le stochas-tique est une ^^Setape in^^Sevitable dans la mod
+^^Selisation
+ []
+
+
+Overfull \hbox (19.55879pt too wide) in paragraph at lines 1132--1136
+\OT1/cmr/m/n/14.4 ance du bruit, aug-men-ta-tion de la sen-si-bilit^^Se des m^^
+Secanismes
+ []
+
+
+Overfull \hbox (6.63077pt too wide) in paragraph at lines 1137--1140
+[]\OT1/cmr/m/n/14.4 Le bruit est de plusieurs types : ex-trins^^Reque, in-trins
+^^Reque
+ []
+
+[24] [25] [26] [27] [28] [29] [30] [31] (bruit.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1797 strings out of 20887
+ 20298 string characters out of 197364
+ 73143 words of memory out of 350001
+ 4740 multiletter control sequences out of 10000+15000
+ 15478 words of font info for 59 fonts, out of 400000 for 1000
+ 14 hyphenation exceptions out of 10000
+ 27i,16n,24p,454b,282s stack positions out of 3000i,100n,1500p,50000b,4000s
+
+Output written on bruit.dvi (31 pages, 64464 bytes).

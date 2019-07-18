@@ -1,0 +1,402 @@
+
+% expose de Ben a Rennes le 12 mai 2004
+
+\documentclass[oneside,slidesonly]{seminar}
+\usepackage[francais]{babel}
+\usepackage[latin1]{inputenc}
+\selectlanguage{francais}
+\usepackage{graphicx}
+\usepackage{euscript}
+\usepackage{amssymb}
+\usepackage{delarray}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{epsfig}
+\usepackage{changebar}
+\selectlanguage{francais}
+\usepackage{amsfonts}
+
+%\usepackage{color}
+
+%\definecolor{brown}{rgb}{0.7,0.5,0}
+%\definecolor{orange}{rgb}{0.9,0.1,0}
+
+%\newcommand{\green}{\textcolor{green}}
+%\newcommand{\red}{\textcolor{red}}
+%\newcommand{\blue}{\textcolor{blue}}
+%\newcommand{\black}{\textcolor{black}}
+%\newcommand{\brown}{\textcolor{brown}}
+%\newcommand{\yellow}{\textcolor{yellow}}
+%\newcommand{\orange}{\textcolor{orange}}
+
+
+\newcommand{\N}{\mathbb N}
+\newcommand{\R}{\mathbb R}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\C}{\mathbb C}
+\def\({\left(}
+\def\){\right)}
+\def\WF{W\negmedspace F}
+
+\def\a{\alpha}
+\def\r{\rho}
+\def\t{\tau}
+\def\b{\beta}
+\def\d{\partial}
+\def\g{\gamma}
+\def\l{\lambda}
+\def\s{\sigma}
+\def\o{\omega}
+\def\p{\varphi}
+\def\v{\wedge}
+\def\ve{v^{\varepsilon}}
+\def\ae{a^{\varepsilon}}
+\def\nn{\vec{\nu}}
+
+
+\def\C{\mathbb{C}}
+\def\O{\Omega}
+\def\lap{\Delta}
+\def\G{\Gamma}
+\def\D{{\cal D}}
+\def\F{{\cal F}}
+\def\n{\vec{n}}
+\def\phi{\varphi}
+\def\e{\varepsilon}
+\def\S{\mathbb{S}}
+\def\P{\mathcal{P}}
+\def\R{\mathbb{R}}
+\def\N{\mathbb{N}}
+\def\H{\mathbb{H}}\def\ZZ{\mathbb{Z}}
+\def\L{\mathbb{L}}
+\def\E{{\cal E}}
+\def\V{\mathcal{O}_1}
+\def\pt{\forall\;}
+\def\T{\Theta}
+%Les ensembles:
+
+\def\un{\underline}
+\def\div{\mbox{{\rm div}}\;}
+\def\rot{\mbox{{\rm curl}}\;}
+\def\ddt#1{\frac{\partial #1}{\partial t}}
+\def\ddi#1{\frac{\partial #1}{\partial x_i}}
+\def\dd#1#2{\frac{\partial #1}{\partial #2}}
+
+
+
+\def\op{\d^{-1}_{\mu}}
+
+
+\def\tiu#1{\widetilde {U^{#1}}}
+\def\ovu#1{\overline {U^{#1}}}
+\def\tidu#1#2{\widetilde {U_{#1}^{#2}}}
+\def\ovdu#1#2{\overline {U_{#1}^{#2}}}
+\def\wt{\rightharpoonup}
+\def\ds{\longrightarrow}
+
+%le displaystyle
+
+\def\dsp{\displaystyle}
+
+
+\newtheorem{theo}{Théorème}
+\newtheorem{lem}{Lemme}
+\newtheorem{prop}{Proposition}
+
+\newenvironment{demo}[1][.]{\noindent %
+\textbf{Proof\ifthenelse{\equal{#1}{.}}{}{(#1)}. }}%
+{\hspace{\stretch{1}}\rule{2mm}{2mm}}
+
+\newenvironment{demo_nv}[1][.]{\noindent %
+\textbf{New proof\ifthenelse{\equal{#1}{.}}{}{(#1)}. }}%
+{\hspace{\stretch{1}}\rule{2mm}{2mm}}
+
+\slideframe[]{}
+
+\begin{document}
+
+
+\begin{slide} \begin{center} {\bf Generalized Poincaré-Hopf bifurcation and galloping instabilities in traveling waves} 
+
+ Benjamin Texier, Kevin Zumbrun
+
+ Indiana University \end{center} \end{slide}
+
+
+\begin{slide} \begin{center} {\bf Plan} \end{center}
+ \begin{itemize}
+   \item[1.] Combustion, ondes de d\'etonations: ph\'enom\`enes physiques.
+   \item[2.] Equations mod\`eles.
+   \item[3.] Equations diff\'erentielles avec invariance de groupe: bifurcation de Poincar\'e-Hopf g\'en\'eralis\'ee.
+   \item[4.] Application \`a des ondes progressives solutions d'EDP simples. 
+  \end{itemize}
+
+\end{slide}
+
+
+\begin{slide} \begin{center} {\bf Instabilit\'es pour des ondes de d\'etonation}  \end{center} 
+  M\'elange explosif gazeux dans un cylindre. Ondes de compression.
+
+ Instabilit\'es:
+ \begin{itemize}
+ \item[1D:] "galloping waves": variations p\'eriodiques de la vitesse d'une onde de d\'etonation sous l'effet de perturbations longitudinales,
+ \item[3D:] "spinning waves":  structure 3D complexe, h\'elicoidale. 
+ \end{itemize}
+
+ \vspace{0.3cm}
+
+{\bf But:} Description math\'ematique des "galloping waves", pour des mod\`eles simples.
+
+\end{slide}
+
+\begin{slide} \begin{center} {\bf Equations mod\`eles} \end{center}   \begin{eqnarray}
+   \d_t u + \d_x f(u) & = & \d_x( B(u) \d_x u)) + k q \phi(u) z, \nonumber \\
+   \d_t z & = & \d_x (D(u, z) \d_x z) - k \phi(u) z. \nonumber 
+\end{eqnarray}
+ $z$ fraction massique de r\'eactant non br\^{u}l\'e. $\phi$ fonction d'activation. $B, D:$ coefficients de diffusion. $q$ chaleur d\'egag\'ee par la r\'eaction, $k$ taux de r\'eaction. 
+
+Mod\`ele complexe: $u = (\rho, \rho u, e)$ (Navier-Stokes). 
+
+Mod\`ele simplifi\'e: $u$ scalaire (Majda, SIAM J. Appl. Math. 81), $B = 1,\, D = 0.$
+
+Mod\`ele interm\'ediaire: Navier-Stokes avec $B, D = 0:$ pas de diffusion (Zeldovich-von Neumann-Doring 40).
+
+\end{slide}
+
+
+\end{slide} 
+
+\begin{slide} \begin{center} {\bf Mod\`ele simplifi\'e de Majda} \end{center}
+   \begin{eqnarray}
+   \d_t u + \d_x f(u) & = & \d_x^2 u + k q \phi(u) z, \nonumber \\
+   \d_t z & = & - k \phi(u) z. \nonumber 
+\end{eqnarray}
+ Hypoth\`eses: $f' > 0,\, f" > 0,$ et
+ $$  \phi(u) = \left\{\begin{array}{cc} 0, & u \leq u_i, \\ > 0, & u \geq u^i. \end{array}\right.$$
+ Existence d'ondes progressives $u_-, \, u_+,\, s(u_+).$
+ D\'etonations: ondes de compression: $u_- > u_+.$
+ D\'etonations fortes: choc de Lax:
+  $$ f'(u_+) < s < f'(u_-).$$
+
+
+
+\end{slide}
+
+\begin{slide} \begin{center} {\bf R\'esultats ant\'erieurs} \end{center}
+ \begin{itemize}
+ \item Stabilit\'e nonlin\'eaire d'ondes de d\'etonations fortes pour le mod\`ele de Majda pour $q$ petit (Liu-Ying, SIAM J. Math. Analysis 95).
+ \item Indice de stabilit\'e $\Gamma$ (bas\'e sur fonction d'Evans, Lyng-Zumbrun 03). Condition n\'ecessaire pour stabilit\'e spectrale:  $$\Gamma > 0.$$
+ V\'erifi\'ee par le mod\`ele de Majda.
+\end{itemize}
+
+
+ Instabilit\'es ?
+
+ $\Gamma$ ne d\'etecte que la parit\'e du nombre de valeurs propres de partie r\'eelle positive. 
+
+
+\end{slide}
+
+
+\begin{slide} \begin{center} {\bf Position du probl\`eme} \end{center}
+
+ Sur un mod\'ele simple (scalaire, une variable d'espace): d\'ecrire les ondes galopantes comme une bifurcation de type Hopf autour d'une onde progressive de d\'etonation. 
+
+ Hypoth\`ese sur le spectre de l'op\'erateur lin\'earis\'e autour de l'onde progressive: deux valeurs propres complexes conjugu\'ees traversent l'axe imaginaire pur pour une valeur critique d'un petit param\`etre.
+
+ Par ailleurs: invariance par translation: 0 est valeur propre. 
+
+ Dessin spectral \`a compl\'eter. 
+
+\end{slide}
+
+
+\begin{slide} \begin{center} {\bf Stabilit\'e d'ondes progressives}\end{center} 
+
+ R\'eaction de convection-diffusion-r\'eaction:
+\begin{equation} \label{edp}
+ \d_t \tilde u = {\cal F}(\e, \tilde u) = \d_x^2 \tilde u + f(\e, \tilde u, \d_x \tilde u).
+ \end{equation}
+ $\bar u^\e(x)$ onde stationnaire:
+ \begin{equation} \label{op}
+ {\cal F}(\e, \bar u^\e) = 0.
+ \end{equation}
+
+ Invariance de groupe: $\tilde \Phi_\a(v) := v(x - \a).$ 
+
+ Lin\'earisation des \'equations autour de l'onde progressive: $u := \tilde u - \bar u,$ solution de
+ \begin{equation} \label{edp2}  \d_t (u,\e) + L(u,\e) = G(\bar u, u, \e).\end{equation} 
+ $L$ op\'erateur lin\'earis\'e autour de $\bar u.$ 
+
+ Quelles hypoth\`eses spectrale pour $L$ ? Bifurcation de Poincar\'e Hopf g\'en\'eralis\'ee. Spectre essentiel ?
+\end{slide}
+
+\begin{slide} \begin{center} {\bf Remarques sur l'\'equation lin\'earis\'ee} \end{center}
+
+ Invariance de groupe: 
+ $$ \Phi_\a u (t,x) := u(t, x + \a) + (\bar u^0(x + \a) - \bar u^0(x)).$$
+
+ 0 est valeur propre: 
+ $$ \frac{d {\cal F}}{d \tilde u} (\e, \bar u^\e) \d_x \bar u^\e = 0.$$ 
+
+\end{slide}
+
+\begin{slide} \begin{center} {\bf Equation diff\'erentielle avec invariance de groupe}\end{center}
+ 
+ Equation $X' = F(X), X \in \R^n,$ admettant une invariance de groupe (additif) $\Phi_\a:$
+ $$ \Phi_\a (\Psi(t, t_0, X_0)) = \Psi(t, t_0, \Phi_\a(X_0)),$$
+ $\Psi$ flot de l'\'equation. Hypoth\`ese:
+ $$ \frac{d \Phi_\a}{d \a}_{|\a = 0} \neq 0.$$
+ 
+\begin{lem}[TZ] Il existe un diff\'eo local $T$ au voisinage de 0 tel que toute trajectoire $X$ s'\'ecrive $X = T(Y, \a),$ $Y \in \R^{n-1}, \, \a \in \R,$ et 
+ $$ Y'(t) = G(Y(t)), \quad \a'(t) = h(Y(t)).$$
+\end{lem}
+
+ P.~Olver, Applications of Lie Groups to differential equations, Springer GTM 107.
+
+\end{slide}
+
+\begin{slide} \begin{center} {\bf Exemple} \end{center}
+
+ Equation lin\'eaire $X' = A X,$ trajectoires au voisinage de $(0, \dots, 0,1).$ Changement de variable
+ $$ X = (x_1, \dots, x_n) \to (\frac{x_1}{x_n}, \dots, \frac{x_{n-1}}{x_n}, 1).$$
+ Le groupe additif $\Phi_\a X = e^\a X$ laisse invariante l'\'equation. 
+
+ Les \'equations pour 
+ $$ Y := (\frac{x_1}{x_n}, \dots, \frac{x_{n-1}}{x_n}) \quad \mbox{ et } \a := - \ln x_n$$
+ sont d\'ecoupl\'ees. 
+
+ V\'erification par un calcul explicite. 
+
+
+\end{slide}
+
+\begin{slide} \begin{center} {\bf Bifurcation de Poincar\'e-Hopf dans $\R^2$} \end{center} 
+ $X' = F(\e, X),\, X \in \R^2,$ $(\e,0)$ droite de points critiques: $F(\e, 0) = 0.$ Hypoth\`ese: le spectre de $\d_x F(\e,0)$ compos\'e de deux valeurs propres conjugu\'ees $\l(\e), \bar \l(\e) = \g(\e) \pm i \tau(\e),$ telles que
+ $$ \gamma(0) = 0, \quad \tau(0) \neq 0, \quad (d\gamma)/(d\e)(0) > 0 .$$
+ 
+\begin{theo}[Poincar\'e-Andronov-Hopf] For $a > 0,$ assez petit, il existe une unique orbite p\'eriodique $X_a$ non triviale de l'\'equation, de taille initiale $a:$ $|X_a(0)| = a,$ pour la valeur $\e(a)$ du param\`etre. La fonction $a \mapsto \e(a)$ est $C^1,$ le signe de $d\e/da$ d\'etermine la stabilit\'e de $X_a.$
+\end{theo}  
+
+ Hale, Ko\c{c}ak (Springer). 
+\end{slide}
+
+\begin{slide} \begin{center} {\bf Bifurcation de Poincar\'e-Hopf dans $\R^n$} \end{center} 
+ $X' = F(\e, X),\, X \in \R^n,$ $(\e,0)$ droite de points critiques: $F(\e, 0) = 0.$ Hypoth\`ese: le spectre de $\d_x F(\e,0)$ contient deux valeurs propres conjugu\'ees $\l(\e), \bar \l(\e) = \g(\e) \pm i \tau(\e),$ telles que
+ $$ \gamma(0) = 0, \quad \tau(0) \neq 0, \quad (d\gamma)/(d\e)(0) > 0,$$
+ et le reste du spectre est contenu dans le demi-plan $\{ z, \, \Re z < 0\}.$ 
+ 
+\begin{theo}[Poincar\'e-Andronov-Hopf] Il existe un voisinage ${\cal U}$ de 0 dans une sous-vari\'et\'e de $\R^n$ tel que pour tout $X_0 \in {\cal U},$ il existe une unique orbite p\'eriodique avec donn\'ee initiale $X_0.$ 
+\end{theo} 
+
+ De plus: stabilit\'e (sur la vari\'et\'e $\Leftrightarrow$ sur $\R^n$) exprim\'ee par une condition effectivement calculable; les seules orbites p\'eriodiques sont celles d\'ecrites ci-dessus. 
+
+\end{slide} 
+
+
+\begin{slide} \begin{center} {\bf Preuve} \end{center}
+
+ \begin{itemize}
+ \item[a)] D\'efinition d'un flot r\'eduit sur une vari\'et\'e centrale dans un voisinage de l'origine. 
+ \item[b)] Propri\'et\'es spectrales du flot r\'eduit: elles v\'erifient les hypoth\`eses PAH $\R^2.$
+ \item[c)] Examen de la stabilit\'e: sur la vari\'et\'e $\Leftrightarrow$ sur $\R^n.$
+\end{itemize}
+
+ Marsden, McCraken (Springer). 
+
+\end{slide}
+
+\begin{slide} \begin{center} {\bf Bifurcation de Poincar\'e-Hopf g\'en\'eralis\'ee dans $\R^n$} \end{center}
+
+ M\^{e}me situation spectrale qu'au th\'eor\`eme pr\'ec\'edent. De plus: 
+ \begin{itemize} \item le noyau de $\d_x F(\e,0)$ est non trivial,
+ \item invariance de groupe $\Phi_\a,$
+ \item $(d\Phi_\a)/(d \a)(\a = 0)$ non nul et non transverse au noyau. 
+ \end{itemize}
+
+\begin{theo}[TZ] Il existe un voisinage ${\cal U}$ de 0 dans une sous-vari\'et\'e de $\R^n$ tel que pour tout $X_0 \in {\cal U},$ l'orbite $t \to X(t)$ qui a pour donn\'ee initiale $X_0$ est telle que 
+ $$ t \to \Phi_{-\a(t)} X(t) $$
+ est p\'eriodique, avec $\a(t) = \a^0 t + \beta(t),$ $\a^0 \in \R$ et $\b$ p\'eriodique.
+\end{theo} 
+
+\end{slide} 
+
+\begin{slide}\begin{center} {\bf Preuve} \end{center} 
+
+ \begin{itemize} 
+ \item[a)] D\'ecouplage des coordonn\'ees transverses $Y$ et longitudinales $\a$ par le Lemme 1: $Y' = G(\e, Y), \, \a' = h(\e, Y).$ 
+ \item[b)]  $\d_x G(\e, 0)$ satisfait les hypoth\`eses de PAH $\R^n.$ Existence d'orbites p\'eriodiques.
+ \item[c)] Coordonn\'ee longitudinale correspondante:
+ $$ \a(t) = \a(0) + \int_0^t h(\e, Y(t')) \, dt' = \a^0 t + \beta(t).$$
+ \item[d)] Dans les variables de d\'epart:
+  $$ X(t) = \Phi_{\a(t)} (Y(t), 0). $$
+ \end{itemize}
+
+
+\end{slide}
+
+\begin{slide} \begin{center} {\bf Un r\'esultat classique de stabilit\'e} \end{center}
+
+ \begin{theo} Soit $\bar u$ une onde progressive qui converge exponentiellement vers $u_\pm$ en $\pm \infty.$ Si le spectre de $L(u_\pm)$ est strictement \`a gauche de l'axe imaginaire pur, et si $\bar u$ est monotone, alors $\bar u$ est orbitalement stable. 
+ \end{theo}
+
+ Preuve: Spectre essentiel de $L(\bar u)$ $\leftrightarrow$ spectre de $L(u_\pm).$ Monotonie de $\bar u:$ 0 est la plus grande valeur propre. 
+
+\end{slide}
+
+\begin{slide} \begin{center} {\bf Exemple: convection-diffusion} \end{center}
+
+  $$ \d_t u + \d_x (f(u)) = \d_x^2 u,$$
+ Onde stationnaire $\bar u.$ RH: $f(u_-) = f(u_+).$ 
+ $$ L(\bar u) u  = \d_x^2 u - f'(u_\pm) \d_x u.$$
+ $\sigma(L(u_\pm)) = \{ - k^2 - i f'(u_\pm) k, \, k \in \R\}.$ 
+ Pas de trou spectral.
+\end{slide}
+
+\begin{slide} \begin{center} {\bf Normes \`a poids} \end{center}
+ 
+ Cadre pr\'ec\'edent. Hypoth\`ese: choc de Lax:
+ $$ f'(u_+) < 0 < f'(u_-).$$
+ Alors il existe un poids $w > 0,$ $w \to w_\pm, \,  x \to \pm \infty,$ $w_- <0, \, w_+ > 0,$ tel que 
+  $$ v: = e^{\int_0^x w} u,$$
+ et l'op\'erateur pour $v$ a un trou spectral. 
+
+ "Convection-enhanced stability". Sattinger (Adv. Math. 76). 
+ \end{slide}
+
+
+\begin{slide} \begin{center} {\bf Hypoth\`eses} \end{center}
+
+ \begin{itemize}
+\item  Les \'etats finaux $u_-, \, u_+$ de l'onde stationnaire sont strictement spectralement stables au sens des normes \`a poids.
+\item  Deux valeurs propres complexes traversent l'axe imaginaire pur.
+\end{itemize}
+ $$ \| f\|_{L^2_\eta} := \| e^{\eta(1 + |x|^2)} f(x) \|_{L^2}.$$ 
+
+\end{slide}
+
+\begin{slide} \begin{center} {R\'esultat} \end{center}
+
+\begin{theo}[TZ] Sous les hypoth\`ese pr\'ec\'edentes, pour $a > 0$ assez petit et $C > 0$ assez grand, il existe une fonction $C^1$ $a \mapsto \e(a),$ et une famille de solutions
+ $$ u^a(t, x) = v^a(t, x - \a^a(t)), \quad \a^a(t) = \sigma^a t + \theta^a(t),$$
+ o\`u $\sigma^a \in \R$ et $\theta^a$ est p\'eriodique, et 
+ $$ \| v(0) - \bar u^0 \|_{H^2_\eta} = a, \quad \| v^a(t)  - \bar u^0 \|_{H^2_\eta} \leq C a.$$
+  \end{theo}
+ De plus: stabilit\'e orbitale de $v^a$ donn\'e par le signe de $d\e/da.$ 
+
+\end{slide}
+
+
+\begin{slide} \begin{center} {\bf Preuve} \end{center}
+
+ \begin{itemize}
+ \item[a)] Factorisation de la valeur propre 0 (r\'eduction).
+ \item[b)] Construction d'une vari\'et\'e centrale (troncature, bornes sur le semi-groupe).
+ \item[c)] Bifurcation de Poincar\'e-Hopf sur la vari\'et\'e de dimension 2 + 1. 
+ \end{itemize} 
+
+\end{slide}
+
+
+
+\end{document}

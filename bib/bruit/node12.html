@@ -1,0 +1,564 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with jLaTeX2HTML 2002 (1.62) JA patch-1.4
+patched version by:  Kenshi Muto, Debian Project.
+LaTeX2HTML 2002 (1.62),
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Modèle à un type de protéine</TITLE>
+<META NAME="description" CONTENT="Modèle à un type de protéine">
+<META NAME="keywords" CONTENT="bruit">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="jLaTeX2HTML v2002 JA patch-1.4">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="bruit.css">
+
+<LINK REL="next" HREF="node13.html">
+<LINK REL="previous" HREF="node11.html">
+<LINK REL="up" HREF="node11.html">
+<LINK REL="next" HREF="node13.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html151"
+  HREF="node13.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next" SRC="next.png"></A> 
+<A NAME="tex2html149"
+  HREF="node11.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up" SRC="up.png"></A> 
+<A NAME="tex2html143"
+  HREF="node11.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous" SRC="prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html152"
+  HREF="node13.html">Modéle avec deux types</A>
+<B> Up:</B> <A NAME="tex2html150"
+  HREF="node11.html">Phénoméne de bistabilité et</A>
+<B> Previous:</B> <A NAME="tex2html144"
+  HREF="node11.html">Phénoméne de bistabilité et</A>
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00321000000000000000">
+
+<FONT COLOR="#daa520"><I><FONT SIZE="+2">Mod&#232;le &#224; un type de prot&#233;ine</FONT></I></FONT></A>
+</H2><FONT COLOR="#000080"></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2"><U>Syst&#232;me de r&#233;actions</U>
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"></FONT><P></P>
+<DIV ALIGN="CENTER"><A NAME="eq:A"></A><!-- MATH
+ \begin{equation}
+\left \{
+ \begin{array}{lll}
+(1) &  \nu X \rightleftharpoons X_\nu   & \textrm{multimérisation} \\
+ (2)  & D+X_\nu  \rightleftharpoons D_1 &       \textrm{activation} \\
+(3)  & D_1+X_\nu \rightleftharpoons D_2 & \textrm{bloquage} \\
+(4) & D_1+P \to D_1+P+nX        & \textrm{transcription} \\
+(5) & X \rightarrow    &  \textrm{dégradation}
+\end{array} \right.
+\end{equation}
+ -->
+<TABLE CELLPADDING="0" WIDTH="100%" ALIGN="CENTER">
+<TR VALIGN="MIDDLE">
+<TD NOWRAP ALIGN="CENTER"><IMG
+ WIDTH="370" HEIGHT="111" ALIGN="MIDDLE" BORDER="0"
+ SRC="img81.png"
+ ALT="$\displaystyle \left \{ \begin{array}{lll} (1) &amp; \nu X \rightleftharpoons X_\nu ...
+...ranscription}  (5) &amp; X \rightarrow &amp; \textrm{dégradation} \end{array} \right.$"></TD>
+<TD NOWRAP WIDTH="10" ALIGN="RIGHT">
+(7)</TD></TR>
+</TABLE></DIV>
+<BR CLEAR="ALL"><P></P><FONT COLOR="#000080"></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2"><U>Mod&#232;le d&#233;terministe</U>
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"></FONT><!-- MATH
+ \begin{displaymath}
+\left \{
+ \begin{array}{lll}
+x'(t) & = & \ -k_1 \nu x^{\nu} +\nu k_{-1}y+k_4nd_1p-k_5x \\
+y'(t) & = & \ k_1x^{\nu}-k_{-1}y-k_2dy+k_{-2}d_1-k_3d_1y+k_{-3}(c-d-d_1)\\
+d'(t) & = & \ -k_2dy+k_{-2}d_1 \\
+d'_1(t) & = & \ k_2dy-k_{-2}d_1-k_3d_1y+k_{-3}(c-d-d_1)
+\end{array} \right.
+\end{displaymath}
+ -->
+<P></P>
+<DIV ALIGN="CENTER">
+<IMG
+ WIDTH="502" HEIGHT="92" ALIGN="MIDDLE" BORDER="0"
+ SRC="img82.png"
+ ALT="\bgroup\color{NavyBlue}$\displaystyle \left \{
+\begin{array}{lll}
+x'(t) &amp; = &amp;  ...
+...(t) &amp; = &amp;  k_2dy-k_{-2}d_1-k_3d_1y+k_{-3}(c-d-d_1)
+\end{array} \right.
+$\egroup">
+</DIV><P></P><FONT COLOR="#000080"></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">&#233;tats stationnaires :
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"></FONT>
+<BR>
+<DIV ALIGN="CENTER"><A NAME="eq:B1"></A><A NAME="eq:B2"></A><A NAME="eq:B3"></A><A NAME="eq:B4"></A><!-- MATH
+ \begin{eqnarray}
+& k_1 x^{\nu}=k_{-1}y\\
+& k_2 dy=k_{-2}d_1\\
+& k_3d_1y= k_{-3}(c-d-d_1)\\
+& nk_4pd_1=k_5x
+\end{eqnarray}
+ -->
+<TABLE CELLPADDING="0" ALIGN="CENTER" WIDTH="100%">
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT">&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="91" HEIGHT="30" ALIGN="MIDDLE" BORDER="0"
+ SRC="img83.png"
+ ALT="$\displaystyle k_1 x^{\nu}=k_{-1}y$"></TD>
+<TD WIDTH=10 ALIGN="RIGHT">
+(8)</TD></TR>
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT">&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="98" HEIGHT="29" ALIGN="MIDDLE" BORDER="0"
+ SRC="img84.png"
+ ALT="$\displaystyle k_2 dy=k_{-2}d_1$"></TD>
+<TD WIDTH=10 ALIGN="RIGHT">
+(9)</TD></TR>
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT">&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="172" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="img85.png"
+ ALT="$\displaystyle k_3d_1y= k_{-3}(c-d-d_1)$"></TD>
+<TD WIDTH=10 ALIGN="RIGHT">
+(10)</TD></TR>
+<TR VALIGN="MIDDLE"><TD NOWRAP ALIGN="RIGHT">&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD ALIGN="LEFT" NOWRAP><IMG
+ WIDTH="98" HEIGHT="29" ALIGN="MIDDLE" BORDER="0"
+ SRC="img86.png"
+ ALT="$\displaystyle nk_4pd_1=k_5x$"></TD>
+<TD WIDTH=10 ALIGN="RIGHT">
+(11)</TD></TR>
+</TABLE></DIV>
+<BR CLEAR="ALL"><P></P><FONT COLOR="#000080"></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">On pose:
+</FONT></FONT><!-- MATH
+ \begin{displaymath}
+\alpha=\frac{nk_4p\chi_1 \chi_2 c}{k_5} , \chi_1=\frac{k_1}{k_{-1}}
+,\chi_2=\frac{k_2}{k_{-2}}, \chi_3=\frac{k_3}{k_{-3}} , \beta=\chi_1\chi_2 , \sigma=\frac{\chi_3}{\chi_2}
+\end{displaymath}
+ -->
+<P></P>
+<DIV ALIGN="CENTER">
+<IMG
+ WIDTH="468" HEIGHT="51" ALIGN="MIDDLE" BORDER="0"
+ SRC="img87.png"
+ ALT="\bgroup\color{NavyBlue}$\displaystyle \alpha=\frac{nk_4p\chi_1 \chi_2 c}{k_5} , ...
+...=\frac{k_3}{k_{-3}} , \beta=\chi_1\chi_2 , \sigma=\frac{\chi_3}{\chi_2}
+$\egroup">
+</DIV><P></P><FONT COLOR="#000080"></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">ce sont des param&#233;tres positifs.
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">Ce syst&#232;me conduit &#224;
+</FONT></FONT><P></P>
+<DIV ALIGN="CENTER"><A NAME="eq:B6"></A><!-- MATH
+ \begin{equation}
+\begin{split}
+& y=\chi_1 x^{\nu} \\
+& d_1=\frac{c\beta x^{\nu}}{1+\beta x^{\nu}+\sigma\beta^2 x^{2\nu}} \\
+& d=\frac{c}{1+\beta x^{\nu}+\sigma \beta^2x^{2\nu}} \\
+& x=\frac{\alpha x^{\nu}}{1+\beta x^{\nu}+\sigma \beta^2x^{2\nu}}
+\end{split}
+\end{equation}
+ -->
+<TABLE CELLPADDING="0" WIDTH="100%" ALIGN="CENTER">
+<TR VALIGN="MIDDLE">
+<TD NOWRAP ALIGN="CENTER"><IMG
+ WIDTH="162" HEIGHT="147" BORDER="0"
+ SRC="img88.png"
+ ALT="\begin{displaymath}\begin{split}&amp; y=\chi_1 x^{\nu}  &amp; d_1=\frac{c\beta x^{\nu}...
+...ha x^{\nu}}{1+\beta x^{\nu}+\sigma \beta^2x^{2\nu}} \end{split}\end{displaymath}"></TD>
+<TD NOWRAP WIDTH="10" ALIGN="RIGHT">
+(12)</TD></TR>
+</TABLE></DIV>
+<BR CLEAR="ALL"><P></P><FONT COLOR="#000080"></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">Soit 
+<FONT COLOR="#000080"><!-- MATH
+ $u=\beta^{1/\nu}x$
+ -->
+<IMG
+ WIDTH="74" HEIGHT="36" ALIGN="MIDDLE" BORDER="0"
+ SRC="img89.png"
+ ALT="\bgroup\color{NavyBlue}$ u=\beta^{1/\nu}x$\egroup"></FONT> .
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">Alors
+</FONT></FONT><P></P>
+<DIV ALIGN="CENTER"><A NAME="eq:1"></A><!-- MATH
+ \begin{equation}
+u=\frac{\alpha \beta^{1/\nu-1}u^{\nu}}{1+u^{\nu}+\sigma u^{2\nu}}
+\end{equation}
+ -->
+<TABLE CELLPADDING="0" WIDTH="100%" ALIGN="CENTER">
+<TR VALIGN="MIDDLE">
+<TD NOWRAP ALIGN="CENTER"><IMG
+ WIDTH="135" HEIGHT="57" ALIGN="MIDDLE" BORDER="0"
+ SRC="img90.png"
+ ALT="$\displaystyle u=\frac{\alpha \beta^{1/\nu-1}u^{\nu}}{1+u^{\nu}+\sigma u^{2\nu}}$"></TD>
+<TD NOWRAP WIDTH="10" ALIGN="RIGHT">
+(13)</TD></TR>
+</TABLE></DIV>
+<BR CLEAR="ALL"><P></P><FONT COLOR="#000080"></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">L'&#233;quation (<A HREF="node12.html#eq:1"><IMG  ALIGN="BOTTOM" BORDER="1" ALT="[*]" SRC="crossref.png"></A>) a les racines 
+<FONT COLOR="#000080"><!-- MATH
+ $u_1=0, ~~u_2=1$
+ -->
+<IMG
+ WIDTH="113" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img91.png"
+ ALT="\bgroup\color{NavyBlue}$ u_1=0,&nbsp;&nbsp;u_2=1$\egroup"></FONT> lorsque
+</FONT></FONT><P></P>
+<DIV ALIGN="CENTER"><A NAME="eq:2"></A><!-- MATH
+ \begin{equation}
+\alpha \beta^{1/\nu-1}=2+\sigma
+\end{equation}
+ -->
+<TABLE CELLPADDING="0" WIDTH="100%" ALIGN="CENTER">
+<TR VALIGN="MIDDLE">
+<TD NOWRAP ALIGN="CENTER"><IMG
+ WIDTH="120" HEIGHT="37" ALIGN="MIDDLE" BORDER="0"
+ SRC="img92.png"
+ ALT="$\displaystyle \alpha \beta^{1/\nu-1}=2+\sigma$"></TD>
+<TD NOWRAP WIDTH="10" ALIGN="RIGHT">
+(14)</TD></TR>
+</TABLE></DIV>
+<BR CLEAR="ALL"><P></P><FONT COLOR="#000080"></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">est satisfaite.
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">Tant que 
+<FONT COLOR="#000080"><IMG
+ WIDTH="42" HEIGHT="29" ALIGN="MIDDLE" BORDER="0"
+ SRC="img93.png"
+ ALT="\bgroup\color{NavyBlue}$ \nu \ne 1$\egroup"></FONT>, ceci ne change pas la g&#233;n&#233;ralit&#233; car un changement de 
+<FONT COLOR="#000080"><IMG
+ WIDTH="14" HEIGHT="29" ALIGN="MIDDLE" BORDER="0"
+ SRC="img2.png"
+ ALT="\bgroup\color{NavyBlue}$ \beta$\egroup"></FONT> est un changement d'&#233;chelle sur 
+<FONT COLOR="#000080"><IMG
+ WIDTH="13" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img94.png"
+ ALT="\bgroup\color{NavyBlue}$ x$\egroup"></FONT>.
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">En &#233;crivant la fonction 
+<FONT COLOR="#000080"><!-- MATH
+ $f(u)=-u+\frac{(2+\sigma)u^{\nu}}{1+u^{\nu}+\sigma u^{2\nu}}$
+ -->
+<IMG
+ WIDTH="169" HEIGHT="40" ALIGN="MIDDLE" BORDER="0"
+ SRC="img95.png"
+ ALT="\bgroup\color{NavyBlue}$ f(u)=-u+\frac{(2+\sigma)u^{\nu}}{1+u^{\nu}+\sigma u^{2\nu}}$\egroup"></FONT>, si 
+<FONT COLOR="#000080"><IMG
+ WIDTH="42" HEIGHT="29" ALIGN="MIDDLE" BORDER="0"
+ SRC="img93.png"
+ ALT="\bgroup\color{NavyBlue}$ \nu \ne 1$\egroup"></FONT>,
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">alors 
+<FONT COLOR="#000080"><!-- MATH
+ $f'(0)=-1, f'(1)=-1+\frac{\nu(1-\sigma)}{2+\sigma}$
+ -->
+<IMG
+ WIDTH="227" HEIGHT="40" ALIGN="MIDDLE" BORDER="0"
+ SRC="img96.png"
+ ALT="\bgroup\color{NavyBlue}$ f'(0)=-1, f'(1)=-1+\frac{\nu(1-\sigma)}{2+\sigma}$\egroup"></FONT>.
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">Ceci justifie les conditions suivantes:
+</FONT></FONT><P></P>
+<DIV ALIGN="CENTER"><A NAME="eq:3"></A><!-- MATH
+ \begin{equation}
+\begin{split}
+& \nu \ne 1 \\
+& -1+\frac{\nu(1-\sigma)}{2+\sigma} < 0
+\end{split}
+\end{equation}
+ -->
+<TABLE CELLPADDING="0" WIDTH="100%" ALIGN="CENTER">
+<TR VALIGN="MIDDLE">
+<TD NOWRAP ALIGN="CENTER"><IMG
+ WIDTH="138" HEIGHT="67" BORDER="0"
+ SRC="img97.png"
+ ALT="\begin{displaymath}\begin{split}&amp; \nu \ne 1  &amp; -1+\frac{\nu(1-\sigma)}{2+\sigma} &lt; 0 \end{split}\end{displaymath}"></TD>
+<TD NOWRAP WIDTH="10" ALIGN="RIGHT">
+(15)</TD></TR>
+</TABLE></DIV>
+<BR CLEAR="ALL"><P></P><FONT COLOR="#000080"></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">alors les deux solutions 
+<FONT COLOR="#000080"><IMG
+ WIDTH="49" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img98.png"
+ ALT="\bgroup\color{NavyBlue}$ u_1=0$\egroup"></FONT> et 
+<FONT COLOR="#000080"><IMG
+ WIDTH="49" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img99.png"
+ ALT="\bgroup\color{NavyBlue}$ u_2=1$\egroup"></FONT> sont stables 
+<FONT COLOR="#000080"><!-- MATH
+ $(f'(u_1)<0,f'(u_2)<0$
+ -->
+<IMG
+ WIDTH="161" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="img100.png"
+ ALT="\bgroup\color{NavyBlue}$ (f'(u_1)&lt;0,f'(u_2)&lt;0$\egroup"></FONT>,
+d'o&#249; le nom de bistabilit&#233;, et il existe une troisi&#232;me racine instable 
+<FONT COLOR="#000080"><IMG
+ WIDTH="79" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img101.png"
+ ALT="\bgroup\color{NavyBlue}$ 0&lt;u_3&lt;1$\egroup"></FONT> o&#249; 
+<FONT COLOR="#000080"><!-- MATH
+ $f'(u_3) >0$
+ -->
+<IMG
+ WIDTH="76" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="img102.png"
+ ALT="\bgroup\color{NavyBlue}$ f'(u_3) &gt;0$\egroup"></FONT>.
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"></FONT>
+<DIV ALIGN="CENTER">
+
+<P><A NAME="figure3"></A></P><IMG
+ WIDTH="555" HEIGHT="482" BORDER="0"
+ SRC="img103.png"
+ ALT="\begin{figure}\par\begin{center}
+\epsfysize =3.5in \epsfbox{progenes/toggle1.eps...
+...x'=f(x)$:
+$u_1=0,u_2=1$ , et l'instabilité de $u_3 \in ]u_1,u_2[$.}\end{figure}">
+</DIV><FONT COLOR="#000080"></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2"><U>Mod&#232;le stochastique</U>
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">Soit maintenant 
+<FONT COLOR="#000080"><IMG
+ WIDTH="12" HEIGHT="14" ALIGN="BOTTOM" BORDER="0"
+ SRC="img28.png"
+ ALT="\bgroup\color{NavyBlue}$ v$\egroup"></FONT> le volume dans lequel se passent les r&#233;actions.
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">On note 
+<FONT COLOR="#000080"><!-- MATH
+ $X_v,Y_v,D_v,D_{1v}$
+ -->
+<IMG
+ WIDTH="111" HEIGHT="29" ALIGN="MIDDLE" BORDER="0"
+ SRC="img104.png"
+ ALT="\bgroup\color{NavyBlue}$ X_v,Y_v,D_v,D_{1v}$\egroup"></FONT> les nombres de mol&#233;cules de
+
+<FONT COLOR="#000080"><!-- MATH
+ $X,X^{\nu},D,D_{1}$
+ -->
+<IMG
+ WIDTH="95" HEIGHT="29" ALIGN="MIDDLE" BORDER="0"
+ SRC="img105.png"
+ ALT="\bgroup\color{NavyBlue}$ X,X^{\nu},D,D_{1}$\egroup"></FONT> dans ce volume.
+
+<FONT COLOR="#000080"><!-- MATH
+ $(X_v,Y_v,D_v,D_{1v})$
+ -->
+<IMG
+ WIDTH="123" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="img106.png"
+ ALT="\bgroup\color{NavyBlue}$ (X_v,Y_v,D_v,D_{1v})$\egroup"></FONT> forme un processus de Markov de sauts.
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">Soient
+</FONT></FONT><!-- MATH
+ \begin{displaymath}
+\theta_1=(-\nu,1,0,0), \theta_2=(0,-1,-1,1), \theta_3=(0,-1,0,-1), \theta_4=(n,0,0,0), \theta_5=(-1,0,0,0)
+\end{displaymath}
+ -->
+<P></P>
+<DIV ALIGN="CENTER">
+<IMG
+ WIDTH="612" HEIGHT="32" ALIGN="MIDDLE" BORDER="0"
+ SRC="img107.png"
+ ALT="\bgroup\color{NavyBlue}$\displaystyle \theta_1=(-\nu,1,0,0), \theta_2=(0,-1,-1,1), \theta_3=(0,-1,0,-1), \theta_4=(n,0,0,0), \theta_5=(-1,0,0,0)$\egroup">
+</DIV><P></P><FONT COLOR="#000080"><FONT SIZE="+2">
+et 
+<FONT COLOR="#000080"><!-- MATH
+ $\vect X \in \mathbb{N}^4, ~~\vect x=v^{-1}\vect X=(x,y,d,d_1)$
+ -->
+<IMG
+ WIDTH="240" HEIGHT="33" ALIGN="MIDDLE" BORDER="0"
+ SRC="img108.png"
+ ALT="\bgroup\color{NavyBlue}$ \vect X \in \mathbb{N}^4,&nbsp;&nbsp;\vect x=v^{-1}\vect X=(x,y,d,d_1)$\egroup"></FONT>.
+Les param&#233;tres infinit&#233;simaux de la famille de processus de Markov sont:
+</FONT></FONT><!-- MATH
+ \begin{displaymath}
+\left \{
+ \begin{array}{l}
+q_{\vect X,\vect X +\theta_1}  =  k_1vx^{\nu} \\
+q_{\vect X,\vect X -\theta_1}  = k_{-1}vy \\
+q_{\vect X ,\vect X +\theta_2} = k_2vdy \\
+q_{\vect X ,\vect X -\theta_2} = k_{-2}vd_1  \\
+q_{\vect X ,\vect X +\theta_3}  = k_{3}vd_1y \\
+q_{\vect X ,\vect X -\theta_3}  = k_{-3}v(c-d-d_1) \\
+q_{\vect X ,\vect X +\theta_4}  = k_4vd_1p \\
+q_{\vect X ,\vect X +\theta_5} = k_5vx
+\end{array} \right.
+\end{displaymath}
+ -->
+<P></P>
+<DIV ALIGN="CENTER">
+<IMG
+ WIDTH="229" HEIGHT="168" ALIGN="MIDDLE" BORDER="0"
+ SRC="img109.png"
+ ALT="\bgroup\color{NavyBlue}$\displaystyle \left \{
+\begin{array}{l}
+q_{\vect X,\vect...
+...k_4vd_1p \\
+q_{\vect X ,\vect X +\theta_5} = k_5vx
+\end{array} \right.
+$\egroup">
+</DIV><P></P><FONT COLOR="#000080"></FONT>
+<P>
+<FONT COLOR="#000080"></FONT>
+<DIV ALIGN="CENTER">
+
+<P><A NAME="figure4"></A></P><IMG
+ WIDTH="555" HEIGHT="500" BORDER="0"
+ SRC="img110.png"
+ ALT="\begin{figure}\par\begin{center}
+\epsfysize =3.5in \epsfbox{progenes/toggle2.eps...
+...ant aux deux
+attracteurs sont marquées par des lignes horizontales
+}\end{figure}">
+</DIV><FONT COLOR="#000080"></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2"><U>Temps de sortie de l'&#233;tat 
+<FONT COLOR="#000080"><IMG
+ WIDTH="49" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img99.png"
+ ALT="\bgroup\color{NavyBlue}$ u_2=1$\egroup"></FONT></U>
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">Remarquons que l'&#233;tat 
+<FONT COLOR="#000080"><IMG
+ WIDTH="49" HEIGHT="28" ALIGN="MIDDLE" BORDER="0"
+ SRC="img98.png"
+ ALT="\bgroup\color{NavyBlue}$ u_1=0$\egroup"></FONT> est absorbant.
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2">On peut montrer que
+</FONT></FONT>
+<P>
+<FONT COLOR="#000080"></FONT><!-- MATH
+ \begin{displaymath}
+E(\tau) \approx \exp\{\frac{\beta ^{\nu}v}{k_5}\int_{x_3}^{x_1}
+\frac{k_5}{\beta^{1/\nu}}\frac{f(\beta^{1/\nu}x)}{\sigma^2(\beta^{1/\nu}x)}dx\}
+=\exp(av) .
+\end{displaymath}
+ -->
+<P></P>
+<DIV ALIGN="CENTER">
+<IMG
+ WIDTH="368" HEIGHT="57" ALIGN="MIDDLE" BORDER="0"
+ SRC="img111.png"
+ ALT="\bgroup\color{NavyBlue}$\displaystyle E(\tau) \approx \exp\{\frac{\beta ^{\nu}v}...
+.../\nu}}\frac{f(\beta^{1/\nu}x)}{\sigma^2(\beta^{1/\nu}x)}dx\}
+=\exp(av) .$\egroup">
+</DIV><P></P><FONT COLOR="#000080"></FONT>
+<P>
+<FONT COLOR="#000080"></FONT>
+<DIV ALIGN="CENTER">
+<IMG
+ WIDTH="509" HEIGHT="404" BORDER="0"
+ SRC="img112.png"
+ ALT="\begin{figure}\par\begin{center}
+\epsfysize =3.5in \epsfbox{progenes/toggle3.eps}\end{center}\end{figure}">
+</DIV><FONT COLOR="#000080"></FONT>
+<P>
+<FONT COLOR="#000080"><FONT SIZE="+2"><FONT SIZE="+1">Sortie de l'attracteur 
+<FONT COLOR="#000080"><IMG
+ WIDTH="54" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="img113.png"
+ ALT="\bgroup\color{NavyBlue}$ (y=1)$\egroup"></FONT> et absorbtion dans le
+deuxi&#232;me attracteur en 
+<FONT COLOR="#000080"><IMG
+ WIDTH="54" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="img114.png"
+ ALT="\bgroup\color{NavyBlue}$ (y=0)$\egroup"></FONT>. C'est le ph&#233;nom&#232;ne de basculement.
+On remarque que 
+<FONT COLOR="#000080"><IMG
+ WIDTH="45" HEIGHT="29" ALIGN="MIDDLE" BORDER="0"
+ SRC="img115.png"
+ ALT="\bgroup\color{NavyBlue}$ X,D_1$\egroup"></FONT> atteignent des valeurs nulles plusieurs
+fois mais le basculement se fait uniquement lorsque 
+<FONT COLOR="#000080"><IMG
+ WIDTH="54" HEIGHT="29" ALIGN="MIDDLE" BORDER="0"
+ SRC="img116.png"
+ ALT="\bgroup\color{NavyBlue}$ X_{\nu}=0$\egroup"></FONT>
+aussi. </FONT><A NAME="figure5"></A></FONT></FONT>
+<P>
+<FONT COLOR="#000080"></FONT>
+<DIV ALIGN="CENTER">
+
+<P><A NAME="figure6"></A></P><IMG
+ WIDTH="555" HEIGHT="462" BORDER="0"
+ SRC="img117.png"
+ ALT="\begin{figure}\par\begin{center}
+\epsfysize =3.5in \epsfbox{progenes/temps.eps}\...
+... en fonction du volume
+dans lequel se passe la chaîne de réactions.}\end{figure}">
+</DIV><FONT COLOR="#000080"></FONT>
+<P>
+<FONT COLOR="#000080"></FONT><HR>
+<!--Navigation Panel-->
+<A NAME="tex2html151"
+  HREF="node13.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next" SRC="next.png"></A> 
+<A NAME="tex2html149"
+  HREF="node11.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up" SRC="up.png"></A> 
+<A NAME="tex2html143"
+  HREF="node11.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous" SRC="prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html152"
+  HREF="node13.html">Modéle avec deux types</A>
+<B> Up:</B> <A NAME="tex2html150"
+  HREF="node11.html">Phénoméne de bistabilité et</A>
+<B> Previous:</B> <A NAME="tex2html144"
+  HREF="node11.html">Phénoméne de bistabilité et</A>
+<!--End of Navigation Panel-->
+<ADDRESS>
+Ovidiu Radulescu
+2004-01-21
+</ADDRESS>
+</BODY>
+</HTML>

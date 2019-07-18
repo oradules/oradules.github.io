@@ -1,0 +1,908 @@
+<!-- X-URL: http://www.sciencemag.org/cgi/reprint/298/5596/1241?maxtoshow=&HITS=10&hits=10&RESULTFORMAT=&searchid=1083049792064_218&stored_search=&FIRSTINDEX=0&volume=298&firstpage=1241&fdate=10/1/1995&tdate=4/30/2004 -->
+<BASE HREF="http://www.sciencemag.org/cgi/reprint/298/5596/1241?maxtoshow=&HITS=10&hits=10&RESULTFORMAT=&searchid=1083049792064_218&stored_search=&FIRSTINDEX=0&volume=298&firstpage=1241&fdate=10/1/1995&tdate=4/30/2004">
+
+
+
+
+
+
+
+
+<HTML>
+<HEAD>
+<TITLE>Science -- PDF Version: Hoffmann et al.  298 (5596):1241</TITLE>
+
+
+<BASE TARGET="_top">
+
+
+	
+<script type="text/javascript">
+
+
+<!-- 
+
+// Set Booleans for Browser Type
+
+var isNavPC;
+var isNavMac;
+var isIEMac;
+var isIEPC;
+
+if (parseInt(navigator.appVersion) >= 4) {
+
+        isNavMac = ((navigator.appName == "Netscape") && (navigator.platform.indexOf("Mac") != -1));
+        isNavPC = ((navigator.appName == "Netscape") && (navigator.platform.indexOf("Win") != -1));
+        isIEMac = ((navigator.appName.indexOf("Microsoft") != -1) && (navigator.platform.indexOf("Mac") != -1));
+        isIEPC = ((navigator.appName.indexOf("Microsoft") != -1) && (navigator.platform.indexOf("Win") != -1));
+
+} 
+
+
+// Set Booleans for DHTML
+
+var isLayers = ((isNavPC) || (isNavMac)); // Netscape 4, 5
+var isDivs = ((isIEPC) || (isIEMac));  // IE 4, 5
+var isOther = ((!isLayers) && (!isDivs)); // All Else
+
+
+// Set IE4 "all" and "style" for cross-platform functionality
+
+var coll = "";
+var stylo = ""; 
+
+if (isDivs) { 
+        coll = "all.";
+        stylo = ".style";
+}
+
+// Set Global Variables
+
+mName = new Array(); // name of menu
+menuX1 = new Array(); // top left X of layer
+menuY1 = new Array(); // top left Y of layer
+menuX2 = new Array(); // bottom right X of layer
+menuY2 = new Array(); // bottom right Y of layer
+menuX3 = new Array(); // point of right "L" in layer
+menuY3 = new Array(); // point of right "L" in layer
+menuX4 = new Array(); // point of left "L" in layer
+menuY4 = new Array(); // point of left "L" in layer
+
+
+mName[0] = "search";
+menuX1[0] = 202;
+menuY1[0] = 115;
+menuX2[0] = 376;
+menuY2[0] = 205;
+menuX3[0] = 339;
+menuY3[0] = 135;
+menuX4[0] = 202;
+menuY4[0] = 135;
+
+mName[1] = "browse";
+menuX1[1] = 338;
+menuY1[1] = 115;
+menuX2[1] = 533;
+menuY2[1] = 205;
+menuX3[1] = 447;
+menuY3[1] = 135;
+menuX4[1] = 338;
+menuY4[1] = 135;
+
+
+
+var mNum = -1; // says mouse is roaming, not on a menu at all
+
+
+// Start collecting Mouse Move Events
+
+if (!isOther) { 
+
+        if (isLayers) { document.captureEvents(Event.MOUSEMOVE); }
+        document.onmousemove = whereami;
+
+}
+
+// whereami function to track mousemoving
+
+function whereami(e) {
+
+        if (mNum == -1) { return; }
+        
+        if (isLayers) { x = e.pageX; y = e.pageY; }
+        if (isDivs) { 
+                x = event.clientX + document.body.scrollLeft; 
+                y = event.clientY + document.body.scrollTop; 
+        }
+
+        if ((( x > menuX3[mNum]) && ( y < menuY3[mNum])) || ((x < menuX1[mNum]) || (x > menuX2[mNum]) || (y < menuY1[mNum]) || (y > menuY2[mNum])) || ((x < menuX4[mNum]) && (y < menuY4[mNum]))) { 
+                hidez(mName[0]);
+                hidez(mName[1]);
+                mNum = -1;
+        }
+        
+} // End whereami function
+
+
+// Turn On New menu, turn off all others
+
+function menuOn(menuNum) {
+
+        for (i=0; i<2; i++) {
+        
+                if (i != menuNum) { hidez(mName[i]); }
+        
+        }       
+
+        showz(mName[menuNum]);
+        
+}
+
+                
+// Show layer/div
+
+function showz(mname) {
+
+        var obj = makeobj(mname);
+
+        if (isLayers) { 
+                obj.visibility = "show"; 
+        } else if (isDivs) { 
+                obj.visibility = "visible"; 
+        }
+        
+        return false;
+
+} // End showz function
+
+
+// Hide layers/divs
+
+function hidez(mname) {
+
+        var obj = makeobj(mname);
+        if (isLayers) { 
+                obj.visibility = "hide"; 
+        } else if (isDivs) { 
+                obj.visibility = "hidden"; 
+        }       
+
+} // End Hidez Function
+
+
+// General make object function for cross platform compatibility
+
+function makeobj(objname) {
+
+        var newobj;
+        
+        if (typeof objname == "string") {
+                newobj = eval("document." + coll + objname + stylo);
+        } else { newobj = objname; }
+        
+        return newobj;
+        
+} // End makeobj function
+
+// -->
+
+
+</script>
+
+
+<script type="text/javascript">
+
+
+<!-- 
+
+// Set Netscape Redraw
+
+if (isLayers) {         
+        var oWidth = innerWidth; 
+        var oHeight = innerHeight; 
+        window.onResize = navReload(); }
+
+function navReload() { 
+
+        if ((window.innerWidth != oWidth) || (window.innerHeight != oHeight)) { 
+                document.location=document.location; 
+        }
+        
+} // end navReload()
+
+// -->
+
+
+</script>
+
+<script language="JavaScript">
+
+
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v3.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+
+
+</script>
+
+<script language="JavaScript">
+
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+   document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+// -->
+
+</script>
+
+
+
+	<!-- has inhead tag -->
+	
+		 
+	 
+	<script language="JavaScript">
+	<!--
+	if ( top != self )
+	{
+		top.location.href = unescape(window.location.pathname);
+	}
+	//-->
+	</script>
+	
+		
+	
+		
+		
+	<script language="javascript">
+		<!-- 
+	function popwin(url,wid,hei,fromtop,fromleft) {
+		var winPref = "channelmode=no,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=auto,resizable=no,width=" + wid + ",height=" + hei + ",top=" + fromtop + ",left=" + fromleft;
+		window.open(url, "popwin", winPref);
+	}
+	// -->
+	</script>
+
+
+<meta name="robots" content="noindex,nofollow">
+
+
+<SCRIPT LANGUAGE="JavaScript"><!--
+	// PDF autoloading JavaScript
+	// Matthias Ferber, HighWire Press, 2001-2002
+
+	var timeoutID = 0;
+	var doAutoload;
+	
+	var ck_id = getCookie('lastpdf');
+	doAutoload = (ck_id != '298/5596/1241');
+	
+	function setPDFLoadedFlag() {
+	   document.cookie = 'lastpdf=' + escape('298/5596/1241') + "; path=/";
+	}
+
+	function loadPDF() {
+	   setPDFLoadedFlag();
+
+	   // Scan through all links on page looking for the one that
+	   // matches the PDF download.  Why do we do this arcane trick
+	   // instead of just duplicating the URL?  Because of a
+	   // situation where the page is being proxied and passed through
+	   // a link rewriter, which can't handle JavaScript.  This
+	   // bit of code, by determining the autoload URL at runtime,
+	   // picks up the rewritten URL and uses that.
+	   // Yecch! (mferber 11/19/03)
+	   pdfsuffix = '/298/5596/1241.pdf';
+	   for (i = 0; i < document.links.length; i++) {
+	      link = document.links[i];
+	      path = link.pathname;
+	      if (path.substring(path.length - pdfsuffix.length, path.length) == pdfsuffix) {
+	         // found match
+                 window.location = link.href;
+	         break;
+	      }
+	   }
+	}
+
+	// if user clicks on the link before the auto-load happens
+	function cancelLoadPDF() {
+	   setPDFLoadedFlag();
+	   clearTimeout(timeoutID);
+	}
+	
+	function getCookie(name) {
+		var cookie = " " + document.cookie;
+		var search = " " + name + "=";
+		var setStr = null;
+		var offset = 0;
+		var end = 0;
+		if (cookie.length > 0) {
+			offset = cookie.indexOf(search);
+			if (offset != -1) {
+				offset += search.length;
+				end = cookie.indexOf(";", offset)
+				if (end == -1) {
+					end = cookie.length;
+				}
+				setStr = unescape(cookie.substring(offset, end));
+			}
+		}
+		return(setStr);
+	}
+
+	function handleOnLoad() {
+		window.focus();
+		if (doAutoload)
+			timeoutID = setTimeout('loadPDF()', 1500);
+		return true;
+	}
+
+	window.onload = handleOnLoad;
+// --></SCRIPT>
+
+</HEAD>
+<body bgcolor="#eeeeee" text="#000000" link="#0000cc" vlink="#0000cc" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+
+	 
+	<!-- BEGIN MAIN TABLE - CONTAINER -->
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+	<!-- BEGIN BANNER ADS -->
+	<tr bgcolor="#666666" valign="top" align="center"> 
+
+		<!-- height hardcoded in case of missing ads -->
+		<td height="40" WIDTH="600" ALIGN=CENTER><a name="top"></a><TABLE BORDER=0><TR><TD>
+<A HREF="http://oas.highwire.org/RealMedia/ads/click_lx.ads/www.sciencemag.org/cgi/reprint/298/5596/69292343/TopLeft/sci/SOL-NAS-Cpy-4.14.04-5.14.04/Rolling-Sackler2.gif/38313062343431373430386530373530?tw_country_code=GB&maxtoshow=&HITS=10&hits=10&RESULTFORMAT=&searchid=1083049792064_218&stored_search=&FIRSTINDEX=0&volume=298&firstpage=1241&fdate=10/1/1995&tdate=4/30/2004&subject_collection_CELL_BIOL=true" target="new"><IMG BORDER=0 SRC="http://oas.highwire.org/RealMedia/ads/adstream_lx.ads/www.sciencemag.org/cgi/reprint/298/5596/69292343/TopLeft/sci/SOL-NAS-Cpy-4.14.04-5.14.04/Rolling-Sackler2.gif/38313062343431373430386530373530?tw_country_code=GB&maxtoshow=&HITS=10&hits=10&RESULTFORMAT=&searchid=1083049792064_218&stored_search=&FIRSTINDEX=0&volume=298&firstpage=1241&fdate=10/1/1995&tdate=4/30/2004&subject_collection_CELL_BIOL=true"  ALT="National Academy of Sciences" width=234 height=60></A>
+</TD><TD>
+<A HREF="http://oas.highwire.org/RealMedia/ads/click_lx.ads/www.sciencemag.org/cgi/reprint/298/5596/486067985/TopRight/sci/SOL-AAASHouseTopOnly/sage_ad_234x60.gif/38313062343431373430386530373530?tw_country_code=GB&maxtoshow=&HITS=10&hits=10&RESULTFORMAT=&searchid=1083049792064_218&stored_search=&FIRSTINDEX=0&volume=298&firstpage=1241&fdate=10/1/1995&tdate=4/30/2004&subject_collection_CELL_BIOL=true" target="_top"><IMG BORDER=0 SRC="http://oas.highwire.org/RealMedia/ads/adstream_lx.ads/www.sciencemag.org/cgi/reprint/298/5596/486067985/TopRight/sci/SOL-AAASHouseTopOnly/sage_ad_234x60.gif/38313062343431373430386530373530?tw_country_code=GB&maxtoshow=&HITS=10&hits=10&RESULTFORMAT=&searchid=1083049792064_218&stored_search=&FIRSTINDEX=0&volume=298&firstpage=1241&fdate=10/1/1995&tdate=4/30/2004&subject_collection_CELL_BIOL=true"  ALT="SAGE" width=234 height=60></A>
+</TD></TR></TABLE></td>
+	</tr>
+	<!-- END BANNER ADS -->
+	<!-- BEGIN TOP NAV --> 
+	<tr bgcolor="#4b4b4b" align="left" valign="top"> 
+		<td height="18" width="600"><A HREF="http://www.scienceonline.org"><img src="/icons/global_images/scionline_home_top1_off.gif" width="85" height="19" BORDER="0"></A><A HREF="/"><img src="/icons/global_images/scionline_home_top2_on.gif" width="121" height="19" BORDER="0"></A><A HREF="http://sciencenow.sciencemag.org"><img src="/icons/global_images/scionline_home_top3_off.gif" width="71" height="19" BORDER="0"></A><A HREF="http://nextwave.sciencemag.org"><img src="/icons/global_images/scionline_home_top4_off.gif" width="63" height="19" BORDER="0"></A><A HREF="http://www.scienceonline.org/ke"><img src="/icons/KE_off.gif" width="76" height="19" BORDER="0"></A><A HREF="http://recruit.sciencemag.org"><img src="/icons/global_images/scionline_home_top6_off.gif" width="92" height="19" BORDER="0"></A><A HREF="/feature/e-market/"><img src="/icons/global_images/scionline_home_top7_off.gif" width="89" height="19" BORDER="0"></A></td>
+	</tr>
+	<!-- END TOP NAV -->
+	<!-- BEGIN USER INFO BAR (BLANK) -->
+	<tr bgcolor="#999999"> 
+		<td height="20"><img src="/icons/global_images/shim.gif" width="1" height="1"><font color="#000000" face="Verdana, Arial, Helvetica, sans-serif" size="1"><img src="/icons/global_images/shim.gif" width="8" height="1">
+	
+	
+	
+	
+	
+	
+		<b>Institution: UNIV OF LEEDS</b>
+		<font color="#666666">|</font> <A TARGET="_top" style="text-decoration:no" HREF="/cgi/login?uri=%2Fcgi%2Freprint%2F298%2F5596%2F1241%3Fmaxtoshow%3D%26HITS%3D10%26hits%3D10%26RESULTFORMAT%3D%26searchid%3D1083049792064_218%26stored_search%3D%26FIRSTINDEX%3D0%26volume%3D298%26firstpage%3D1241%26fdate%3D10%2F1%2F1995%26tdate%3D4%2F30%2F2004"><FONT COLOR="#000000">Sign In as Individual</FONT></A>
+		
+		
+		
+		 <font color="#666666">|</font> <A TARGET="_top" style="text-decoration:no" HREF="/subscriptions/institutional-faq.dtl"><FONT COLOR="#000000">FAQ</FONT></A>
+		
+			
+			
+
+	
+<font color="#666666">|</font> <A TARGET="_top" style="text-decoration:no" HREF="http://www.sciencemag.org/subscriptions/my_access.dtl"><FONT COLOR="#000000">Access Rights</font></a>
+
+	
+<font color="#666666">|</font> <A TARGET="_top" style="text-decoration:no" HREF="https://aaas.realtimepub.com/membership/new_member_setup.asp"><font color = "#990000">Join AAAS</font></a>
+	<!-- INST -->
+	<!-- INDV -->
+	<!-- USER.PFA -->
+	<!-- USER.PFABSAIC -->
+	<!-- NOT GUEST -->
+		
+
+	
+
+	
+</font></td>
+	</tr>
+	<!-- END USER INFO BAR (BLANK) -->
+	<tr valign="top" align="left"> 
+		<td> 
+	<!-- BEGIN NESTED TABLE 1 - Science, magazine logos, DHTML MENUS -->      
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+		<td rowspan="2" align="left" valign="top"><A HREF="/"><img src="/icons/science_logo_sm.gif" width="110" height="34" BORDER="0"><img src="/icons/magazine_sm2.gif" width="120" height="34" align="top" BORDER="0"></A></td>
+        <td bgcolor="#cccccc" align="left" valign="top" width="100%"><A HREF="http://www.sciencemag.org/help/"><img src="/icons/newheader/help.gif" width="39" height="24" border="0" alt="Help"></A><A HREF="http://www.sciencemag.org/subscriptions/accessinfo.dtl"><img src="/icons/newheader/subscriptions.gif" width="87" height="24" border="0" alt="Subscriptions"></A><A HREF="http://www.sciencemag.org/cgi/feedback"><img src="/icons/newheader/feedback.gif" width="59" height="24" border="0" alt="Feedback"></A><A HREF="http://www.sciencemag.org/cgi/login?uri=/subscriptions/signedin.shtml"><img src="/icons/newheader/signin.gif" width="46" height="24" border="0" alt="Sign In"></A><A HREF="http://www.aaas.org"><IMG SRC="/icons/newheader/aaas.gif" BORDER=0 WIDTH="72" HEIGHT="24"></A></td>
+		</tr>
+		<tr>
+		<td width="100%" height="19" align="left" valign="top"><a href="/search.dtl" onMouseOver="mNum=0; menuOn(mNum)"><img src="/icons/global_images/search2.gif" width="108" height="20" border="0"></a><a href="/contents-by-date.0.shtml" onMouseOver="mNum=1; menuOn(mNum)"><img src="/icons/browse_sm.gif" width="109" height="20" border="0"></a><a href="/cgi/order"><img src="/icons/order_article.gif" width="154" height="18" border="0"></a></td>
+		</tr>
+		</table>
+	<!-- END NESTED TABLE 1 - Science, magazine logos, DHTML MENUS --> 
+	<!-- BEGIN NESTED TABLE 2 - PAGE CONTENT cellpadding must be 7 or text will not wrap correctly-->
+		<table width="100%" border="0" cellspacing="0" cellpadding="7">
+		<tr> 
+			<td valign="top" align="left" width="100%"><img src="/icons/global_images/shim.gif" width="5" height="1" align="right"><br>
+
+
+
+
+	
+
+
+	
+		<!-- beginning of outer tables -->
+		<table width="215" border="0" cellspacing="0" cellpadding="0" align="right">
+		<tr bgcolor="#ffffff"><td> 
+		<!-- beginning of inner table -->
+			<table width="212" border="0" cellspacing="0" cellpadding="3">
+				
+		
+		
+			
+	<tr>
+	<td width="4" align="left" valign="top" bgcolor="#FFFFFF"><img src="/icons/global_images/shim.gif" width="4" height="1"></td>
+	<td width="12" align="left" valign="top" bgcolor="#eeeeee"><img src="/icons/gray_arr_gray.gif" width="12" height="11"></td>
+	<td align="left" valign="top" bgcolor="#eeeeee">
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+				<A HREF="/cgi/content/abstract/298/5596/1241?maxtoshow=&HITS=10&hits=10&RESULTFORMAT=&searchid=1083049816021_224&stored_search=&FIRSTINDEX=0&volume=298&firstpage=1241&fdate=10/1/1995&tdate=4/30/2004"><b>Abstract</b> of this Article</A>
+			</font></td></tr>
+		
+		
+		
+
+		
+
+		
+
+		
+		
+	<tr>
+	<td width="4" align="left" valign="top" bgcolor="#FFFFFF"><img src="/icons/global_images/shim.gif" width="4" height="1"></td>
+	<td width="12" align="left" valign="top" bgcolor="#eeeeee"><img src="/icons/gray_arr_gray.gif" width="12" height="11"></td>
+	<td align="left" valign="top" bgcolor="#eeeeee">
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+			<b><A HREF="/cgi/content/full/298/5596/1241?maxtoshow=&HITS=10&hits=10&RESULTFORMAT=&searchid=1083049816021_224&stored_search=&FIRSTINDEX=0&volume=298&firstpage=1241&fdate=10/1/1995&tdate=4/30/2004">Full Text</b>
+			(HTML) of this Article</A>
+		</font></td></tr>
+		
+		
+		
+
+		
+		 
+
+		
+		
+		
+
+                
+                
+
+	                
+	                
+	                        
+	                        
+					
+				
+	                
+                
+		
+		
+
+				
+		
+		 
+		 
+		
+
+                
+
+
+
+                
+                
+                
+	<tr>
+	<td width="4" align="left" valign="top" bgcolor="#FFFFFF"><img src="/icons/global_images/shim.gif" width="4" height="1"></td>
+	<td width="12" align="left" valign="top" bgcolor="#eeeeee"><img src="/icons/gray_arr_gray.gif" width="12" height="11"></td>
+	<td align="left" valign="top" bgcolor="#eeeeee">
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+                <A HREF="/cgi/content/full/298/5596/1241/DC1">Supporting Online Material</A>
+                </font></td></tr>
+                
+                
+
+                
+
+
+
+
+		
+	
+        <tr>
+        <td width="4" align="left" valign="top" bgcolor="#FFFFFF"><img src="/icons/global_images/shim.gif" width="4" height="1"></td>
+	 <td width="12" align="left" valign="top" bgcolor="#eeeeee" height="11">&nbsp;</td>
+        <td align="left" valign="top" bgcolor="#eeeeee">
+        <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+	<hr noshade width="155" align="left">
+	</font></td></tr>
+
+
+
+
+
+                
+
+
+                
+
+                
+		
+                
+	<tr>
+	<td width="4" align="left" valign="top" bgcolor="#FFFFFF"><img src="/icons/global_images/shim.gif" width="4" height="1"></td>
+	<td width="12" align="left" valign="top" bgcolor="#eeeeee"><img src="/icons/gray_arr_gray.gif" width="12" height="11"></td>
+	<td align="left" valign="top" bgcolor="#eeeeee">
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+                        <A HREF="#related"><B>Related commentary and articles in <I>Science</I> products</B></A>
+                </font></td></tr>
+		
+	
+        <tr>
+        <td width="4" align="left" valign="top" bgcolor="#FFFFFF"><img src="/icons/global_images/shim.gif" width="4" height="1"></td>
+	 <td width="12" align="left" valign="top" bgcolor="#eeeeee" height="11">&nbsp;</td>
+        <td align="left" valign="top" bgcolor="#eeeeee">
+        <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+	<hr noshade width="155" align="left">
+	</font></td></tr>
+
+                
+
+                
+                        
+	<tr>
+	<td width="4" align="left" valign="top" bgcolor="#FFFFFF"><img src="/icons/global_images/shim.gif" width="4" height="1"></td>
+	<td width="12" align="left" valign="top" bgcolor="#eeeeee"><img src="/icons/gray_arr_gray.gif" width="12" height="11"></td>
+	<td align="left" valign="top" bgcolor="#eeeeee">
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+                        <A HREF="/cgi/citmgr?gca=sci;298/5596/1241">Download to Citation Manager</A>
+                        </font></td></tr>
+                
+
+
+                
+                
+                
+	<tr>
+	<td width="4" align="left" valign="top" bgcolor="#FFFFFF"><img src="/icons/global_images/shim.gif" width="4" height="1"></td>
+	<td width="12" align="left" valign="top" bgcolor="#eeeeee"><img src="/icons/gray_arr_gray.gif" width="12" height="11"></td>
+	<td align="left" valign="top" bgcolor="#eeeeee">
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+                Alert me when:
+                <BR><A HREF="/cgi/alerts/ctalert?alertType=citedby&addAlert=cited_by&saveAlert=no&cited_by_criteria_resid=sci;298/5596/1241&return_type=article&return_url=%2Fcgi%2Freprint%2F298%2F5596%2F1241%3Fmaxtoshow%3D%26HITS%3D10%26hits%3D10%26RESULTFORMAT%3D%26searchid%3D1083049792064_218%26stored_search%3D%26FIRSTINDEX%3D0%26volume%3D298%26firstpage%3D1241%26fdate%3D10%2F1%2F1995%26tdate%3D4%2F30%2F2004"><FONT SIZE="-1">new articles cite this article</FONT></A><BR>
+                </font></td></tr>
+                
+                
+
+		
+	
+        <tr>
+        <td width="4" align="left" valign="top" bgcolor="#FFFFFF"><img src="/icons/global_images/shim.gif" width="4" height="1"></td>
+	 <td width="12" align="left" valign="top" bgcolor="#eeeeee" height="11">&nbsp;</td>
+        <td align="left" valign="top" bgcolor="#eeeeee">
+        <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+	<hr noshade width="155" align="left">
+	</font></td></tr>
+
+
+	
+	
+	
+		
+		
+		
+		
+	
+		
+		
+	<tr>
+	<td width="4" align="left" valign="top" bgcolor="#FFFFFF"><img src="/icons/global_images/shim.gif" width="4" height="1"></td>
+	<td width="12" align="left" valign="top" bgcolor="#eeeeee"><img src="/icons/gray_arr_gray.gif" width="12" height="11"></td>
+	<td align="left" valign="top" bgcolor="#eeeeee">
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+			Search for similar articles in:
+			
+				<BR>&nbsp;&nbsp;<A HREF="/cgi/search?qbe=sci;298/5596/1241&journalcode=sci&minscore=5000"><FONT SIZE="-1"><I>Science</I> Online</FONT></A>
+				
+				<BR>&nbsp;&nbsp;<A HREF="/cgi/external_ref?access_num=sci%3B298%2F5596%2F1241&link_type=ISI_RelatedRecords"><FONT SIZE="-1">ISI Web of Science</FONT></A>
+				<BR>&nbsp;&nbsp;<A HREF="/cgi/external_ref?access_num=12424381&link_type=MED_NBRS"><FONT SIZE="-1">PubMed</FONT></A>
+		</font></td></tr>
+		
+		
+
+
+
+		
+	<tr>
+	<td width="4" align="left" valign="top" bgcolor="#FFFFFF"><img src="/icons/global_images/shim.gif" width="4" height="1"></td>
+	<td width="12" align="left" valign="top" bgcolor="#eeeeee"><img src="/icons/gray_arr_gray.gif" width="12" height="11"></td>
+	<td align="left" valign="top" bgcolor="#eeeeee">
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+			Search Medline for articles by:<BR>
+			
+			
+				<A HREF="/cgi/external_ref?access_num=Hoffmann+A&link_type=AUTHORSEARCH">Hoffmann, A.</A>
+				 || 
+			
+				<A HREF="/cgi/external_ref?access_num=Baltimore+D&link_type=AUTHORSEARCH">Baltimore, D.</A>
+				
+			
+		</font></td></tr>
+		
+
+		
+		
+	<tr>
+	<td width="4" align="left" valign="top" bgcolor="#FFFFFF"><img src="/icons/global_images/shim.gif" width="4" height="1"></td>
+	<td width="12" align="left" valign="top" bgcolor="#eeeeee"><img src="/icons/gray_arr_gray.gif" width="12" height="11"></td>
+	<td align="left" valign="top" bgcolor="#eeeeee">
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+			Search for citing articles in:
+			
+			<BR>&nbsp;&nbsp;<A HREF="/cgi/external_ref?access_num=sci%3B298%2F5596%2F1241&link_type=ISI_Citing">ISI Web of Science (51)</A>
+
+                
+		</font></td></tr>
+		
+
+
+
+		
+
+
+		
+
+		
+		
+	
+        <tr>
+        <td width="4" align="left" valign="top" bgcolor="#FFFFFF"><img src="/icons/global_images/shim.gif" width="4" height="1"></td>
+	 <td width="12" align="left" valign="top" bgcolor="#eeeeee" height="11">&nbsp;</td>
+        <td align="left" valign="top" bgcolor="#eeeeee">
+        <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+	<hr noshade width="155" align="left">
+	</font></td></tr>
+
+			
+			
+				
+	<tr>
+	<td width="4" align="left" valign="top" bgcolor="#FFFFFF"><img src="/icons/global_images/shim.gif" width="4" height="1"></td>
+	<td width="12" align="left" valign="top" bgcolor="#eeeeee"><img src="/icons/gray_arr_gray.gif" width="12" height="11"></td>
+	<td align="left" valign="top" bgcolor="#eeeeee">
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+					
+						This article appears in the following Subject Collections:<BR>
+					
+					<b>
+					
+					<A HREF="/cgi/collection/cell_bio">Cell Biology</A>
+					</b>
+					
+					
+				</font></td></tr>
+			
+			
+			
+			
+		</tr>
+		
+        
+        
+ 
+
+	</table> 
+	</td></tr> <!-- end of inner content box -->
+	</table>	 <!-- end of outer content box -->
+
+
+
+<STRONG><FONT SIZE="+2" FACE="verdana,arial,helvetica">PDF Version</FONT></STRONG>
+<P> 
+
+		<TABLE CELLSPACING="0" CELLPADDING="10" WIDTH="250" BORDER="0"><TR><TD ALIGN=CENTER BGCOLOR="#E1E1E1">
+		<FONT FACE="verdana,arial,helvetica"><STRONG><FONT SIZE=+1>Automatic download</FONT><BR><FONT SIZE="-1">[<A TARGET="_self" HREF="/cgi/reprint/298/5596/1241.pdf" onClick="cancelLoadPDF()">Begin manual download</A>]</STRONG></FONT><BR><BR>
+
+		<FONT SIZE=-1><STRONG>Downloading the PDF<BR>version of:</STRONG><BR>
+		<STRONG><EM><EM>Science</EM></EM></STRONG> Hoffmann et al. 298 (5596): 1241.</FONT>
+		<STRONG><FONT SIZE="-2" FACE="verdana,arial,helvetica">(348K)</FONT></STRONG>
+		
+		</TD></TR></TABLE>
+	        <BR CLEAR="RIGHT">
+
+
+
+	
+	<P>
+	<FONT SIZE="-1" FACE="verdana,arial,helvetica,sans-serif"><STRONG>This file is in Adobe Acrobat (PDF) format</STRONG>. If you have not installed and configured the Adobe Acrobat Reader on your system, see <A HREF="/help/print_help.dtl#acroread">Help with Printing</A> for instructions.</FONT>
+	
+	<DL><DT><P><STRONG><FONT SIZE="-1" FACE="verdana,arial,helvetica,sans-serif" COLOR="#999933">Having trouble reading a PDF?</FONT></STRONG>
+	<DD><FONT SIZE="-2" FACE="verdana,arial,helvetica,sans-serif">
+	PDFs are designed to be printed out and read, but if you prefer to read them online,
+	you may find it easier if you increase the view size to 125%.
+</FONT>
+	
+	<DT><P><STRONG><FONT SIZE="-1" FACE="verdana,arial,helvetica,sans-serif" COLOR="#999933">Having trouble saving a PDF?</FONT></STRONG>
+	<DD><FONT SIZE="-2" FACE="verdana,arial,helvetica,sans-serif">Many versions of the free Acrobat Reader do not allow Save. You must instead save the 
+	PDF from the SCIENCE Online page you downloaded it from. PC users: 
+	Right-click on the Download link and choose the option that says "Save Target 
+	As..." (Explorer) or "Save Link As..." (Netscape). Mac users should hold the mouse 
+	button down on the link to get these same options.</FONT></DL>
+
+	<STRONG><FONT SIZE="-1" FACE="verdana,arial,helvetica,sans-serif" COLOR="#999933">Having trouble printing a PDF?</FONT></STRONG>
+	<OL>
+		<FONT SIZE="-2" FACE="verdana,arial,helvetica,sans-serif">
+	
+		<LI><P><STRONG><FONT COLOR="#999933">You must be using at least version
+		3.01 of the Adobe
+		Acrobat Reader software.</FONT></STRONG> See <A HREF="/help/print_help.dtl#acroread">Help with Printing</A> for installation instructions.
+	
+	<LI><P><STRONG>Try printing one page at a time.</STRONG>
+	
+	<LI><P><STRONG>Try printing with the 'Print as Image' option selected.</STRONG>
+	
+	<LI><P><STRONG>Try printing to a newer printer.</STRONG>
+	(NOTE for Macintosh users: A number of users have reported problems printing PDFs
+	with the LaserWriter Driver version 8.4. We suggest using an earlier or later version.)
+	
+	<LI><P><STRONG>Try saving the file to disk before printing</STRONG> rather than opening it "on the
+	fly." This requires that you configure your browser to "Save" rather than
+	"Launch Application" for the file type "application/pdf," and can usually
+	be done in the "Helper Applications" options.
+	
+	
+	
+	<LI><P><STRONG>Are you getting Postscript errors on your Mac?</STRONG>
+	A frequent cause is a lack of communication of postscript commands between
+	your computer and your printer. Postscript communication on a Mac is handled
+	by the Control Panel called "~ATM". To see if you have installed
+	"~ATM", go to the "System Folder / Control Panels"
+	folder and look for "~ATM". If the control panel is not present
+	you will need to install it. If the "~ATM" is installed,
+	check to make sure that you are using the most recent version, v4.0 or
+	higher. You can check the version number by selecting the "~ATM"
+	icon and choosing "Get info..." from the "File" menu.
+	<P>
+	If you do not have "~ATM" installed or need to upgrade to the
+	latest version, you can get this software from the
+	<A HREF="http://www.adobe.com/prodindex/acrobat/readstep.html">Acrobat web site</A>.
+	If you recently downloaded Acrobat, you may already
+	have this Control Panel on your computer and just need to install it. When
+	you download Acrobat, "~ATM" comes along in a folder called
+	"Fonts" and will be located in the Acrobat folder. Drag the
+	"~ATM" icon onto your System Folder to install it.
+	
+	<LI><P><STRONG>Are some lines on each page getting cut off?</STRONG>
+	<BR>
+	Are you running MacOS version 8? The default paper size is "Letter Small." Change this setting
+	to "US Letter" in "File/Page Setup" and you should be able to print full pages.
+	
+	<LI><P><STRONG>If the file is taking more than 15 minutes to download</STRONG>, see
+	<A HREF="/help/slow.dtl">Tips for users experiencing slow response</A>.
+	
+		<P>
+		<LI><STRONG>More Questions?</STRONG> See <A HREF="/help/pdf-faq.dtl">Frequently Asked Questions about PDFs</A></FONT>
+	</OL>
+	
+
+
+
+
+	
+	        <br>
+	        </td>
+	<!-- END ARTICLE ABSTRACT TEXT -->
+	    </tr>
+	        </table>
+	<!-- END NESTED TABLE 2 - PAGE CONTENT -->
+	<!-- BEGIN NESTED TABLE 3 - PAGE FOOTER -->     
+	        <table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr bgcolor="#eeeeee" valign="top" align="center">
+
+                <!-- height hardcoded in case of missing ads -->
+                <td height="40"><TABLE><TR><TD>
+<A HREF="http://oas.highwire.org/RealMedia/ads/click_lx.ads/www.sciencemag.org/cgi/reprint/298/5596/639443118/BottomLeft/sci/SOL-AAASHouseBottomLftOnly/crossref2.gif/38313062343431373430386530373530?tw_country_code=GB&maxtoshow=&HITS=10&hits=10&RESULTFORMAT=&searchid=1083049792064_218&stored_search=&FIRSTINDEX=0&volume=298&firstpage=1241&fdate=10/1/1995&tdate=4/30/2004&subject_collection_CELL_BIOL=true" target="new"><IMG BORDER=0 SRC="http://oas.highwire.org/RealMedia/ads/adstream_lx.ads/www.sciencemag.org/cgi/reprint/298/5596/639443118/BottomLeft/sci/SOL-AAASHouseBottomLftOnly/crossref2.gif/38313062343431373430386530373530?tw_country_code=GB&maxtoshow=&HITS=10&hits=10&RESULTFORMAT=&searchid=1083049792064_218&stored_search=&FIRSTINDEX=0&volume=298&firstpage=1241&fdate=10/1/1995&tdate=4/30/2004&subject_collection_CELL_BIOL=true"  ALT="crossref.org" width=234 height=60></A>
+</TD><TD>
+<A HREF="http://oas.highwire.org/RealMedia/ads/click_lx.ads/www.sciencemag.org/cgi/reprint/298/5596/1191280896/BottomRight/sci/SOL-AAASHouseBottomOnly/sciencenowsmall2.gif/38313062343431373430386530373530?tw_country_code=GB&maxtoshow=&HITS=10&hits=10&RESULTFORMAT=&searchid=1083049792064_218&stored_search=&FIRSTINDEX=0&volume=298&firstpage=1241&fdate=10/1/1995&tdate=4/30/2004&subject_collection_CELL_BIOL=true" target="new"><IMG BORDER=0 SRC="http://oas.highwire.org/RealMedia/ads/adstream_lx.ads/www.sciencemag.org/cgi/reprint/298/5596/1191280896/BottomRight/sci/SOL-AAASHouseBottomOnly/sciencenowsmall2.gif/38313062343431373430386530373530?tw_country_code=GB&maxtoshow=&HITS=10&hits=10&RESULTFORMAT=&searchid=1083049792064_218&stored_search=&FIRSTINDEX=0&volume=298&firstpage=1241&fdate=10/1/1995&tdate=4/30/2004&subject_collection_CELL_BIOL=true"  ALT="Science Now" width=234 height=60></A>
+</TD></TR></TABLE></td>
+        </tr>
+        <tr bgcolor="#eeeeee" align="left" valign="top">
+                <td height="10" width="600"><img src="/icons/global_images/shim.gif" width="1" height="10" align="left"></td>
+        </tr>
+	    <tr align="left" valign="middle" bgcolor="#eeeeee"> 
+	                <td><img src="/icons/global_images/greydot_cccccc.gif" width="100%" height="2"><br>
+	        <br>
+	        <img src="/icons/global_images/shim.gif" width="7" height="1"><a href="#top"><img src="/icons/global_images/page_top.gif" width="70" height="11" border="0"></a><img src="/icons/global_images/shim.gif" width="39" height="1"> 
+	        <A STYLE="text-decoration:no" HREF="/misc/copyright.dtl"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" COLOR="#000000">Copyright &copy; 2002 by The American Association for the Advancement of Science.  All rights reserved.</font></A><br>
+	        <br>
+	        </td>
+	        </tr>
+	        <tr align="left" valign="middle" bgcolor="#eeeeee" height="100%"> 
+	                <td><img src="/icons/global_images/shim.gif" width="1" height="100%"></td>
+	        </tr>
+	    </table>
+	<!-- END NESTED TABLE 3 - PAGE FOOTER -->
+	    </td>
+	</tr>
+	</table>
+	<!-- END MAIN TABLE - CONTAINER -->
+	
+	
+	<script language="JavaScript">
+<!--
+	if (!isOther) { 
+	        var search_menu = '';
+	        search_menu += '<img src="/icons/global_images/shim.gif" width="1" height="19"><br>';
+	        search_menu += '<a href="http://www.sciencemag.org/search.dtl" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage(&#039;science_magazine&#039;,&#039;&#039;,&#039;/icons/sci_mag_roll_over.gif&#039;,0)"><img name="science_magazine" border="0" src="/icons/sci_mag_roll_up.gif" width="146" height="18"></a><br>';
+	        search_menu += '<a href="http://www.sciencenow.org/search.dtl" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage(&#039;science_now&#039;,&#039;&#039;,&#039;/icons/sci_now_roll_over.gif&#039;,0)"><img name="science_now" border="0" src="/icons/sci_now_roll_up.gif" width="146" height="17"></a><br>';
+	        search_menu += '<a href="http://www.nextwave.org/search.dtl" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage(&#039;science_next_wave&#039;,&#039;&#039;,&#039;/icons/next_wave_roll_over.gif&#039;,0)"><img name="science_next_wave" border="0" src="/icons/next_wave_roll_up.gif" width="146" height="17"></a><br>';
+	        search_menu += '<a href="/searchall/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage(&#039;highwire&#039;,&#039;&#039;,&#039;/icons/highwire_roll_over.gif&#039;,0)"><img name="highwire" border="0" src="/icons/highwire_roll_up.gif" width="146" height="17"></a><br>';
+	        if (isLayers) { document.write('<layer name="search" left=230 top=116 z-index=15 visibility="hidden">' + search_menu + '</layer>'); 
+	        } else if (isDivs) { document.write('<div id="search" style="position:absolute; left:230px; top:116px; z-index:15; visibility:hidden">' + search_menu + '</div>'); }
+	}
+// -->
+	</script>
+	<script language="JavaScript">
+<!--
+	if (!isOther) { 
+	        var browse_menu = '';
+	        browse_menu += '<img src="/icons/global_images/shim.gif" width="1" height="19"><br>';
+	        browse_menu += '<a href="/content/current" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage(&#039;browse_button&#039;,&#039;&#039;,&#039;/icons/current_issue_roll_over.gif&#039;,1)"><img name="browse_button" border="0" src="/icons/current_issue_roll_up.gif" width="194" height="17"></a><br>';
+	        browse_menu += '<a href="/contents-by-date.0.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage(&#039;archives&#039;,&#039;&#039;,&#039;/icons/archives_roll_over.gif&#039;,1)"><img name="archives" border="0" src="/icons/archives_roll_up.gif" width="194" height="17"></a><br>';
+	        browse_menu += '<a href="/collections/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage(&#039;subject&#039;,&#039;&#039;,&#039;/icons/subject_roll_over.gif&#039;,1)"><img name="subject" border="0" src="/icons/subject_roll_up.gif" width="194" height="17"></a><br>';
+			browse_menu += '<a href="http://sciencenow.sciencemag.org/archives.shtml" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage(&#039;nowarc&#039;,&#039;&#039;,&#039;/icons/scinow_arc_roll_over.gif&#039;,1)"><img name="nowarc" border="0" src="/icons/scinow_arc_roll_up.gif" width="194" height="17"></a><br>';
+	        if (isLayers) { document.write('<layer name="browse" left=339 top=116 z-index=15 visibility="hidden">' + browse_menu + '</layer>'); 
+	        } else if (isDivs) { document.write('<div id="browse" style="position:absolute; left:339px; top:116px; z-index:15; visibility:hidden">' + browse_menu + '</div>'); }
+	}
+// -->
+	</script>
+
+
+
+
+</BODY>
+</HTML>
+

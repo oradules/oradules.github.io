@@ -1,0 +1,8 @@
+AuthName file
+AuthUserFile /USERS/ovidiu/.htpasswd
+AuthGroupFile /dev/null
+AuthType Basic
+
+<limit GET POST>
+require valid-user
+</Limit>

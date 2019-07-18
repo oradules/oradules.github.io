@@ -1,0 +1,1150 @@
+\documentclass{article}
+
+\usepackage{html,makeidx,epsf,color,amsmath,amssymb,amsbsy}
+
+
+
+%\htmladdtonavigation{\htmladdnormallink {
+
+%\htmladdimg{../home.gif}}{http://name.math.univ-rennes1.fr/~ovidiu.radulescu}}
+
+
+
+\begin{latexonly}
+
+\tolerance=200 \pagestyle{headings} \textheight 8.5truein
+
+\textwidth 6truein \topmargin 0.25truein \oddsidemargin 0.25truein
+
+\evensidemargin 0.25truein
+
+\end{latexonly}
+
+
+
+\def\authorhomepage{http://name.math.univ-rennes1.fr/~ovidiu.radulescu}
+
+\def\thisdocURL{http://name.math.univ-rennes1.fr/~ovidiu.radulescu/suparmor/suparmor.html}
+
+\def\red{\color{red}}
+
+\def\blue{\color{blue}}
+
+\def\green{\color{green}}
+
+\def\cyan{\color{cyan}}
+
+\def\magenta{\color{goldenrod}}
+
+\def\black{\color{black}}
+\def\mblue{\color{MidnightBlue}}
+\def\nblue{\color{NavyBlue}}
+
+
+
+
+%\makeindex
+
+
+
+\begin{document}
+
+
+
+\title{
+{\bf \Huge \textsf{\mblue Le bruit et les m{\'e}canismes r{\'e}gulateurs de g{\`e}nes
+}}} \\
+
+
+\author{ \nblue \Large
+Ovidiu Radulescu \\
+Institut de Recherche en Math{\'e}matiques de Rennes \\
+Universit{\'e} de Rennes 1 }
+
+
+
+
+\maketitle
+
+
+%\tableofcontents
+
+
+
+\pagebreak
+
+
+
+\chapter{\magenta \textsf{\huge Introduction }}
+
+\nblue \Large
+
+La raison de tout syst{\`e}me biologique est de remplir une certaine
+fonction. Au cours de l'{\'e}volution le syst{\`e}me va changer de fa{\c c}on
+{\`a} remplir au mieux cette fonction. \\
+
+
+
+{\red Qu'est-ce le bruit?} \\
+
+Variabilit{\'e} {\'e}pig{\'e}n{\'e}tique : comportement, propri{\'e}t{\'e}s diff{\'e}rentes
+des individus (cellules) g{\'e}n{\'e}tiquement identiques. Par exemple
+niveaux d'expression de g{\`e}nes dans cellules du m{\^e}me type, cellules
+qui d{\'e}veloppent ou
+non le cancer. \\
+
+Variabilit{\'e} temporelle : le comportement et le propri{\'e}t{\'e}s d'un individu (cellule)
+fluctuent en fonction du temps.
+
+
+
+{\red Le bruit est in{\'e}vitable }
+
+\begin{itemize} \mblue \large
+\item
+les processus biochimiques impliquent un petit nombre de mol{\'e}cules.
+\item
+bruit thermique : tout objet microscopique est soumis {\`a} un mouvement
+$mv^2 \sim kT$.
+\item
+les cellules ne sont pas parfaitement identiques : param{\`e}tres d'{\'e}tat
+diff{\'e}rents, conditions de fonctionnement (environement) diff{\'e}rentes.
+\end{itemize}
+
+
+{\red Effets du bruit} \\
+
+syst{\`e}mes {\`a} reponse binaire : des sauts al{\'e}atoires entre niveaux
+produisent une
+reponse gradu{\'e}e et des longues {\'e}chelles de temps. \\
+
+syst{\`e}mes {\`a} reponse gradu{\'e}e : variabilit{\'e} de la reponse, mais aussi
+en certains cas une augmentation de la sensibilit{\'e} (focalisation
+stochastique).
+
+{\red Comment les r{\'e}seaux g{\'e}rent le bruit? }\\
+
+R{\'e}action n{\'e}gative, effet stabilisateur. \\
+
+En certains cas, le bruit permet l'acces {\`a} des {\'e}tats normalement
+peu accesibles ou inaccesibles avec des effets b{\'e}n{\'e}fiques pour la
+dynamique.
+
+
+\chapter{\magenta \textsf{\huge Mod{\'e}lisation du bruit }}
+
+\section{\magenta \textsf{\Large Bruit exp{\'e}rimental }}
+
+{\large
+d'apr{\`e}s Elowitz, Levine, Siggia, Swain,  \textsf{Stochastic gene
+expression in a single cell}, Science, 297, 2002 (1183)} \\
+
+
+Le bruit exp{\'e}rimental a deux sources et natures :
+
+
+Bruit extrins{\`e}que : provient du fait que deux cellules ne sont pas completement
+identiques.
+
+Bruit intrins{\`e}que : provient du fonctionement stochastique d'une cellule.
+
+On peut distinguer entre les deux si on fait des observations sur des
+cellules individuelles au cours du temps : pour une cellule on observe le bruit
+intrins{\`e}que.
+
+On ne peut pas distinguer entre les deux si les donn{\'e}es sont en vrac, provenant
+d'un ensemble statistique de cellules et/ou {\`a} des moments diff{\'e}rents.
+Alors le bruit observ{\'e} est la r{\'e}sultante
+des deux.
+
+Pour s{\'e}parer les deux types de bruit dans E.coli les auteurs ont
+fait des statistiques simultan{\'e}es des deux g{\`e}nes fluorescentes
+cyan (cfp) et jaune (yfp) controll{\'e}es par le m{\^e}me promoteur. Sans
+bruit intrins{\`e}que les niveaux cfp=yfp. Avec bruit intrins{\`e}que on
+remarque un nuage de points dans le graphe de yfp en fonction de
+cfp. Le bruit intrins{\`e}que est donc le bruit dans un mod{\`e}le
+lin{\'e}aire r{\'e}liant cfp et yfp. Sa variance est ce qu'en regression 
+s'appelle ``variance residuelle''. Le bruit extrins{\'e}que est orthogonal 
+(non-correl{\'e}) au bruit intrins{\'e}que. Sa variance est la
+``variance expliqu{\'e}e''.  
+
+
+Le niveau de IPTG ($\beta$-D-thiogalactopyranoside) agit sur les deux bruits, mais
+de fa{\c c}ons diff{\'e}rentes :
+
+IPTG inhibe le represseur LacI et augmente le taux de transcription.
+
+Le bruit intrins{\`e}que diminue monotoniquement avec IPTG, ce qui est normal.
+
+Le bruit extrins{\`e}que poss{\`e}de un maximum {\`a} des niveaux interm{\'e}diares de IPTG.
+Les auteurs expliquent ceci par un effet de saturation. A des faibles 
+niveaux de IPTG, il y a un fort niveau de LacI: l'inhibition de la 
+transcription sature et est peu sensible {\`a} la variabilit{\'e} cellulaire.
+A des forts niveaus de IPTG, le niveau de LacI est tr{\`e}s faible et
+la transcription est {\`a} la saturation (de nouveau peu sensible {\`a} la
+variabilit{\'e} cellulaire). 
+
+
+\section{\magenta \textsf{\Large Processus de Markov }}
+
+Pour mod{\'e}liser le bruit "intrins{\`e}que" on peut utiliser les
+processus de Markov.
+
+Processus de Markov : {\'e}volution temporelle stochastique sans m{\'e}moire.
+
+
+L'{\'e}tat du syst{\`e}me {\`a} l'instant $t$ est decrite par $X(t)$ : vecteur
+contenant les nombre de mol{\'e}cules de chaque constituant.
+
+Le syst{\`e}me reste dans cette {\'e}tat une dur{\'e}e $t'$ al{\'e}atoire (variable
+exponentielle $exp(\lambda(X(t))$), ensuite {\`a} $t+t'$ saute dans un {\'e}tat $X'$.
+La dur{\'e}e moyenne d'attente $1/\lambda$ et les probabilit{\'e}s de transition
+sont des fonctions de la derni{\`e}re {\'e}tat $X(t)$.
+
+
+Algorithmes de simulation num{\'e}rique (Gillespie):
+
+M{\'e}thode directe : simuler une variable exponentielle, ensuite choisir le saut
+{\`a} l'aide d'une variable discr{\`e}te. D{\'e}faut : on doit effectuer un grand nombre
+de sauts, temps de calcul enorme.
+
+
+M{\'e}thode ``tau-leap'' : au lieu de g{\'e}n{\'e}rer le moment du prochain saut, on choisit
+un intervalle et on g{\'e}n{\`e}re le nombre de sauts de diff{\'e}rents types (un nombre fini)
+dans l'intervalle. Ces nombres sont des variables de Poisson si les probabilit{\'e}s
+de sauts ne varient pas beaucoup sur l'intervalle choisi. D{\'e}faut : m{\'e}thode
+approch{\'e}e.
+
+\chapter{\magenta \textsf{\Large Exemples }}
+
+
+\section{\magenta \textsf{\Large Le module de signalisation de  $NF \kappa B$ }}
+
+\subsection{\magenta \textsf{\Large Description biologique du
+mod{\'e}le}}
+
+
+$NF\kappa B$ est pr{\'e}sent dans la plupart des cellules sous forme inactive,
+ confin{\'e} dans le cytoplasme, dans un complexe avec $I\kappa B$,
+  prot{\'e}ine inhibitrice qui emp{\^e}che $NF\kappa B$ d'entrer dans le noyau.
+
+$I\kappa B$ para{\^\i}t dissociable de $NF\kappa B$ par des
+modifications diverses:
+   phosphorylation via une kinase, diphosphorylation, ou oxydation.
+
+Une fois dissoci{\'e} de $I\kappa B$, $NF\kappa B$ peut entrer dans le
+noyau de
+   la cellule, o{\`u} il permet la transcription de la prot{\'e}ine $I\kappa B$. La prot{\'e}ine
+   passe ensuite
+   dans le cytoplasme o{\`u} elle s'associe avec $NF\kappa B$.
+
+Dans le mod{\'e}le,
+     on suppose que la dissociation est induite par phosphorylation
+     via une kinase dont
+     la pr{\'e}sence est consid{\'e}r{\'e}e comme l'effet direct du signal ext{\'e}rieur.
+
+
+Exp{\'e}rimentalement, lors de l'application continue du stimulus, on
+observe
+ un comportement oscillant amorti du niveau de $NF\kappa B$ nucl{\'e}aire
+ en fonction du temps. On aimerait reproduire ceci par un mod{\'e}le simple.
+
+ On propose deux mod{\'e}les: le premier est non-compartiment{\'e} et ignore le fait que
+  $NF\kappa B$ doive circuler entre le cytoplasme et le noyau, le deuxi{\`e}me est compartiment{\'e} et prend en compte un d{\'e}lais d{\^u} au transfert cytoplasme-noyau.
+
+
+\subsection{\magenta \textsf{\Large Mod{\'e}le non compartiment{\'e}}}
+
+\begin{itemize} \large \mblue
+\item[]
+$X=I\kappa B, Y=NF\kappa B$.
+\item[]
+$R=IKK$ un complexe enzymatique qui stimule la transcription de $I\kappa B$.
+\item[]
+$P$ la polym{\'e}rase intervenant dans la transcription de $I\kappa B$  .
+\end{itemize}
+
+ On ignore le fait qu'il y a deux compartiments
+ (noyau et cytoplasme ne sont pas distingu{\'e}s).
+
+
+Syst{\`e}me de r{\'e}actions :
+
+\[
+  \left \{
+ \begin{array}{lll}
+(1) &  X+Y\rightleftharpoons C  & \textrm{formation du complexe}\\
+(2) & C+R \to Y+R  &  \textrm{dissociation due au stimulus $R$} \\
+(3)  & Y+P\to Y+P+X  & \textrm{transcription de $X$} \\
+(4) & X\to   & \textrm{d{\'e}gradation de $X$}
+\end{array} \right.
+\]
+
+Relation de conservation
+
+\begin{equation}
+ Y+C=D_0
+\end{equation}
+
+car $NF\kappa B$ se trouve sous forme libre ou dans le complexe et
+ne se d{\'e}grade pas.
+
+
+\underline{Mod{\`e}le d{\'e}terministe}
+
+
+D'apr{\`e}s les r{\'e}actions pr{\'e}c{\'e}dentes, le syst{\`e}me d{\'e}terministe est donn{\'e} par:
+
+\[
+  \left \{
+ \begin{array}{lll}
+x'(t) & = & \ -K_4x-K_1xy+(K_3p-K_{-1})y+K_{-1}d_0 \\
+y'(t) & = & \ -k_1xy-(K_{-1}+K_2r)y+(K_{-1}+K_2r)d_0
+ \end{array} \right.
+\]
+
+Soient
+\[
+t'=K_1t, \Pi_1=\frac{K_1}{K_{-1}}, \Pi_3=\frac{K_3p}{K_1}, \Pi_4=\frac{K_4}{K_1},d'_0=\frac{d_0K_{-1}}{K_1}, r'=\frac{K_{-1}+K_2r}{K_1},
+\]
+alors,
+\[
+  \left \{
+ \begin{array}{lll}
+\frac{dx}{dt'} & = & \ - \Pi_4x-xy+ (\Pi_3-\frac{1}{ \Pi_1})y+ d'_0 \\
+\frac{dy}{dt'} & = & -xy- r'y+ r'd'_0 \Pi_1
+ \end{array} \right.
+\]
+
+\underline{Points stationnaires}
+
+Les points stationnaires v{\'e}rifient:
+
+\begin{eqnarray}
+xy & = & r'(d'_0 \Pi_1-y)    \label{eq:S3} \\
+-\Pi_4x-xy+(\Pi_3-\frac{1}{\Pi_1})y+d'_0 & = & 0 \label{eq:S4}
+\end{eqnarray}
+
+On trouve deux attracteurs, mais un seul est valable lorsque $\Pi_3-1/\Pi_1+r' > 0$ car on consid{\`e}re des concentrations positives.
+
+Le syst{\`e}me lin{\'e}aris{\'e} est:
+\[
+\left[
+\begin{array}{ll}
+-\Pi_4-y& -x+(\Pi_3-1/\Pi_1) \\
+-y & -x-r'
+\end{array}
+\right].
+\]
+
+Les parties imaginaires des valeurs propres de
+ cette matrice sont nulles, et les parties
+ r{\'e}elles sont n{\'e}gatives pour nos choix de
+ param{\'e}tres. L'attracteur est donc un puits. cf figure \ref{fig:5.1}.
+
+\underline{Mod{\`e}le stochastique}
+
+$v$ le volume dans lequel sont les mol{\'e}cules,
+ $x_v=X_v/v, y_v=Y_v/v$ les concentrations de $I\kappa B$ et
+ $NF\kappa B$ dans ce volume.
+
+On suppose que la probabilit{\'e} qu'une r{\'e}action de type $B+C\to D$ aie lieu dans une courte p{\'e}riode de temps est proportionnelle au nombre de mol{\'e}cules $B$ et $C$ et inversemment proportionnelle au volume $v$; et qu'une r{\'e}action de type $B\to C$ est proportionnelle au nombre de mol{\'e}cules de $B$.
+
+$\vect X_v=(X_v,Y_v)$ est alors un processus de Markov, dont les sauts sont
+\[
+\theta_1=(-1,-1), \theta_2=(0,1), \theta_3=(1,0), \theta_4=(-1,0)
+\]
+et si l'on note $\vect X=(X,Y)=(vx,vy)$ et $\vect x=(x,y)$,
+les param{\`e}tres infinit{\'e}simaux sont donn{\'e}s par:
+\[
+  \left \{
+ \begin{array}{ll}
+q_{\vect X,\vect X +\theta_1}  = K_1XY/v= K_1vxy  \\
+q_{\vect X,\vect X -\theta_1}  = K_{-1}v(d_0-y) \\
+q_{\vect X ,\vect X +\theta_2} = K_{2}vs(d_0-y) \\
+q_{\vect X ,\vect X +\theta_3}  = K_{3}vpy     \\
+q_{\vect X ,\vect X +\theta_4}  = K_4vx
+\end{array} \right.
+\]
+
+
+
+Lorsque
+\[\lim_{v\rightarrow \infty}(\frac{X_v(0)}{v},\frac{Y_v(0)}{v}) = (x_0,y_0)\]
+
+on peut montrer que pour tout $\delta >0$
+\[
+ \lim_{v\rightarrow \infty}P\{\sup_{s\le t} \arrowvert \frac{X_v(s)}{v}-X(s,\vect x_0)\arrowvert +\arrowvert\frac{Y_v(s)}{v}-Y(s,\vect x_0)\arrowvert >\delta\} = 0
+\]
+
+\subsection{\magenta \textsf{\Large Mod{\`e}le compartiment{\'e}}}
+
+
+\begin{itemize} \mblue \large
+\item[]
+$X=I\kappa B, Y_1=NF\kappa B_c, Y_2=NF\kappa B_n$, en sp{\'e}cifiant la localisation
+de $NF\kappa B$ dans le cytoplasme ou dans le noyau.
+\item[]
+$S=IKK$ un complexe enzymatique qui stimule la transcription de $I\kappa B$.
+\item[]
+$P$ la polym{\'e}rase intervenant dans la transcription de $I\kappa B$  .
+\end{itemize}
+
+
+Syst{\`e}me des r{\'e}actions:
+
+
+\[
+  \left \{
+ \begin{array}{lll}
+(1) &  X+Y_1 \rightleftharpoons C  & \textrm{formation du complexe}\\
+(2) & C+S \to Y_1+S  &  \textrm{dissociation du complexe sous l'action de $S$} \\
+(3)  & Y_2+P\to Y_2+P+X  & \textrm{transcription de $X$} \\
+(4) & X\to   & \textrm{d{\'e}gradation de $X$} \\
+(5) & Y_1\rightleftharpoons Y_2 & \textrm{transport}
+\end{array} \right.
+\]
+
+Relation de conservation $Y_1+Y_2+C=C_0$.
+
+\underline{Mod{\`e}le d{\'e}terministe}
+
+\[
+  \left \{
+ \begin{array}{lll}
+x'(t) & = & \ -k_1xy_1+(k_3p-k_{-1})y_2-k_{-1}y_1+k_{-1}c_0-k_4x \\
+y'_1(t) & = & \ -k_1xy_1-(k_{-1}+k_2s)(y_1+y_2)-k_5y_1+k_{-5}y_2+(k_{-1}+k_2s)c_0 \\
+y'_2(t) & = & \ k_5y_1-k_{-5}y_2
+\end{array} \right.
+\]
+
+Soit
+\[
+t'=k_1t, \chi_1=\frac{k_1}{k_{-1}}, \chi_3=\frac{k_3p}{k_1}, \chi_4=\frac{k_4}{k_1},\chi_5=\frac{k_5}{k_{-5}}, c'_0=\frac{c_0k_{-1}}{k_1}, s'=\frac{k_{-1}+k_2s}{k_1}, \eta_5=\frac{k_5}{k_1},
+\]
+alors,
+\[
+  \left \{
+ \begin{array}{lll}
+\frac{dx}{dt'} & = & \ -\chi_4x-xy_1+\chi_3y_2-\frac{y_1+y_2}{\chi_1}+c'_0 \\
+\frac{dy_1}{dt'} & = & -xy_1-s'(y_1+y_2)-\eta_5(y_1-\frac{y_2}{\chi_5})+s'c'_0\chi_1 \\
+\frac{dy_2}{dt'} & = & \eta_5(y_1-\frac{y_2}{\chi_5})
+\end{array} \right.
+\]
+
+\underline{Points stationnaires}
+
+Les points stationnaires satisfont aux {\'e}quations:
+\[
+  \left \{
+ \begin{array}{lll}
+\frac{dx}{dt'} & = & 0 \\
+\frac{dy_1}{dt'} & = & 0 \\
+\frac{dy_2}{dt'} & = & 0
+\end{array} \right.
+\]
+
+ce qui entra{\^\i}ne, en posant $y=y_1+y_2$
+\begin{eqnarray}
+y & = & (1+\chi_5)y_1 \\
+xy & = & (1+\chi_5)s'(c'_0\chi_1-y) \label{eq:S1}  \\
+-\chi_4(1+\chi_5)x-xy+(\chi_3\chi_5-\frac{1+\chi_5}{\chi_1})y+(1+\chi_5)c'_0 & = &  0 \label{eq:S2}
+\end {eqnarray}
+
+
+On trouve deux attracteurs, mais un seul est valable, lorsque $\chi_3\chi_5 - \frac{1+\chi_5}{\chi_1}+s'(1+\chi_5) > 0$ car $x,y$ doivent {\^e}tre des nombres positifs.
+
+Pour conna{\^\i}tre la nature des attracteurs, on consid{\`e}re le syst{\`e}me diff{\'e}rentiel lin{\'e}aris{\'e}:
+\[
+A=\left[
+\begin{array}{lll}
+-\chi_4-y_1 & -x-1/\chi_1 & \chi_3-1/\chi_1 \\
+-y_1 & -(x+s'+\eta_5) & -s'+\eta_5/\chi_5 \\
+0  & \eta_5 & -\eta_5/\chi_5
+\end{array} \right].
+\]
+
+Les valeurs propres sont conjugu{\'e}es de parties r{\'e}elles n{\'e}gatives
+et de parties imaginaires  non nulles.
+ L'attracteur est donc un foyer stable. cf figure \ref{fig:5.1}
+
+
+
+
+On cherche {\`a} avoir les m{\^e}mes {\'e}tats stationnaires que dans le mod{\'e}le compartiment{\'e}. Il faut comparer les {\'e}quations (\ref{eq:S1}), (\ref{eq:S2}) et (\ref{eq:S3}), (\ref{eq:S4}).
+Il faut donc:
+\[
+\begin{split}
+& r'=s'(1+\chi_5) \\
+& d'_0=c'_0(1+\chi_5) \\
+& \Pi_1=\frac{\chi_1}{1+\chi_5} \\
+& \Pi_4=\chi_4(1+\chi_5) \\
+& \Pi_3=\chi_3\chi_5
+\end{split}
+.\]
+
+\underline{Mod{\`e}le stochastique}
+
+Consid{\'e}rons maintenant le mod{\`e}le sthochastique. Soit $v$ le volume de l'espace contenant les r{\'e}actifs, et $X_v(t), ~Y_{1v}(t),~Y_{2v}(t)$ les nombres de mol{\'e}cules de $I\kappa B, NF\kappa B_c, NF\kappa B_n$. Alors $(x_v=v^{-1}X_v(t),y_{1v}=v^{-1}Y_{1v}(t),y_{2v}^{-1}Y_{2v}(t))$ repr{\'e}sente les concentrations moyennes.
+
+Nous obtenons encore une suite de processus de Markov ind{\'e}x{\'e}e par $v$ d{\'e}crivant
+l'{\'e}volution de l'{\'e}tat du syst{\`e}me de r{\'e}action.
+Cela conduit aux param{\`e}tres infinit{\'e}simaux suivants, pour notre famille de
+processus markoviens, ind{\'e}x{\'e}s par $v$. Soient \[
+\theta_1=(-1,-1,0), \theta_2=(0,1,0), \theta_3=(1,0,0), \theta_4=(-1,0,0),\theta_5=(0,-1,1) \]
+ et $\vect X=(X,Y_1,Y_2), X,Y_1,Y_2 \in \mathbb{N}$ un vecteur d'{\'e}tat du processus de
+ Markov $(\vect X_v)_{v\in\mathbb{N}} $.
+
+
+\[
+  \left \{
+ \begin{array}{ll}
+q_{\vect X,\vect X +\theta_1}  = k_1\frac{XY_1}{v} = k_1vxy_{1} \\
+q_{\vect X,\vect X -\theta_1}  = k_{-1}(C_0-Y_1-Y_2) = k_{-1}v(c_0-y_{1}-y_{2}) \\
+q_{\vect X ,\vect X +\theta_2} = k_{2}vs(c_0-y_{1}-y_{2}) \\
+q_{\vect X ,\vect X +\theta_3}  =  k_{3}vpy_{2} \\
+q_{\vect X ,\vect X +\theta_4}  = k_4vx   \\
+q_{\vect X ,\vect X +\theta_5} = k_5vy_{1}\\
+q_{\vect X ,\vect X -\theta_5} = k_{-5}vy_{2}
+\end{array} \right.
+\]
+
+
+Lorsque
+\[\lim_{v\rightarrow \infty}(\frac{X_v(0)}{v},\frac{Y_{1v}(0)}{v},\frac{Y_{2v}(0)}{v}) = \vect X_0\]
+
+on a pour tout $\delta >0$
+\[
+ \lim_{v\rightarrow \infty}P\{\sup_{s\le t} \arrowvert \frac{X_v(s)}{v}-X(s,\vect X_0)\arrowvert +\arrowvert\frac{Y_{1v}(s)}{v}-Y_1(s,\vect X_0)\arrowvert + \arrowvert \frac{Y_{2v}(s)}{v}-Y_2(s,\vect X_0)\arrowvert >\delta\} = 0
+\]
+
+
+%Si on applique le th{\'e}or{\`e}me \ref{Th:thfdd} dans le cas de la remarque \ref{Rem:remfdd}, en prenant pour $E$ un voisinage ouvert born{\'e} de la trajectoire $\vect X '(s,x_0)=F( \vect X (s,x_0)), ~s\in [0,t],~X(0,x_0)=x_0$. Les conditions (\ref{eq:eq1bis}), (\ref{eq:eq2bis}), (\ref{eq:eq3bis}) sont v{\'e}rifi{\'e}es car $E_v$ est fini pour tout $v$.  Si la condition (\ref{eq:eq4}) est v{\'e}rifi{\'e}e, on a la convergence faible de
+%\[\vect{W}_v(t)={v}^{-1/2} \vect{X}(t)-v^{-1/2} \vect{X}_0 - \sqrt{v} \int_0^t F(v^{-1} \vect{X}(s))ds\]
+ %vers un processus de diffusion $W$ dont la fonction caract{\'e}ristique est donn{\'e}e par \[
+%E(\exp\{i\theta W(t)\}) = \exp\{-\frac{1}{2}\sum_{i,j} \theta_i\theta_j \int_0^t \sum_l l_il_j f(X(s,x),l)ds\}.\]
+
+\begin{figure}[h]
+
+\begin{center}
+\epsfysize=3.5in \epsfbox{progenes/nfkb1.eps}
+\end{center}
+
+{\large Niveau de $NF\kappa B$ et partie imaginaire des valeurs
+propres complexes du syst{\`e}me lin{\'e}aris{\'e} en fonction du niveau de
+kinase $IKK$. Dans le mod{\`e}le {\`a} deux compartiments, l'existence de
+valeurs propres avec partie imaginaire non nulle produit des
+oscillations amorties pour $NF\kappa B_n$. Ces oscillations sont
+tr{\`e}s faibles car la valeur absolue du rapport de la partie
+imaginaire sur la partie r{\'e}elle reste petite (proche de 1). Dans
+le mod{\`e}le {\`a} un compartiment, ce ph{\'e}nom{\`e}ne lin{\'e}aire n'a pas lieu.}
+\label{fig:5.1}
+\end{figure}
+
+\begin{figure}[h]
+
+
+\begin{center}
+\epsfysize=3.5in \epsfbox{progenes/nfkb2.eps}
+\end{center}
+
+
+{\large Comportement transitoire des niveaux de $NF\kappa B$ et
+$I\kappa B$ pour les mod{\'e}les {\`a} 1 et 2 compartiments. Pour le
+mod{\'e}le {\`a} 2 compartiments, les trajectoires stochastiques sont
+superpos{\'e}es sur les trajectoires d{\'e}terministes. Pour le mod{\'e}le {\`a}
+un compartiment, seules les trajectoires d{\'e}terministes ont {\'e}t{\'e}
+repr{\'e}sent{\'e}es. Les {\'e}paules constat{\'e}es sur les courbes de $NF\kappa
+B$ ont plusieurs origines: dans le mod{\`e}le {\`a} deux compartiments,
+apr{\`e}s accumulation de $NF\kappa B_c$ dans le cytoplasme, suite {\`a}
+la dissociation des complexes, le niveau d{\'e}croit par transport
+entre cytoplasme et noyau; d'autre part, apr{\`e}s accumulation de
+$NF\kappa B_n$, $I\kappa B$ commence {\`a} {\^e}tre produit et diminue le
+niveau de $NF\kappa B_c$ en formant des complexes $I\kappa
+B-NF\kappa B$, ceci est le cas aussi dans le mod{\`e}le {\`a} un
+compartiment. } \label{fig:5.2}
+\end{figure}
+
+
+\subsection{\magenta \textsf{\Large R{\'e}sultats de mod{\'e}lisation}}
+
+Aussi dans le mod{\`e}le compartiment{\'e} que dans le mod{\`e}le
+non-compartiment{\'e} on observe une {\'e}volution non monotone de
+$NF\kappa B$ au fil du temps. Les {\'e}paules dans la courbe de la
+figure (\ref{fig:5.2}) ont trois origines:
+
+\begin{itemize}
+\item[-]la comp{\'e}tition entre accumulation et transport. Apr{\`e}s
+l'accumulation suite {\`a} la dissociation des complexes, le niveau
+d{\'e}croit par transport entre cytoplasme et noyau. Ceci est le cas
+de $NF\kappa B_c$ dans le mod{\'e}le {\`a} deux compartiments. C'est un
+effet non lin{\'e}aire, car il agit loin de l'attracteur. \item[-]la
+comp{\'e}tition entre accumulation et formation de complexe avec le
+nouveau $I\kappa B$ produit. Apr{\`e}s accumulation de $NF\kappa B_c$,
+$I\kappa B$ commence {\`a} {\^e}tre produit dans le noyau et diminue le
+niveau de $NF\kappa B_c$ en repassant dans le cytoplasme et en
+formant des complexes avec $NF\kappa B_c$.  Il s'agit encore d'un
+effet non-lin{\'e}aire. \item[-]l'existence de valeurs propres avec
+partie imaginaire non nulle pour la lin{\'e}arisation du syst{\`e}me pr{\`e}s
+de l'attracteur. Il s'agit d'un effet lin{\'e}aire et sa raison
+physique est une combinaison des deux effets pr{\'e}c{\'e}dents, mais pr{\`e}s
+de l'attracteur. Ceci produit des oscillations amorties. Ce
+ph{\'e}nom{\`e}ne est responsable de l'{\'e}paule correspondant {\`a} une
+demi-p{\'e}riode pour $NF\kappa B_n$ dans le mod{\'e}le {\`a} deux
+compartiments. Ce ph{\'e}nom{\`e}ne n'est pas responsable des {\'e}paules de
+$NF\kappa B_c$ et $I\kappa B$ dans le mod{\'e}le {\`a} deux compartiments
+car en faisant varier le rapport partie r{\'e}elle sur partie
+imaginaire (en modifiant le niveau de la kinase), leurs {\'e}paules ne
+changent pas tandis que celle de $NF\kappa B_n$ est modifi{\'e}e.
+Notons que cette {\'e}paule peut {\^e}tre renforc{\'e}e pour $NF\kappa B_n$,
+via l'effet non lin{\'e}aire pr{\'e}c{\'e}dent, si on permet la formation de
+complexes {\'e}galement {\`a} l'int{\'e}rieur du noyau. Nous n'avons pas pu
+remarquer plusieurs p{\'e}riodes car $Im(\lambda)/Re(\lambda)$ reste
+trop petit (proche de 1, voir la figure (\ref{fig:5.1}) pour un
+grand nombre de param{\`e}tres. D'autres r{\'e}actions (non consid{\'e}r{\'e}es
+ici) doivent augmenter ce rapport ainsi que le nombre
+d'oscillations, et permettre de retrouver les oscillations
+obtenues exp{\'e}rimentalement.
+\end{itemize}
+
+
+
+\section{\magenta \textsf{\Large
+Ph{\'e}nom{\'e}ne de bistabilit{\'e} et sortie d'un {\'e}tat m{\'e}tastable dans le
+fonctionnement des cellules}}
+
+
+L'exemple typique est le cas de la bact{\'e}rie Escherichia Coli infect{\'e}e par le
+virus bact{\'e}riophage $\lambda$. Une bact{\'e}rie infect{\'e}e peut {\^e}tre dans un des
+deux {\'e}tats: lytique, permettant la multiplication du virus et conduisant {\`a} sa
+propre destruction, ou lysog{\'e}nique, permettant l'incorporation passive de
+l'ADN viral dans son propre ADN, sans multiplication. Soumise {\`a} un stress, par
+exemple des irradiations UV ou un changement de temp{\'e}rature, le virus dormant
+en {\'e}tat lysog{\'e}nique peut basculer en {\'e}tat lytique, d{\'e}truire et quitter la
+cellule. Les {\'e}tats lytiques et lysog{\'e}niques sont contr{\^o}l{\'e}s par les g{\`e}nes
+$cro$ et $cI$ (qui code un $\lambda$-r{\'e}presseur) respectivement dont la
+r{\'e}gulation se fait dans des r{\'e}gions promotrices. Chaque g{\`e}ne contr{\^o}le
+n{\'e}gativement l'autre g{\`e}ne.
+
+Pour mod{\'e}liser la bistabilit{\'e} de tels r{\'e}seaux, deux mod{\`e}les ont {\'e}t{\'e} propos{\'e}s.
+Ces deux mod{\'e}les sont des syst{\`e}mes autocatalytiques
+(une composante  contr{\^o}le directement ou indirectement sa propre production).
+Le premier mod{\`e}le est {\`a} une composante, et le deuxi{\`e}me {\`a} deux composantes.
+
+Dans le mod{\`e}le {\`a} une composante $X$, la bistabilit{\'e} vient du fait qu'{\`a} faible
+concentration, $X$ se d{\'e}grade avant de commencer {\`a} stimuler sa production, {\`a} des
+concentrations plus grandes, $X$ active les centres promoteurs de sa propre
+production et
+finalement {\`a} de tr{\`e}s grandes concentrations les centres promoteurs sont bloqu{\'e}s.
+
+Dans le mod{\`e}le {\`a} deux composantes $R_1$ et$R_2$, chacune des composantes bloque le
+promoteur de l'autre. Le syst{\`e}me peut exister dans deux {\'e}tats:
+riche en $R_1$, pauvre en $R_2$ et le contraire. Le mod{\`e}le {\`a} deux composantes
+s'applique naturellement {\`a} la bact{\'e}rie E.Coli dont l'{\'e}tat est contr{\^o}l{\'e} par les
+deux g{\`e}nes $cro$ et $cI$.
+
+\subsection{\magenta \textsf{\Large
+Mod{\`e}le {\`a} un type de prot{\'e}ine}}
+
+
+\underline{Syst{\`e}me de r{\'e}actions}
+
+
+\begin{equation}\label{eq:A}
+  \left \{
+ \begin{array}{lll}
+(1) &  \nu X \rightleftharpoons X_\nu   & \textrm{multim{\'e}risation} \\
+ (2)  & D+X_\nu  \rightleftharpoons D_1 &       \textrm{activation} \\
+(3)  & D_1+X_\nu \rightleftharpoons D_2 & \textrm{bloquage} \\
+(4) & D_1+P \to D_1+P+nX        & \textrm{transcription} \\
+(5) & X \rightarrow    &  \textrm{d{\'e}gradation}
+\end{array} \right.
+\end{equation}
+
+
+\underline{Mod{\`e}le d{\'e}terministe}
+
+
+\[
+  \left \{
+ \begin{array}{lll}
+x'(t) & = & \ -k_1 \nu x^{\nu} +\nu k_{-1}y+k_4nd_1p-k_5x \\
+y'(t) & = & \ k_1x^{\nu}-k_{-1}y-k_2dy+k_{-2}d_1-k_3d_1y+k_{-3}(c-d-d_1)\\
+d'(t) & = & \ -k_2dy+k_{-2}d_1 \\
+d'_1(t) & = & \ k_2dy-k_{-2}d_1-k_3d_1y+k_{-3}(c-d-d_1)
+\end{array} \right.
+\]
+
+{\'e}tats stationnaires :
+
+
+\begin{eqnarray}
+& k_1 x^{\nu}=k_{-1}y \label{eq:B1} \\
+& k_2 dy=k_{-2}d_1 \label{eq:B2} \\
+& k_3d_1y= k_{-3}(c-d-d_1) \label{eq:B3} \\
+& nk_4pd_1=k_5x \label{eq:B4}
+\end{eqnarray}
+
+On pose:
+\[
+\alpha=\frac{nk_4p\chi_1 \chi_2 c}{k_5} , \chi_1=\frac{k_1}{k_{-1}}
+,\chi_2=\frac{k_2}{k_{-2}}, \chi_3=\frac{k_3}{k_{-3}} , \beta=\chi_1\chi_2 , \sigma=\frac{\chi_3}{\chi_2}
+\]
+
+ce sont des param{\'e}tres positifs.
+
+Ce syst{\`e}me conduit {\`a}
+\begin{equation}\label{eq:B6}
+\begin{split}
+& y=\chi_1 x^{\nu} \\
+& d_1=\frac{c\beta x^{\nu}}{1+\beta x^{\nu}+\sigma\beta^2 x^{2\nu}} \\
+& d=\frac{c}{1+\beta x^{\nu}+\sigma \beta^2x^{2\nu}} \\
+& x=\frac{\alpha x^{\nu}}{1+\beta x^{\nu}+\sigma \beta^2x^{2\nu}}
+\end{split}
+\end{equation}
+
+Soit $u=\beta^{1/\nu}x$ .
+
+Alors
+\begin{equation}
+\label{eq:1}
+u=\frac{\alpha \beta^{1/\nu-1}u^{\nu}}{1+u^{\nu}+\sigma u^{2\nu}}
+\end{equation}
+
+L'{\'e}quation (\ref{eq:1}) a les racines $u_1=0, ~~u_2=1$ lorsque
+\begin{equation}
+\label{eq:2}
+\alpha \beta^{1/\nu-1}=2+\sigma
+\end{equation}
+
+est satisfaite.
+
+Tant que $\nu \ne 1$, ceci ne change pas la g{\'e}n{\'e}ralit{\'e} car un changement de $\beta$ est un changement d'{\'e}chelle sur $x$.
+
+En {\'e}crivant la fonction $f(u)=-u+\frac{(2+\sigma)u^{\nu}}{1+u^{\nu}+\sigma u^{2\nu}}$, si $\nu \ne 1$,
+
+alors $f'(0)=-1, f'(1)=-1+\frac{\nu(1-\sigma)}{2+\sigma}$.
+
+Ceci justifie les conditions suivantes:
+\begin{equation}
+\label{eq:3}
+\begin{split}
+& \nu \ne 1 \\
+& -1+\frac{\nu(1-\sigma)}{2+\sigma} < 0
+\end{split}
+\end{equation}
+
+alors les deux solutions $u_1=0$ et $u_2=1$ sont stables $(f'(u_1)<0,f'(u_2)<0$,
+d'o{\`u} le nom de bistabilit{\'e}, et il existe une troisi{\`e}me racine instable $0<u_3<1$ o{\`u} $f'(u_3) >0$.
+
+\begin{figure}[h]
+
+
+\begin{center}
+\epsfysize=3.5in \epsfbox{progenes/toggle1.eps}
+\end{center}
+
+
+
+{\large Fonction f et position des attracteurs. La figure illustre
+la stabilit{\'e} des points stationnaires de l'{\'e}quation $x'=f(x)$:
+$u_1=0,u_2=1$ , et l'instabilit{\'e} de $u_3 \in ]u_1,u_2[$.}
+\label{figure3}
+\end{figure}
+
+
+
+
+
+\underline{Mod{\`e}le stochastique}
+
+Soit maintenant $v$ le volume dans lequel se passent les r{\'e}actions.
+
+On note $X_v,Y_v,D_v,D_{1v}$ les nombres de mol{\'e}cules de
+$X,X^{\nu},D,D_{1}$ dans ce volume.
+$(X_v,Y_v,D_v,D_{1v})$ forme un processus de Markov de sauts.
+
+Soient
+\[
+\theta_1=(-\nu,1,0,0), \theta_2=(0,-1,-1,1), \theta_3=(0,-1,0,-1), \theta_4=(n,0,0,0), \theta_5=(-1,0,0,0)\]
+et $\vect X \in \mathbb{N}^4, ~~\vect x=v^{-1}\vect X=(x,y,d,d_1)$.
+Les param{\'e}tres infinit{\'e}simaux de la famille de processus de Markov sont:
+\[
+  \left \{
+ \begin{array}{l}
+q_{\vect X,\vect X +\theta_1}  =  k_1vx^{\nu} \\
+q_{\vect X,\vect X -\theta_1}  = k_{-1}vy \\
+q_{\vect X ,\vect X +\theta_2} = k_2vdy \\
+q_{\vect X ,\vect X -\theta_2} = k_{-2}vd_1  \\
+q_{\vect X ,\vect X +\theta_3}  = k_{3}vd_1y \\
+q_{\vect X ,\vect X -\theta_3}  = k_{-3}v(c-d-d_1) \\
+q_{\vect X ,\vect X +\theta_4}  = k_4vd_1p \\
+q_{\vect X ,\vect X +\theta_5} = k_5vx
+\end{array} \right.
+\]
+
+
+\begin{figure}[h]
+
+\begin{center}
+\epsfysize=3.5in \epsfbox{progenes/toggle2.eps}
+\end{center}
+
+
+{\large Evolution d{\'e}terministe et stochastique vers l'attracteur
+$(y=1)$ partant de l'{\'e}tat $(1,0,0,0)$ (ce n'est pas un point
+stable). Les valeurs de $(X,X_{\nu},D,D_1)$ correspondant aux deux
+attracteurs sont marqu{\'e}es par des lignes horizontales
+}\label{figure4}
+\end{figure}
+
+
+
+
+\underline{Temps de sortie de l'{\'e}tat $u_2=1$}
+
+Remarquons que l'{\'e}tat $u_1=0$ est absorbant.
+
+On peut montrer que
+
+\[
+E(\tau) \approx \exp\{\frac{\beta ^{\nu}v}{k_5}\int_{x_3}^{x_1}
+\frac{k_5}{\beta^{1/\nu}}\frac{f(\beta^{1/\nu}x)}{\sigma^2(\beta^{1/\nu}x)}dx\}
+=\exp(av) .\]
+
+
+
+
+\begin{figure}[h]
+
+\begin{center}
+\epsfysize=3.5in \epsfbox{progenes/toggle3.eps}
+\end{center}
+\end{figure}
+
+
+
+{\large Sortie de l'attracteur $(y=1)$ et absorbtion dans le
+deuxi{\`e}me attracteur en $(y=0)$. C'est le ph{\'e}nom{\`e}ne de basculement.
+On remarque que $X,D_1$ atteignent des valeurs nulles plusieurs
+fois mais le basculement se fait uniquement lorsque $X_{\nu}=0$
+aussi. }\label{figure5}
+\end{figure}
+
+
+\begin{figure}[h]
+
+\begin{center}
+\epsfysize=3.5in \epsfbox{progenes/temps.eps}
+\end{center}
+
+{\large Le temps moyen de sortie de $(y=1)$ en fonction du volume
+dans lequel se passe la cha{\^\i}ne de r{\'e}actions.}\label{figure6}
+\end{figure}
+
+
+\subsection{\magenta \textsf{\Large
+Mod{\'e}le avec deux types de prot{\'e}ines}}
+
+Mod{\`e}le avec deux r{\'e}presseurs et deux promoteurs. Chaque promoteur
+est inhib{\'e} par le r{\'e}presseur transcrit par le promoteur oppos{\'e}.
+
+
+\underline{Syst{\`e}me de r{\'e}actions}
+
+\[\textrm{d{\'e}gradation} = \left\{
+\begin{array}{ll}
+(1) R_1  \to  \\
+(2) R_2  \to
+\end{array} \right.
+\]
+\[
+\textrm{multim{\'e}risation} = \left\{
+\begin{array}{ll}
+(3) \nu_1R_1  \rightleftharpoons R_1^{\nu_1} \\
+(4) \nu_2R_2  \rightleftharpoons R_2^{\nu_2}
+\end{array} \right.
+\]
+\[
+\textrm{bloquage du site promoteur} = \left\{
+\begin{array}{ll}
+(5) R_1^{\nu_1} +P_1  \rightleftharpoons P_1^b \\
+(6) R_2^{\nu_2} +P_2  \rightleftharpoons P_2^b
+\end{array} \right.
+\]
+\[
+\textrm{transcription du represseur} R_i =
+\left\{
+\begin{array}{ll}
+(7) & P+P_2  \to P+P_2+n_1R_1 \\
+(8) & P+P_1  \to P+P_1+n_2R_2
+\end{array} \right.
+\]
+
+
+ \underline{Mod{\`e}le d{\'e}terministe}
+
+\[
+  \left \{
+ \begin{array}{lll}
+x'_1(t) & = & \ -k_1x_1 -\nu_1k_3x_1^{\nu_1}+\nu_1 k_{-3}y_1+n_1k_7pp_2 \\
+x'_2(t) & = & \  -k_2x_2 -\nu_2k_4x_2^{\nu_2}+\nu_2 k_{-4}y_2+n_2k_8pp_1 \\
+p'_1(t) & = & \ -k_5y_1p_1+k_{-5}(c_1-p_1) \\
+p'_2(t) & = & \ -k_6y_2p_2+k_{-6}(c_2-p_2) \\
+y'_1(t) & = & \ k_3x_1^{\nu_1} -k_{-3}y_1 -k_5y_1p_1 +k_{-5}(c_1-p_1) \\
+y'_2(t) & = & \ k_4x_2^{\nu_2} -k_{-4}y_2 -k_6y_2p_2 +k_{-6}(c_2-p_2)
+\end{array} \right.
+\]
+ \underline{Mod{\`e}le stochastique}
+
+Nous d{\'e}crivons encore l'{\'e}volution du syst{\`e}me par une suite  de processus de
+Markov de sauts ind{\'e}x{\'e}e par $v$.
+Soient
+\[
+\begin{split}
+& \theta_1= (-1,0,0,0,0,0), \theta_2=(0,-1,0,0,0,0), \theta_3=(-\nu_1,0,0,0,1,0), \theta_4=(0,-\nu_2,0,0,0,1), \\
+& \theta_5=(0,0,-1,0,-1,0), \theta_6=(0,0,0,-1,0,-1), \theta_7=(n_1,0,0,0,0,0), \theta_8=(0,n_2,0,0,0,0).
+\end{split}
+\]
+
+Soient  $\vect X \in \mathbb{N}^6, ~~\vect x=\vect X/v=(x_1,x_2,p_1,p_2,y_1,y_2)$.
+
+Les param{\'e}tres infinit{\'e}simaux sont donn{\'e}s par:
+\[
+  \left \{
+ \begin{array}{l}
+q_{\vect X,\vect X +\theta_1}  =  k_1vx_1 \\
+q_{\vect X,\vect X +\theta_2}  = k_{2}vx_2 \\
+q_{\vect X ,\vect X +\theta_3} = k_3vx_1^{\nu_1} \\
+q_{\vect X ,\vect X -\theta_3} = k_{-3}vy_1  \\
+q_{\vect X ,\vect X +\theta_4}  = k_{4}vx_2^{\nu_2} \\
+q_{\vect X ,\vect X -\theta_4}  = k_{-4}vy_2 \\
+q_{\vect X ,\vect X +\theta_5}  = k_5vy_1p_1 \\
+q_{\vect X ,\vect X -\theta_5} = k_{-5}v(c_1-p_1) \\
+q_{\vect X ,\vect X +\theta_6}  = k_6vy_2p_2 \\
+q_{\vect X ,\vect X -\theta_6} = k_{-6}v(c_2-p_2) \\
+q_{\vect X ,\vect X +\theta_7}  = k_7vp_2p \\
+q_{\vect X ,\vect X +\theta_8} = k_{8}vp_1p
+\end{array} \right.
+\]
+
+
+
+Les r{\'e}actions $(3)-(6)$ sont rapides, aussi bien dans un sens que
+dans l'autre : s{\'e}paration d'echelle de temps. Pour des temps
+longs, on peut supposer:
+
+\[
+\begin{split}
+& k_3(x_1)^{\nu_1} = k_{-3}y_1 \\
+& k_5y_1p_1 = k_{-5}(c_1-p_1) \\
+& k_4(x_2)^{\nu_2} = k_{-4}y_2 \\
+& k_6y_2p_2 =  k_{-6}(c_2-p_2)
+\end{split}
+\]
+
+
+
+Ce qui permet d'{\'e}crire:
+\[
+\begin{split}
+& y_1= \chi_3(x_1)^{\nu_1} avec \chi_3 = \frac{k_3}{k_{-3}} \\
+& p_1=\frac{c_1}{1+\chi_5\chi_3(x_1)^{\nu_1}}avec  \chi_5 = \frac{k_5}{k_{-5}} \\
+& y_2 = \chi_4(x_2)^{\nu_2} avec \chi_4 = \frac{k_4}{k_{-4}} \\
+& p_2=\frac{c_2}{1+\chi_6\chi_4(x_2)^{\nu_2}} avec  \chi_6 = \frac{k_6}{k_{-6}}
+\end{split}
+\]
+
+
+On a alors:
+
+\[
+\left\{
+\begin{array}{lll}
+x_1'(t) & = &  -k_1x_1  + \frac{n_1 k_7 pc_2}{1+\chi_6\chi_4(x_2)^{\nu_2}}\\
+x_2'(t) & = &  -k_2x_2  + \frac{n_2 k_8 pc_1}{1+\chi_5\chi_3(x_1)^{\nu_1}}
+\end{array}
+\right.
+\]
+
+En notant:
+
+
+\[
+\begin{split}
+& u^{\nu_1} = \chi_5\chi_3(x_1)^{\nu_1} , v^{\nu_2} = \chi_6\chi_4(x_2)^{\nu_2}  \\
+& \alpha_1=n_1k_7pc_2(\chi_5\chi_3)^{1/\nu_1}
+,\alpha_2=n_2k_8pc_1(\chi_6\chi_4)^{1/\nu_2} \\
+& \tau_1=\frac{1}{k_1} ,\tau_2=\frac{1}{k_2}
+\end{split}
+\]
+
+
+on a le syst{\`e}me d'{\'e}quations diff{\'e}rentielles:
+
+\[
+\begin{split}
+& u'(t)  =  -\frac{u}{\tau_1} + \frac{\alpha_1}{1+v^{\nu_2}}  \\
+& v'(t)  =   -\frac{v}{\tau_2} + \frac{\alpha_2}{1+u^{\nu_1}}
+\end{split}
+\]
+
+
+\begin{figure}[h]
+
+\begin{center}
+\epsfysize=3.5in \epsfbox{progenes/toggle2Da.eps}
+\end{center}
+
+{\large {\`a} gauche : trac{\'e} des isoclines de $u'(t)=-u/\tau_1
++\alpha_1/(1+v^{\nu_2})$ et
+$v'(t)=-v/\tau_2+\alpha_2/(1+u^{\nu_1})$ et des vecteurs vitesses.
+Le syst{\`e}me diff{\'e}rentiel poss{\`e}de deux points stables et un point
+instable. {\`a} droite : trajectoire stochastique autour d'un
+attracteur stable: le syst{\`e}me reste proche de l'attracteur. }
+\label{figure7}
+\end{figure}
+
+
+\begin{figure}[h]
+
+
+\begin{center}
+\epsfysize=3.5in \epsfbox{progenes/toggle2Db.eps}
+\end{center}
+
+
+{\large Evolution stochastique et d{\'e}terministe au cours du temps
+du niveau des prot{\'e}ines $R_1, R_2$, de leurs multim{\`e}res, et des
+sites promoteurs $P_1, P_2$ {\`a} partir d'un {\'e}tat stable. Le trac{\'e}
+d{\'e}terministe est constant, et le trac{\'e} stochastique illustre la
+stabilit{\'e} du syst{\`e}me. Il faudrait un temps beaucoup plus long ou
+des variations des param{\`e}tres dues {\`a} des stimulus ext{\'e}rieurs
+(radiations UV, changement de temp{\'e}rature) pour observer un
+basculement d'un r{\'e}gime stable {\`a} l'autre. }\label{figure8}
+\end{figure}
+
+
+
+\chapter{\magenta \textsf{\Huge Quelques ph{\'e}nom{\`e}nes typiques }}
+
+
+\section{\magenta \textsf{\Large Bruit et r{\'e}action n{\'e}gative }}
+
+Les boucles de r{\'e}action n{\'e}gative augmentent la stabilit{\'e}, diminuent les fluctuations.
+
+
+Becksey et Serrano : mod{\`e}le de transcription de E.coli.
+
+$\frac{dA}{dt} = -kA + f(A), f'(A) <0$  avec r{\'e}action n{\'e}gative.
+
+$\frac{dA}{dt} = -kA + C $ sans r{\'e}action.
+
+
+A l'{\'e}quilibre $A=A_{\infty}$ est la solution de $f(A)=kA$. On s'arange
+pour avoir  $A_{\infty}=C/k$.
+
+
+Ensuite, introduction d'un bruit blanc $\sigma \epsilon (t)$ :
+
+$\frac{dA}{dt} = -kA + f(A) + \sigma  \epsilon (t) $
+
+$\frac{dA}{dt} = -kA + C + \sigma \epsilon (t) $
+
+En lin{\'e}arisant on obtient le r{\'e}sultat bien-connu de Ornstein-Uhlenbeck :
+
+
+la variance de A {\`a} l'{\'e}quilibre est
+$\frac{\sigma^2}{2 (k+|f'(A_{\infty})|) }$ dans le cas avec r{\'e}action et
+$\frac{\sigma^2}{2 k }$ dans le cas sans r{\'e}action.
+
+
+\section{\magenta \textsf{\Large Correlation bruit - transcription, translation }}
+
+Ozbudak, Thattai, et van Oudenaarden (MIT)
+
+B.subtilis avec une copie du g{\`e}ne GFP (prot{\'e}ine fluorescente) dans le chromosome.
+
+IPTG utilis{\'e} pour moduler le taux de transcription.
+
+Translation modul{\'e}e {\`a} l'aide de mutations dans le GFP.
+
+Le bruit exp{\'e}rimental est mesur{\'e} {\`a} partir du niveau de GFP en fonction
+du temps.
+
+La variance du bruit semble ne pas {\^e}tre influenc{\'e}e par l'efficacit{\'e} de la
+transcription, mais croit sensiblement avec l'efficacit{\'e} de la
+translation.
+
+Une cha{\^\i}ne simple de r{\'e}actions peut expliquer ce r{\'e}sultat :
+
+\begin{description}
+\item
+R1: ADN $\rightarrow$ ARN
+\item
+R2: ARN $\rightarrow$ P
+\item
+R3: ARN $\rightarrow$
+\item
+R4: P $\rightarrow$
+\end{description}
+
+
+\section{\magenta \textsf{\Large  Focalisation stochastique }}
+
+Paulsson, Berg, Ehrenberg (Uppsala)
+
+Syst{\`e}me {\`a} reponse gradu{\'e}e du type Michaelis-Menten :
+
+\begin{equation}
+ P = \frac{1}{1+ s / K}
+\end{equation}
+
+Exemple (m{\^e}me que celui d'avant):
+
+\begin{description}
+\item
+R1: ADN $\rightarrow$ ARN
+\item
+R2: ARN $\rightarrow$ P
+\item
+R3: ARN $\rightarrow$
+\item
+R4: P $\rightarrow$
+\end{description}
+
+avec la particularit{\'e} que le taux de R3 est proportionel au signal s.
+
+Avec un signal constant le niveau de P depend de s selon une loi type
+Michaelis-Menten.  La sensibilit{\'e} est faible : une diminuation du signal
+deux fois n'augmente pas P plus que deux fois.
+
+Lorsque le signal est bruit{\'e} la sensibilit{\'e} augmente (focalisation stochastique):
+une diminution de la  moyenne du signal deux fois produit une augmentation de la
+moyenne de P plus de 3 fois.
+
+
+\chapter{\magenta \textsf{\Huge Conclusions }}
+
+Le stochastique est une {\'e}tape in{\'e}vitable dans la mod{\'e}lisation
+de la dynamique des r{\'e}seaux de r{\'e}gulation de g{\`e}nes.
+
+Quelques id{\'e}es se d{\'e}gagent des mod{\`e}les simples : le  r{\^o}le stabilisateur
+des boucles n{\'e}gatives, la correlation entre les taux de translation
+ou de transcription et la variance du bruit, augmentation  de la sensibilit{\'e}
+des m{\'e}canismes du type Michaelis-Menten par le bruit.
+
+Le bruit est de plusieurs types : extrins{\`e}que, intrins{\`e}que ({\`a} ajouter le
+bruit instrumental). On mod{\'e}lise le bruit intrins{\`e}que par des processus
+de Markov.
+
+Ceci n'est qu'un debut. Il faut passer {\`a} des mod{\`e}les plus complexes et
+faire parler les exp{\'e}riences...
+
+
+
+
+
+
+
+\end{document}

@@ -1,0 +1,8 @@
+AuthName "Biblio"
+AuthUserFile /HTDOCS2/name/html/ovidiu.radulescu/.htpasswd
+AuthGroupFile /dev/null
+AuthType Basic
+
+<limit GET POST>
+require valid-user
+</Limit>

@@ -1,0 +1,125 @@
+\documentclass[12pt,a4paper]{article}
+
+
+\usepackage{html,makeidx,epsf,color,amsmath,amssymb,amsbsy}
+
+\begin{latexonly}
+ \tolerance=200 \pagestyle{headings} \textheight 8.5truein
+ \textwidth 6truein \topmargin 0.25truein \oddsidemargin 0.25truein
+\evensidemargin 0.25truein
+\end{latexonly}
+
+\def\authorhomepage{http://name.math.univ-rennes1.fr/~ovidiu.radulescu}
+
+\def\thisdocURL{http://name.math.univ-rennes1.fr/~ovidiu.radulescu/Gillespie}
+
+\newcommand{\proba}[1]{ {\Bbb P} [  #1 ] }
+\newcommand{\D}[2]{ \ensuremath{ \frac{d #1 }{d #2 } }}
+\newcommand{\DP}[2]{ \ensuremath{ \frac{\partial #1 }{\partial #2 } }}
+\date{}
+
+
+\title{Inférence de réseaux de gènes }
+\begin{document}
+\maketitle
+
+\section{Introduction}
+
+
+\htmladdnormallink{article biologique
+d'introduction}{../bib/Gardner.TS_PoLR_05.pdf}
+
+Modélisation
+
+\begin{equation}\label{eq1}
+\D{x_i}{t}= f_i (x_1,\ldots,\x_N) + \csi_i(t) ,\, i=1,\ldots,N
+\end{equation}
+
+
+$x_i\in {\Bbb R}_+$, $\csi_i(t)$ bruit (à modéliser)
+
+On observe $y_i^j(t)= log( x_i^j(t) / xo_i^j ) + \eta_i, \j =
+1,\ldots,M$ (M nombre d'échantillons), $\eta_i$ bruit instrumental
+(à modéliser), $xo$ est un témoin.
+
+Difficulté: $M$ est petit $10-10^2$, $N$ est très grand $10^3-10^4$.
+
+Graphe d'interaction (graphe orienté signé) $(G,A,\sigma)$ :
+
+$G = \{1,\ldots,N\}$
+
+$A \subset G \times G$, $(i,j) \in A$ ssi $\DP{f_j}{x_i} \neq 0$
+
+$\sigma : A \rightarrow \{-1,1\}$, $\sigma(i,j)=sgn(\DP{f_j}{x_i})$
+
+Quelques choix simples
+
+Linéaire
+
+\begin{equation}\label{eq2}
+\D{x_i}{t}= \sum_{j=1}^N A_{ij} x_j(t) ,\, i=1,\ldots,N
+\end{equation}
+
+Non-linéaire (type Hopfield)
+
+\begin{equation}\label{eq3}
+\D{x_i}{t}= g(\sum_{j=1}^N A_{ij} x_j(t) - \theta_i) ,\,
+i=1,\ldots,N
+\end{equation}
+
+$g(u)=\frac{1}{1+exp(-ku)},\ k>0$ sigmoidale
+
+Question : à partir des observations trouver le graphe
+d'interaction.
+
+Quelques méthodes:
+
+1) méthodes bayesiennes. consiste à modéliser $\proba[\{x_i\}| G]$,
+trouver $G$ par inspection de tous les graphes possibles et maximum
+de vraisemblance. problèmes: explosion combinatoire, solutions
+fausses.
+
+2) décomposition en valeurs singulières, modèle linéaire
+
+
+ \htmladdnormallink{décomposition en valeurs singulières, modèle
+linéaire}{../bib/kaern_reverse.pdf}
+
+ \htmladdnormallink{modèle
+linéaire}{../bib/jjcollins.pdf}
+
+\htmladdnormallink{modèle linéaire}{../bib/gustafsson.pdf}
+
+
+
+3) méthodes de corrélation. Identifie les paires de gènes
+dépendantes par un test d'indépendance utilisant la coefficient de
+corrélation de Pearson ou l'information mutuelle. problème: on
+introduit des interactions qui n'y sont pas. $x_1,x_2$ peuvent
+interagir avec $x_3$ mais pas entre eux. Pourtant $x_1,x_2,x_3$ sont
+mutuellement corrélés. Solution: utiliser des inégalité liées à la
+propagation d'information (voir algorithme ARACNE)
+
+\htmladdnormallink{ARACNE}{../bib/cluster_expansion.pdf}
+
+\htmladdnormallink{information et
+dépendance}{../bib/nemenman-04a.pdf}
+
+4) méthodes à noyaux. trouver une bonne métrique.
+
+ \htmladdnormallink{inférence supervisée}{../bib/nips2004.pdf}
+
+
+Question mathématique : comment réduire le caractère fortement
+sous-déterminé du problème? Regrouper de gènes, comment? Utiliser
+les séries temporelles, dans quelle mesure ca réduit la
+sous-détermination?
+
+
+
+
+
+
+
+
+\end{document}
